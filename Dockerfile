@@ -1,4 +1,5 @@
-FROM openjdk:11-jre-slim
+FROM eclipse-temurin:11-jre
+
 
 ENV FUSEKI_VERSION=4.10.0
 ENV FUSEKI_HOME=/fuseki
