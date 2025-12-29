@@ -1,24 +1,20 @@
-FROM eclipse-temurin:11-jre
-
+FROM eclipse-temurin:11-jre-jammy
 
 ENV FUSEKI_VERSION=4.10.0
-ENV FUSEKI_HOME=/fuseki
 
-WORKDIR /
+WORKDIR /fuseki
 
-RUN apt-get update && apt-get install -y curl unzip \
-    && curl -L https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-${FUSEKI_VERSION}.zip -o fuseki.zip \
-    && unzip fuseki.zip \
-    && mv apache-jena-fuseki-${FUSEKI_VERSION} ${FUSEKI_HOME} \
-    && rm fuseki.zip
-
-WORKDIR ${FUSEKI_HOME}
+RUN apt-get update && apt-get install -y wget unzip \
+    && wget https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-${FUSEKI_VERSION}.zip \
+    && unzip apache-jena-fuseki-${FUSEKI_VERSION}.zip \
+    && mv apache-jena-fuseki-${FUSEKI_VERSION}/* . \
+    && rm -rf apache-jena-fuseki-${FUSEKI_VERSION} apache-jena-fuseki-${FUSEKI_VERSION}.zip
 
 COPY olympics-data.ttl /data/olympics-data.ttl
 COPY start-fuseki.sh /start-fuseki.sh
 
 RUN chmod +x /start-fuseki.sh
 
-EXPOSE 3030
+EXPOSE 10000
 
 CMD ["/start-fuseki.sh"]
