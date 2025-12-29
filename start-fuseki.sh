@@ -1,7 +1,7 @@
-#!/bin/sh
-
-echo "Starting Fuseki..."
+#!/bin/bash
+echo "Starting Fuseki on port $PORT"
 
 ./fuseki-server \
-  --file=/data/olympics-data.ttl \
-  /olympics
+  --port=$PORT \
+  --mem /olympics \
+  /data/olympics-data.ttl
