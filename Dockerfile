@@ -15,7 +15,6 @@ RUN apt-get update && apt-get install -y curl unzip \
 WORKDIR ${FUSEKI_HOME}
 
 COPY olympics-data.ttl /data/olympics-data.ttl
-COPY olympic.owl /data/olympic.owl
 COPY start-fuseki.sh /start-fuseki.sh
 
 RUN chmod +x /start-fuseki.sh
