@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> dbo:birthYear "1944.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "George Rattai"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonMens20kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonMens20kilometres> oly:hasEventName "Biathlon Men's 20 kilometres" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonMens20kilometres/1968Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Grenoble";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonMens20kilometres/1968Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasWeight "74.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> dbo:birthYear "1944.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "George Rattai"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonMens4x75kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonMens4x75kilometresRelay> oly:hasEventName "Biathlon Men's 4 x 7.5 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonMens4x75kilometresRelay/1968Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Grenoble";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonMens4x75kilometresRelay/1968Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/GeorgeRattai> oly:hasWeight "74.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:countryName "Cameroon" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "CMR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:hasNationality <https://w3id.org/olympics-data/Country/Cameroon>;
+    oly:hasName "Ccile Ngambi"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomensPentathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomensPentathlon> oly:hasEventName "Athletics Women's Pentathlon" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomensPentathlon/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomensPentathlon/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:countryName "Cameroon" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "CMR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:hasNationality <https://w3id.org/olympics-data/Country/Cameroon>;
+    oly:hasName "Ccile Ngambi"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens100metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens100metres> oly:hasEventName "Athletics Women's 100 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens100metres/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens100metres/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:countryName "Cameroon" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "CMR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:hasNationality <https://w3id.org/olympics-data/Country/Cameroon>;
+    oly:hasName "Ccile Ngambi"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens100metresHurdles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens100metresHurdles> oly:hasEventName "Athletics Women's 100 metres Hurdles" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens100metresHurdles/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Athletics/CcileNgambi> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens100metresHurdles/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    

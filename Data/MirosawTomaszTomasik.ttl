@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/IceHockey/MirosawTomaszTomasik> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/IceHockey/MirosawTomaszTomasik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/IceHockey/MirosawTomaszTomasik> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Mirosaw Tomasz Tomasik"  .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasEvent <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey> oly:hasEventName "Ice Hockey Men's Ice Hockey" .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasSportName "Ice Hockey" .
+    <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/IceHockey/MirosawTomaszTomasik> oly:wonMedal <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/IceHockey> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/IceHockey/MirosawTomaszTomasik> oly:hasHeight "181.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/IceHockey/MirosawTomaszTomasik> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .

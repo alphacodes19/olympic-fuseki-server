@@ -1,0 +1,148 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Jan Micka"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Mens800mFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Mens800mFreestyle> oly:hasEventName "Men's 800m Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Mens800mFreestyle/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:wonMedal <https://w3id.org/olympics-data/Medal/Mens800mFreestyle/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Jan Micka"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Mens1500mFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Mens1500mFreestyle> oly:hasEventName "Men's 1500m Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Mens1500mFreestyle/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:wonMedal <https://w3id.org/olympics-data/Medal/Mens1500mFreestyle/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Jan Micka"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens1500metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens1500metresFreestyle> oly:hasEventName "Swimming Men's 1,500 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens1500metresFreestyle/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens1500metresFreestyle/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasWeight "76.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Jan Micka"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle> oly:hasEventName "Swimming Men's 400 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasWeight "76.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Jan Micka"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens1500metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens1500metresFreestyle> oly:hasEventName "Swimming Men's 1,500 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens1500metresFreestyle/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens1500metresFreestyle/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Swimming/JanMicka> oly:hasWeight "76.0"^^<http://www.w3.org/2001/XMLSchema#int> .

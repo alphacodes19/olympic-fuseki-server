@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/JohnStephenAlbert> dbo:birthYear "1949.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/JohnStephenAlbert> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/JohnStephenAlbert> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "John Stephen Albert"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSinglesSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSinglesSlalom> oly:hasEventName "Canoeing Men's Canadian Singles, Slalom" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSinglesSlalom/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/JohnStephenAlbert> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSinglesSlalom/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/JohnStephenAlbert> oly:hasHeight "185.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/JohnStephenAlbert> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .

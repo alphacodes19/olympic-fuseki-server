@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Diving/ErnstJohnnyHellstrm> dbo:birthYear "1942.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Diving/ErnstJohnnyHellstrm> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Diving/ErnstJohnnyHellstrm> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Ernst Johnny Hellstrm"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingMensSpringboard>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingMensSpringboard> oly:hasEventName "Diving Men's Springboard" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingMensSpringboard/1960Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Diving/ErnstJohnnyHellstrm> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingMensSpringboard/1960Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Diving/ErnstJohnnyHellstrm> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Diving/ErnstJohnnyHellstrm> oly:hasWeight "76.0"^^<http://www.w3.org/2001/XMLSchema#int> .

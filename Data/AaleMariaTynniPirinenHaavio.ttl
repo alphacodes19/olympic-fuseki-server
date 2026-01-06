@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/ArtCompetitions/AaleMariaTynniPirinenHaavio> dbo:birthYear "1914.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/ArtCompetitions/AaleMariaTynniPirinenHaavio> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/ArtCompetitions/AaleMariaTynniPirinenHaavio> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Aale Maria Tynni Pirinen Haavio"  .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasEvent <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedLiteratureLyricWorks>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedLiteratureLyricWorks> oly:hasEventName "Art Competitions Mixed Literature, Lyric Works" .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasSportName "Art Competitions" .
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedLiteratureLyricWorks/1948Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1948Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1948"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/ArtCompetitions/AaleMariaTynniPirinenHaavio> oly:wonMedal <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedLiteratureLyricWorks/1948Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1948Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtCompetitions> .
+
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedLiteratureLyricWorks/1948Summer/Gold>  oly:hasMedal "Gold" .

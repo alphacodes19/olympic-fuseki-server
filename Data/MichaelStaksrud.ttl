@@ -1,0 +1,175 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Michael Staksrud"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1928Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sankt Moritz";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1928Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Michael Staksrud"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres> oly:hasEventName "Speed Skating Men's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/1932Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/1932Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Michael Staksrud"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1932Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1932Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Michael Staksrud"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres> oly:hasEventName "Speed Skating Men's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1932Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1932Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Michael Staksrud"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1936Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Garmisch-Partenkirchen";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1936Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Michael Staksrud"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres> oly:hasEventName "Speed Skating Men's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1936Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Garmisch-Partenkirchen";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1936Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/MichaelStaksrud> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.

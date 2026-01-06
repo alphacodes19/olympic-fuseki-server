@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Scott Michael Brennan"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensQuadrupleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensQuadrupleSculls> oly:hasEventName "Rowing Men's Quadruple Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensQuadrupleSculls/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensQuadrupleSculls/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasHeight "193.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasWeight "89.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Scott Michael Brennan"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls> oly:hasEventName "Rowing Men's Double Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensDoubleSculls/2008Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensDoubleSculls/2008Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasHeight "193.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasWeight "89.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/RowingMensDoubleSculls/2008Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Scott Michael Brennan"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls> oly:hasEventName "Rowing Men's Double Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensDoubleSculls/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensDoubleSculls/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasHeight "193.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Rowing/ScottMichaelBrennan> oly:hasWeight "89.0"^^<http://www.w3.org/2001/XMLSchema#int> .

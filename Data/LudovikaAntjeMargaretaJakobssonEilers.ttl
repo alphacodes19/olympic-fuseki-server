@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> dbo:birthYear "1885.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Ludovika Antje Margareta JakobssonEilers"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs> oly:hasEventName "Figure Skating Mixed Pairs" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1920Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1920Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1920Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> dbo:birthYear "1885.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Ludovika Antje Margareta JakobssonEilers"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs> oly:hasEventName "Figure Skating Mixed Pairs" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1924Winter/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Chamonix";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1924Winter/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1924Winter/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> dbo:birthYear "1885.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Ludovika Antje Margareta JakobssonEilers"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs> oly:hasEventName "Figure Skating Mixed Pairs" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1928Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sankt Moritz";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1928Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/FigureSkating/LudovikaAntjeMargaretaJakobssonEilers> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

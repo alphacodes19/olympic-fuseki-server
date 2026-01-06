@@ -1,0 +1,122 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcdonald> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcdonald> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:countryName "Jamaica" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "JAM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcdonald> oly:hasNationality <https://w3id.org/olympics-data/Country/Jamaica>;
+    oly:hasName "Rusheen Mcdonald"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/4x400mRelayMixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/4x400mRelayMixedTeam> oly:hasEventName "4 x 400m Relay Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/4x400mRelayMixedTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcdonald> oly:wonMedal <https://w3id.org/olympics-data/Medal/4x400mRelayMixedTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> dbo:birthYear "1993.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:countryName "Jamaica" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "JAM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasNationality <https://w3id.org/olympics-data/Country/Jamaica>;
+    oly:hasName "Rusheen McDonald"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens400metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens400metres> oly:hasEventName "Athletics Men's 400 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens400metres/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens400metres/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasWeight "81.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> dbo:birthYear "1993.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:countryName "Jamaica" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "JAM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasNationality <https://w3id.org/olympics-data/Country/Jamaica>;
+    oly:hasName "Rusheen McDonald"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens400metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens400metres> oly:hasEventName "Athletics Men's 400 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens400metres/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens400metres/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasWeight "81.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> dbo:birthYear "1993.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:countryName "Jamaica" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "JAM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasNationality <https://w3id.org/olympics-data/Country/Jamaica>;
+    oly:hasName "Rusheen McDonald"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens4x400metresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens4x400metresRelay> oly:hasEventName "Athletics Men's 4 x 400 metres Relay" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens4x400metresRelay/2016Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens4x400metresRelay/2016Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JAM/Athletics/RusheenMcDonald> oly:hasWeight "81.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMens4x400metresRelay/2016Summer/Silver>  oly:hasMedal "Silver" .

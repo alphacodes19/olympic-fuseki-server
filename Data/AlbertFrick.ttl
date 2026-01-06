@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/AlbertFrick> dbo:birthYear "1950.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/AlbertFrick> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:countryName "Liechtenstein" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LIE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/AlbertFrick> oly:hasNationality <https://w3id.org/olympics-data/Country/Liechtenstein>;
+    oly:hasName "Albert Frick"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom> oly:hasEventName "Alpine Skiing Men's Giant Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1968Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Grenoble";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/AlbertFrick> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1968Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/AlbertFrick> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/AlbertFrick> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .

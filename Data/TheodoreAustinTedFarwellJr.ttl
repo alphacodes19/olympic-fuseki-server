@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> dbo:birthYear "1931.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Theodore Austin Ted Farwell Jr"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1952Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Oslo";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1952Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> dbo:birthYear "1931.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Theodore Austin Ted Farwell Jr"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1956Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Cortina d'Ampezzo";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1956Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> dbo:birthYear "1931.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Theodore Austin Ted Farwell Jr"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1960Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Squaw Valley";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/NordicCombined/TheodoreAustinTedFarwellJr> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1960Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    

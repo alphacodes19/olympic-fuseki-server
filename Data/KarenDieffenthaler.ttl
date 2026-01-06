@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/TrinidadandTobago> oly:countryName "Trinidad and Tobago" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/TrinidadandTobago> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "TTO" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasNationality <https://w3id.org/olympics-data/Country/TrinidadandTobago>;
+    oly:hasName "Karen Dieffenthaler"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens50metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens50metresFreestyle> oly:hasEventName "Swimming Women's 50 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens50metresFreestyle/1988Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens50metresFreestyle/1988Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/TrinidadandTobago> oly:countryName "Trinidad and Tobago" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/TrinidadandTobago> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "TTO" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasNationality <https://w3id.org/olympics-data/Country/TrinidadandTobago>;
+    oly:hasName "Karen Dieffenthaler"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens100metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens100metresFreestyle> oly:hasEventName "Swimming Women's 100 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresFreestyle/1988Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresFreestyle/1988Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/TrinidadandTobago> oly:countryName "Trinidad and Tobago" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/TrinidadandTobago> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "TTO" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasNationality <https://w3id.org/olympics-data/Country/TrinidadandTobago>;
+    oly:hasName "Karen Dieffenthaler"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresFreestyle> oly:hasEventName "Swimming Women's 200 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresFreestyle/1988Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresFreestyle/1988Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/TTO/Swimming/KarenDieffenthaler> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

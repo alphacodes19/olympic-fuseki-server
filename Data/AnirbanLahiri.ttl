@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> dbo:birthYear "1986.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Anirban Lahiri"  .
+    <https://w3id.org/olympics-data/Sport/Golf> oly:hasEvent <https://w3id.org/olympics-data/Event/MensIndividualStrokePlay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensIndividualStrokePlay> oly:hasEventName "Men's Individual Stroke Play" .
+    <https://w3id.org/olympics-data/Sport/Golf> oly:hasSportName "Golf" .
+    <https://w3id.org/olympics-data/Medal/MensIndividualStrokePlay/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensIndividualStrokePlay/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Golf> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Anirban Lahiri"  .
+    <https://w3id.org/olympics-data/Sport/Golf> oly:hasEvent <https://w3id.org/olympics-data/Event/GolfMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GolfMensIndividual> oly:hasEventName "Golf Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/Golf> oly:hasSportName "Golf" .
+    <https://w3id.org/olympics-data/Medal/GolfMensIndividual/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> oly:wonMedal <https://w3id.org/olympics-data/Medal/GolfMensIndividual/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Golf> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Golf/AnirbanLahiri> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.

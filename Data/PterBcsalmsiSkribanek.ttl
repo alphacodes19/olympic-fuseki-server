@@ -1,0 +1,123 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Pter Bcsalmsi Skribanek"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump> oly:hasEventName "Athletics Men's Triple Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1932Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1932Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Pter Bcsalmsi Skribanek"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensDecathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensDecathlon> oly:hasEventName "Athletics Men's Decathlon" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensDecathlon/1932Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensDecathlon/1932Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Pter Bcsalmsi Skribanek"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensPoleVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensPoleVault> oly:hasEventName "Athletics Men's Pole Vault" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensPoleVault/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensPoleVault/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Pter Bcsalmsi Skribanek"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensDecathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensDecathlon> oly:hasEventName "Athletics Men's Decathlon" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensDecathlon/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensDecathlon/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Athletics/PterBcsalmsiSkribanek> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .

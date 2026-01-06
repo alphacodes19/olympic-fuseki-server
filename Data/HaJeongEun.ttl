@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/SouthKorea2> oly:countryName "South Korea-2" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea2>;
+    oly:hasName "Ha JeongEun"  .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasEvent <https://w3id.org/olympics-data/Event/BadmintonWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BadmintonWomensDoubles> oly:hasEventName "Badminton Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasSportName "Badminton" .
+    <https://w3id.org/olympics-data/Medal/BadmintonWomensDoubles/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:wonMedal <https://w3id.org/olympics-data/Medal/BadmintonWomensDoubles/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Badminton> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Ha JeongEun"  .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasEvent <https://w3id.org/olympics-data/Event/BadmintonMixedDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BadmintonMixedDoubles> oly:hasEventName "Badminton Mixed Doubles" .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasSportName "Badminton" .
+    <https://w3id.org/olympics-data/Medal/BadmintonMixedDoubles/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:wonMedal <https://w3id.org/olympics-data/Medal/BadmintonMixedDoubles/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Badminton> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/SouthKorea2> oly:countryName "South Korea-2" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea2>;
+    oly:hasName "Ha JeongEun"  .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasEvent <https://w3id.org/olympics-data/Event/BadmintonWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BadmintonWomensDoubles> oly:hasEventName "Badminton Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasSportName "Badminton" .
+    <https://w3id.org/olympics-data/Medal/BadmintonWomensDoubles/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:wonMedal <https://w3id.org/olympics-data/Medal/BadmintonWomensDoubles/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Badminton> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Badminton/HaJeongEun> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .

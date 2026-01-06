@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> dbo:birthYear "1957.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Iraq> oly:countryName "Iraq" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Iraq> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IRQ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasNationality <https://w3id.org/olympics-data/Country/Iraq>;
+    oly:hasName "Ismail Khalil Salman"  .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasEvent <https://w3id.org/olympics-data/Event/BoxingMensLightHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BoxingMensLightHeavyweight> oly:hasEventName "Boxing Men's Light-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasSportName "Boxing" .
+    <https://w3id.org/olympics-data/Medal/BoxingMensLightHeavyweight/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:wonMedal <https://w3id.org/olympics-data/Medal/BoxingMensLightHeavyweight/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Boxing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasWeight "81.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> dbo:birthYear "1957.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Iraq> oly:countryName "Iraq" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Iraq> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IRQ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasNationality <https://w3id.org/olympics-data/Country/Iraq>;
+    oly:hasName "Ismail Khalil Salman"  .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasEvent <https://w3id.org/olympics-data/Event/BoxingMensLightHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BoxingMensLightHeavyweight> oly:hasEventName "Boxing Men's Light-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasSportName "Boxing" .
+    <https://w3id.org/olympics-data/Medal/BoxingMensLightHeavyweight/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:wonMedal <https://w3id.org/olympics-data/Medal/BoxingMensLightHeavyweight/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Boxing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IRQ/Boxing/IsmailKhalilSalman> oly:hasWeight "81.0"^^<http://www.w3.org/2001/XMLSchema#int> .

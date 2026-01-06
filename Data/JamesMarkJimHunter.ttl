@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> dbo:birthYear "1954.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "James Mark Jim Hunter"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensDownhill>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensDownhill> oly:hasEventName "Alpine Skiing Men's Downhill" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensDownhill/1972Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sapporo";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensDownhill/1972Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> dbo:birthYear "1954.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "James Mark Jim Hunter"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom> oly:hasEventName "Alpine Skiing Men's Giant Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1972Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sapporo";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1972Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> dbo:birthYear "1954.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "James Mark Jim Hunter"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom> oly:hasEventName "Alpine Skiing Men's Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1972Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sapporo";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1972Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> dbo:birthYear "1954.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "James Mark Jim Hunter"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensDownhill>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensDownhill> oly:hasEventName "Alpine Skiing Men's Downhill" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensDownhill/1976Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensDownhill/1976Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> dbo:birthYear "1954.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "James Mark Jim Hunter"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom> oly:hasEventName "Alpine Skiing Men's Giant Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1976Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1976Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> dbo:birthYear "1954.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "James Mark Jim Hunter"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom> oly:hasEventName "Alpine Skiing Men's Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1976Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1976Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/AlpineSkiing/JamesMarkJimHunter> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .

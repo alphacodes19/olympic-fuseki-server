@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic2> oly:countryName "Czech Republic-2" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic2>;
+    oly:hasName "Ivo Danilevi"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensTwo>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensTwo> oly:hasEventName "Bobsleigh Men's Two" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasWeight "107.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Ivo Danilevi"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensFour>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensFour> oly:hasEventName "Bobsleigh Men's Four" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasWeight "107.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic1> oly:countryName "Czech Republic-1" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic1> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic1>;
+    oly:hasName "Ivo Danilevi"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensTwo>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensTwo> oly:hasEventName "Bobsleigh Men's Two" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasWeight "107.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Ivo Danilevi"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensFour>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensFour> oly:hasEventName "Bobsleigh Men's Four" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasWeight "107.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Ivo Danilevi"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensTwo>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensTwo> oly:hasEventName "Bobsleigh Men's Two" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasWeight "107.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic1> oly:countryName "Czech Republic-1" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic1> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic1>;
+    oly:hasName "Ivo Danilevi"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensFour>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensFour> oly:hasEventName "Bobsleigh Men's Four" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/Bobsleigh/IvoDanilevi> oly:hasWeight "107.0"^^<http://www.w3.org/2001/XMLSchema#int> .

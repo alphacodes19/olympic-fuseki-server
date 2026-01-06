@@ -1,0 +1,108 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingMensSlopestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingMensSlopestyle> oly:hasEventName "Freestyle Skiing Men's Slopestyle" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSkiCross>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSkiCross> oly:hasEventName "Freestyle Skiing Women's Ski Cross" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls> oly:hasEventName "Freestyle Skiing Women's Moguls" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingMensMoguls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingMensMoguls> oly:hasEventName "Freestyle Skiing Men's Moguls" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingMensSkiCross>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingMensSkiCross> oly:hasEventName "Freestyle Skiing Men's Ski Cross" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensAerials>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensAerials> oly:hasEventName "Freestyle Skiing Women's Aerials" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingMensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingMensHalfpipe> oly:hasEventName "Freestyle Skiing Men's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingMensAerials>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingMensAerials> oly:hasEventName "Freestyle Skiing Men's Aerials" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensHalfpipe> oly:hasEventName "Freestyle Skiing Women's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSlopestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSlopestyle> oly:hasEventName "Freestyle Skiing Women's Slopestyle" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    
+   
+
+    

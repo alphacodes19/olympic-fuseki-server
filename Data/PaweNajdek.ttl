@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Pawe Najdek"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensSuperHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensSuperHeavyweight> oly:hasEventName "Weightlifting Men's Super-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensSuperHeavyweight/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensSuperHeavyweight/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasWeight "137.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Pawe Najdek"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensSuperHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensSuperHeavyweight> oly:hasEventName "Weightlifting Men's Super-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensSuperHeavyweight/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensSuperHeavyweight/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Weightlifting/PaweNajdek> oly:hasWeight "137.5"^^<http://www.w3.org/2001/XMLSchema#int> .

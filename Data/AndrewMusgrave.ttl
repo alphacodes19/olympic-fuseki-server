@@ -1,0 +1,239 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensSprint> oly:hasEventName "Cross Country Skiing Men's Sprint" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensSprint/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensSprint/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon> oly:hasEventName "Cross Country Skiing Men's 30 km Skiathlon" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensTeamSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensTeamSprint> oly:hasEventName "Cross Country Skiing Men's Team Sprint" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensTeamSprint/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensTeamSprint/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensSprint> oly:hasEventName "Cross Country Skiing Men's Sprint" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensSprint/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensSprint/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres> oly:hasEventName "Cross Country Skiing Men's 50 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Andrew Musgrave"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensTeamSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensTeamSprint> oly:hasEventName "Cross Country Skiing Men's Team Sprint" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensTeamSprint/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensTeamSprint/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/CrossCountrySkiing/AndrewMusgrave> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .

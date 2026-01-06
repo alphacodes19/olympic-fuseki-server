@@ -1,0 +1,152 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> dbo:birthYear "1996.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Ye Shiwen"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens4x200metresFreestyleRelay> oly:hasEventName "Swimming Women's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens4x200metresFreestyleRelay/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens4x200metresFreestyleRelay/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> dbo:birthYear "1996.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Ye Shiwen"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley> oly:hasEventName "Swimming Women's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/2012Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/2012Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/2012Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> dbo:birthYear "1996.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Ye Shiwen"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley> oly:hasEventName "Swimming Women's 400 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/2012Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/2012Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/2012Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> dbo:birthYear "1996.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Ye Shiwen"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley> oly:hasEventName "Swimming Women's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> dbo:birthYear "1996.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Ye Shiwen"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley> oly:hasEventName "Swimming Women's 400 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Swimming/YeShiwen> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,235 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1986.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensSingles> oly:hasEventName "Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/WomensSingles/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensSingles/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1986.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensDoublesTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensDoublesTeam> oly:hasEventName "Women's Doubles Team" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/WomensDoublesTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensDoublesTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensSingles> oly:hasEventName "Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensSingles> oly:hasEventName "Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy2> oly:countryName "Italy-2" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy2>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisMixedDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisMixedDoubles> oly:hasEventName "Tennis Mixed Doubles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisMixedDoubles/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisMixedDoubles/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy1> oly:countryName "Italy-1" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy1> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy1>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensDoubles> oly:hasEventName "Tennis Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensSingles> oly:hasEventName "Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Sara Errani"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensDoubles> oly:hasEventName "Tennis Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Tennis/SaraErrani> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,182 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Lee SeungHun"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/2010Winter/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/2010Winter/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/2010Winter/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Lee SeungHun"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres> oly:hasEventName "Speed Skating Men's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/2010Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/2010Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/2010Winter/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Lee SeungHun"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMensTeamPursuit8laps>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMensTeamPursuit8laps> oly:hasEventName "Speed Skating Men's Team Pursuit (8 laps)" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMensTeamPursuit8laps/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMensTeamPursuit8laps/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Lee SeungHun"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Lee SeungHun"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres> oly:hasEventName "Speed Skating Men's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Lee SeungHun"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMensTeamPursuit8laps>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMensTeamPursuit8laps> oly:hasEventName "Speed Skating Men's Team Pursuit (8 laps)" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMensTeamPursuit8laps/2014Winter/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMensTeamPursuit8laps/2014Winter/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SpeedSkating/LeeSeungHun> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMensTeamPursuit8laps/2014Winter/Silver>  oly:hasMedal "Silver" .

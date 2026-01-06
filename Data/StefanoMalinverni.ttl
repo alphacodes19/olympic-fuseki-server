@@ -1,0 +1,66 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> dbo:birthYear "1959.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Stefano Malinverni"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens400metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens400metres> oly:hasEventName "Athletics Men's 400 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens400metres/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens400metres/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> dbo:birthYear "1959.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Stefano Malinverni"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens4x400metresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens4x400metresRelay> oly:hasEventName "Athletics Men's 4 x 400 metres Relay" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens4x400metresRelay/1980Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens4x400metresRelay/1980Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Athletics/StefanoMalinverni> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMens4x400metresRelay/1980Summer/Bronze>  oly:hasMedal "Bronze" .

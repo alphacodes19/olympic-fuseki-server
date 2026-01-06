@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Petri Johannes Leskinen"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMensTwoPersonDinghy>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMensTwoPersonDinghy> oly:hasEventName "Sailing Men's Two Person Dinghy" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMensTwoPersonDinghy/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMensTwoPersonDinghy/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Petri Johannes Leskinen"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMensTwoPersonDinghy>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMensTwoPersonDinghy> oly:hasEventName "Sailing Men's Two Person Dinghy" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMensTwoPersonDinghy/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMensTwoPersonDinghy/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Petri Johannes Leskinen"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMensTwoPersonDinghy>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMensTwoPersonDinghy> oly:hasEventName "Sailing Men's Two Person Dinghy" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMensTwoPersonDinghy/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMensTwoPersonDinghy/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Sailing/PetriJohannesLeskinen> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .

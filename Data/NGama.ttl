@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> dbo:birthYear "1947.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CotedIvoire> oly:countryName "Cote d'Ivoire" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/CotedIvoire> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "CIV" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasNationality <https://w3id.org/olympics-data/Country/CotedIvoire>;
+    oly:hasName "NGama"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles1000metres> oly:hasEventName "Canoeing Men's Kayak Doubles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakDoubles1000metres/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakDoubles1000metres/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> dbo:birthYear "1948.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CotedIvoire> oly:countryName "Cote d'Ivoire" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/CotedIvoire> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "CIV" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasNationality <https://w3id.org/olympics-data/Country/CotedIvoire>;
+    oly:hasName "NGama"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres> oly:hasEventName "Canoeing Men's Kayak Singles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles1000metres/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles1000metres/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> dbo:birthYear "1948.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CotedIvoire> oly:countryName "Cote d'Ivoire" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/CotedIvoire> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "CIV" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasNationality <https://w3id.org/olympics-data/Country/CotedIvoire>;
+    oly:hasName "NGama"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles500metres> oly:hasEventName "Canoeing Men's Kayak Singles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles500metres/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles500metres/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CIV/Canoeing/NGama> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .

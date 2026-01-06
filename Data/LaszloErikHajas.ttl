@@ -1,0 +1,95 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> dbo:birthYear "1962.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Laszlo Erik Hajas"  .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasEvent <https://w3id.org/olympics-data/Event/HandballMensHandball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/HandballMensHandball> oly:hasEventName "Handball Men's Handball" .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasSportName "Handball" .
+    <https://w3id.org/olympics-data/Medal/HandballMensHandball/1988Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:wonMedal <https://w3id.org/olympics-data/Medal/HandballMensHandball/1988Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Handball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Laszlo Erik Hajas"  .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasEvent <https://w3id.org/olympics-data/Event/HandballMensHandball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/HandballMensHandball> oly:hasEventName "Handball Men's Handball" .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasSportName "Handball" .
+    <https://w3id.org/olympics-data/Medal/HandballMensHandball/1992Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:wonMedal <https://w3id.org/olympics-data/Medal/HandballMensHandball/1992Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Handball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/HandballMensHandball/1992Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Laszlo Erik Hajas"  .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasEvent <https://w3id.org/olympics-data/Event/HandballMensHandball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/HandballMensHandball> oly:hasEventName "Handball Men's Handball" .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasSportName "Handball" .
+    <https://w3id.org/olympics-data/Medal/HandballMensHandball/1996Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:wonMedal <https://w3id.org/olympics-data/Medal/HandballMensHandball/1996Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Handball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Handball/LaszloErikHajas> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/HandballMensHandball/1996Summer/Silver>  oly:hasMedal "Silver" .

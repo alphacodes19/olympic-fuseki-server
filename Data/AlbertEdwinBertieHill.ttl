@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> dbo:birthYear "1927.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Albert Edwin Bertie Hill"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual> oly:hasEventName "Equestrianism Men's Three-Day Event, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> dbo:birthYear "1927.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Albert Edwin Bertie Hill"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam> oly:hasEventName "Equestrianism Men's Three-Day Event, Team" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> dbo:birthYear "1927.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Albert Edwin Bertie Hill"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual> oly:hasEventName "Equestrianism Men's Three-Day Event, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1956Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1956Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> dbo:birthYear "1927.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Albert Edwin Bertie Hill"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam> oly:hasEventName "Equestrianism Men's Three-Day Event, Team" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1956Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1956Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1956Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> dbo:birthYear "1927.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Albert Edwin Bertie Hill"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual> oly:hasEventName "Equestrianism Men's Three-Day Event, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1960Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1960Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> dbo:birthYear "1927.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Albert Edwin Bertie Hill"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam> oly:hasEventName "Equestrianism Men's Three-Day Event, Team" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1960Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1960Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/AlbertEdwinBertieHill> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .

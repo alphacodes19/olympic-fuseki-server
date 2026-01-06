@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Lacrosse/RedJacket> dbo:birthYear "nan"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Lacrosse/RedJacket> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/MohawkIndians2> oly:countryName "Mohawk Indians-2" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/MohawkIndians2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Lacrosse/RedJacket> oly:hasNationality <https://w3id.org/olympics-data/Country/MohawkIndians2>;
+    oly:hasName "Red Jacket"  .
+    <https://w3id.org/olympics-data/Sport/Lacrosse> oly:hasEvent <https://w3id.org/olympics-data/Event/LacrosseMensLacrosse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LacrosseMensLacrosse> oly:hasEventName "Lacrosse Men's Lacrosse" .
+    <https://w3id.org/olympics-data/Sport/Lacrosse> oly:hasSportName "Lacrosse" .
+    <https://w3id.org/olympics-data/Medal/LacrosseMensLacrosse/1904Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1904Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "St. Louis";
+    oly:heldInYear "1904"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Lacrosse/RedJacket> oly:wonMedal <https://w3id.org/olympics-data/Medal/LacrosseMensLacrosse/1904Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1904Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Lacrosse> .
+
+    <https://w3id.org/olympics-data/Medal/LacrosseMensLacrosse/1904Summer/Bronze>  oly:hasMedal "Bronze" .

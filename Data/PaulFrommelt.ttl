@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> dbo:birthYear "1958.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:countryName "Liechtenstein" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LIE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasNationality <https://w3id.org/olympics-data/Country/Liechtenstein>;
+    oly:hasName "Paul Frommelt"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom> oly:hasEventName "Alpine Skiing Men's Giant Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1976Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1976Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> dbo:birthYear "1958.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:countryName "Liechtenstein" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LIE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasNationality <https://w3id.org/olympics-data/Country/Liechtenstein>;
+    oly:hasName "Paul Frommelt"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensGiantSlalom> oly:hasEventName "Alpine Skiing Men's Giant Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1980Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensGiantSlalom/1980Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> dbo:birthYear "1958.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:countryName "Liechtenstein" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LIE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasNationality <https://w3id.org/olympics-data/Country/Liechtenstein>;
+    oly:hasName "Paul Frommelt"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom> oly:hasEventName "Alpine Skiing Men's Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1980Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1980Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> dbo:birthYear "1958.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:countryName "Liechtenstein" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LIE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasNationality <https://w3id.org/olympics-data/Country/Liechtenstein>;
+    oly:hasName "Paul Frommelt"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom> oly:hasEventName "Alpine Skiing Men's Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1984Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sarajevo";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1984Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> dbo:birthYear "1958.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:countryName "Liechtenstein" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LIE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasNationality <https://w3id.org/olympics-data/Country/Liechtenstein>;
+    oly:hasName "Paul Frommelt"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensSlalom> oly:hasEventName "Alpine Skiing Men's Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1988Winter/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Calgary";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1988Winter/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AlpineSkiingMensSlalom/1988Winter/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> dbo:birthYear "1958.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:countryName "Liechtenstein" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Liechtenstein> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LIE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasNationality <https://w3id.org/olympics-data/Country/Liechtenstein>;
+    oly:hasName "Paul Frommelt"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingMensCombined>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingMensCombined> oly:hasEventName "Alpine Skiing Men's Combined" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingMensCombined/1988Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Calgary";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingMensCombined/1988Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/LIE/AlpineSkiing/PaulFrommelt> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .

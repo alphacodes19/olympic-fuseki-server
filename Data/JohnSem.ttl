@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Boxing/JohnSem> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Boxing/JohnSem> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/PapuaNewGuinea> oly:countryName "Papua New Guinea" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/PapuaNewGuinea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "PNG" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Boxing/JohnSem> oly:hasNationality <https://w3id.org/olympics-data/Country/PapuaNewGuinea>;
+    oly:hasName "John Sem"  .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasEvent <https://w3id.org/olympics-data/Event/BoxingMensBantamweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BoxingMensBantamweight> oly:hasEventName "Boxing Men's Bantamweight" .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasSportName "Boxing" .
+    <https://w3id.org/olympics-data/Medal/BoxingMensBantamweight/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Boxing/JohnSem> oly:wonMedal <https://w3id.org/olympics-data/Medal/BoxingMensBantamweight/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Boxing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Boxing/JohnSem> oly:hasHeight "156.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PNG/Boxing/JohnSem> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .

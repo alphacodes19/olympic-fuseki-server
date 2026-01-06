@@ -1,0 +1,413 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle> oly:hasEventName "Swimming Men's 200 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle> oly:hasEventName "Swimming Men's 400 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay> oly:hasEventName "Swimming Men's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle> oly:hasEventName "Swimming Men's 200 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/2000Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/2000Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/2000Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle> oly:hasEventName "Swimming Men's 400 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2000Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2000Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2000Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresFreestyleRelay> oly:hasEventName "Swimming Men's 4 x 100 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresFreestyleRelay/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresFreestyleRelay/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay> oly:hasEventName "Swimming Men's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley> oly:hasEventName "Swimming Men's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/2000Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/2000Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/2000Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle> oly:hasEventName "Swimming Men's 400 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay> oly:hasEventName "Swimming Men's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/2004Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/2004Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/2004Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley> oly:hasEventName "Swimming Men's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle> oly:hasEventName "Swimming Men's 200 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens400metresFreestyle> oly:hasEventName "Swimming Men's 400 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens400metresFreestyle/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Massimiliano Edgar Rosolino"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay> oly:hasEventName "Swimming Men's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasHeight "192.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Swimming/MassimilianoEdgarRosolino> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .

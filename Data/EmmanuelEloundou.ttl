@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Boxing/EmmanuelEloundou> dbo:birthYear "1948.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Boxing/EmmanuelEloundou> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:countryName "Cameroon" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Cameroon> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "CMR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Boxing/EmmanuelEloundou> oly:hasNationality <https://w3id.org/olympics-data/Country/Cameroon>;
+    oly:hasName "Emmanuel Eloundou"  .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasEvent <https://w3id.org/olympics-data/Event/BoxingMensFeatherweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BoxingMensFeatherweight> oly:hasEventName "Boxing Men's Featherweight" .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasSportName "Boxing" .
+    <https://w3id.org/olympics-data/Medal/BoxingMensFeatherweight/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Boxing/EmmanuelEloundou> oly:wonMedal <https://w3id.org/olympics-data/Medal/BoxingMensFeatherweight/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Boxing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CMR/Boxing/EmmanuelEloundou> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CMR/Boxing/EmmanuelEloundou> oly:hasWeight "57.0"^^<http://www.w3.org/2001/XMLSchema#int> .

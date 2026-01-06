@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> dbo:birthYear "1889.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Imre Gellrt"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1908Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1908Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> dbo:birthYear "1889.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Imre Gellrt"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1912Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1912Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1912"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1912Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1912Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> dbo:birthYear "1889.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Imre Gellrt"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1912Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1912Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1912"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/ImreGellrt> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1912Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1912Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1912Summer/Silver>  oly:hasMedal "Silver" .

@@ -1,0 +1,90 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> dbo:birthYear "1986.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Kazuyasu Minobe"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/MenspeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MenspeIndividual> oly:hasEventName "Men's pe Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/MenspeIndividual/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:wonMedal <https://w3id.org/olympics-data/Medal/MenspeIndividual/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> dbo:birthYear "1986.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Kazuyasu Minobe"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/MenspeTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MenspeTeam> oly:hasEventName "Men's pe Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/MenspeTeam/2020Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:wonMedal <https://w3id.org/olympics-data/Medal/MenspeTeam/2020Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Medal/MenspeTeam/2020Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Kazuyasu Minobe"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual> oly:hasEventName "Fencing Men's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasHeight "177.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/Fencing/KazuyasuMinobe> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,123 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> dbo:birthYear "1941.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Jaakko Rafael Kailajrvi"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensLightHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensLightHeavyweight> oly:hasEventName "Weightlifting Men's Light-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensLightHeavyweight/1964Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensLightHeavyweight/1964Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasHeight "171.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasWeight "83.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> dbo:birthYear "1941.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Jaakko Rafael Kailajrvi"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight> oly:hasEventName "Weightlifting Men's Middle-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasHeight "171.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasWeight "83.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> dbo:birthYear "1941.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Jaakko Rafael Kailajrvi"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight> oly:hasEventName "Weightlifting Men's Middle-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasHeight "171.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasWeight "83.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> dbo:birthYear "1941.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Jaakko Rafael Kailajrvi"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight> oly:hasEventName "Weightlifting Men's Middle-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasHeight "171.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Weightlifting/JaakkoRafaelKailajrvi> oly:hasWeight "83.5"^^<http://www.w3.org/2001/XMLSchema#int> .

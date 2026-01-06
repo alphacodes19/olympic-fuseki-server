@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Badminton/NigellaJekyllSaunders> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Badminton/NigellaJekyllSaunders> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:countryName "Jamaica" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Jamaica> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "JAM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Badminton/NigellaJekyllSaunders> oly:hasNationality <https://w3id.org/olympics-data/Country/Jamaica>;
+    oly:hasName "Nigella Jekyll Saunders"  .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasEvent <https://w3id.org/olympics-data/Event/BadmintonWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BadmintonWomensSingles> oly:hasEventName "Badminton Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Badminton> oly:hasSportName "Badminton" .
+    <https://w3id.org/olympics-data/Medal/BadmintonWomensSingles/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Badminton/NigellaJekyllSaunders> oly:wonMedal <https://w3id.org/olympics-data/Medal/BadmintonWomensSingles/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Badminton> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JAM/Badminton/NigellaJekyllSaunders> oly:hasHeight "166.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JAM/Badminton/NigellaJekyllSaunders> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> dbo:birthYear "1889.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "dn Radvny"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensLightweightGrecoRoman>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensLightweightGrecoRoman> oly:hasEventName "Wrestling Men's Lightweight, Greco-Roman" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightGrecoRoman/1908Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightGrecoRoman/1908Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> dbo:birthYear "1889.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "dn Radvny"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensLightweightGrecoRoman>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensLightweightGrecoRoman> oly:hasEventName "Wrestling Men's Lightweight, Greco-Roman" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightGrecoRoman/1912Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1912Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1912"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightGrecoRoman/1912Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1912Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> dbo:birthYear "1889.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "dn Radvny"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensFeatherweightGrecoRoman>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensFeatherweightGrecoRoman> oly:hasEventName "Wrestling Men's Featherweight, Greco-Roman" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensFeatherweightGrecoRoman/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Wrestling/dnRadvny> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensFeatherweightGrecoRoman/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    

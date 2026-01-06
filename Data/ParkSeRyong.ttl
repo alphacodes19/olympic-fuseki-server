@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Cycling/ParkSeRyong> dbo:birthYear "1960.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Cycling/ParkSeRyong> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Cycling/ParkSeRyong> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Park SeRyong"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingMensRoadRaceIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingMensRoadRaceIndividual> oly:hasEventName "Cycling Men's Road Race, Individual" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingMensRoadRaceIndividual/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Cycling/ParkSeRyong> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingMensRoadRaceIndividual/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Cycling/ParkSeRyong> oly:hasHeight "171.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Cycling/ParkSeRyong> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .

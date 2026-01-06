@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> dbo:birthYear "1982.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria2> oly:countryName "Austria-2" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria2>;
+    oly:hasName "Christian Hackl"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensTwo>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensTwo> oly:hasEventName "Bobsleigh Men's Two" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensTwo/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasHeight "184.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasWeight "92.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> dbo:birthYear "1982.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Christian Hackl"  .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasEvent <https://w3id.org/olympics-data/Event/BobsleighMensFour>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BobsleighMensFour> oly:hasEventName "Bobsleigh Men's Four" .
+    <https://w3id.org/olympics-data/Sport/Bobsleigh> oly:hasSportName "Bobsleigh" .
+    <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:wonMedal <https://w3id.org/olympics-data/Medal/BobsleighMensFour/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Bobsleigh> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasHeight "184.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUT/Bobsleigh/ChristianHackl> oly:hasWeight "92.0"^^<http://www.w3.org/2001/XMLSchema#int> .

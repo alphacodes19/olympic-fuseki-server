@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Athletics/OskarLeoLeino> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Athletics/OskarLeoLeino> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Athletics/OskarLeoLeino> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Oskar Leo Leino"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensPentathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensPentathlon> oly:hasEventName "Athletics Men's Pentathlon" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensPentathlon/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Athletics/OskarLeoLeino> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensPentathlon/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/Athletics/OskarLeoLeino> oly:hasHeight "181.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/Athletics/OskarLeoLeino> oly:hasWeight "74.0"^^<http://www.w3.org/2001/XMLSchema#int> .

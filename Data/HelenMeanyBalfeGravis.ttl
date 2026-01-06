@@ -1,0 +1,92 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> dbo:birthYear "1905.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Helen Meany Balfe Gravis"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingWomensPlainHigh>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingWomensPlainHigh> oly:hasEventName "Diving Women's Plain High" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingWomensPlainHigh/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingWomensPlainHigh/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasHeight "152.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> dbo:birthYear "1905.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Helen Meany Balfe Gravis"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingWomensPlainHigh>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingWomensPlainHigh> oly:hasEventName "Diving Women's Plain High" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingWomensPlainHigh/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingWomensPlainHigh/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasHeight "152.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> dbo:birthYear "1905.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Helen Meany Balfe Gravis"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingWomensSpringboard>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingWomensSpringboard> oly:hasEventName "Diving Women's Springboard" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingWomensSpringboard/1928Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingWomensSpringboard/1928Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Diving/HelenMeanyBalfeGravis> oly:hasHeight "152.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Medal/DivingWomensSpringboard/1928Summer/Gold>  oly:hasMedal "Gold" .

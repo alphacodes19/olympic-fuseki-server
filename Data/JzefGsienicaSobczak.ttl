@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> dbo:birthYear "1935.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Jzef Gsienica Sobczak"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/1956Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Cortina d'Ampezzo";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/1956Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> dbo:birthYear "1935.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Jzef Gsienica Sobczak"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay> oly:hasEventName "Cross Country Skiing Men's 4 x 10 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/1956Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Cortina d'Ampezzo";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/1956Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> dbo:birthYear "1935.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Jzef Gsienica Sobczak"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres> oly:hasEventName "Cross Country Skiing Men's 30 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/1960Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Squaw Valley";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/1960Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/CrossCountrySkiing/JzefGsienicaSobczak> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ISR/ArtisticSwimming/ShellyBobritsky> dbo:birthYear "2000.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ISR/ArtisticSwimming/ShellyBobritsky> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Israel> oly:countryName "Israel" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Israel> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "ISR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ISR/ArtisticSwimming/ShellyBobritsky> oly:hasNationality <https://w3id.org/olympics-data/Country/Israel>;
+    oly:hasName "Shelly Bobritsky"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticSwimming> oly:hasEvent <https://w3id.org/olympics-data/Event/DuetTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DuetTeam> oly:hasEventName "Duet Team" .
+    <https://w3id.org/olympics-data/Sport/ArtisticSwimming> oly:hasSportName "Artistic Swimming" .
+    <https://w3id.org/olympics-data/Medal/DuetTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ISR/ArtisticSwimming/ShellyBobritsky> oly:wonMedal <https://w3id.org/olympics-data/Medal/DuetTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticSwimming> .
+
+    

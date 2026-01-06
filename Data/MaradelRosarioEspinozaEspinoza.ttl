@@ -1,0 +1,95 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Mara del Rosario Espinoza Espinoza"  .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight> oly:hasEventName "Taekwondo Women's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    <https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2008Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:wonMedal <https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2008Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Taekwondo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2008Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Mara del Rosario Espinoza Espinoza"  .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight> oly:hasEventName "Taekwondo Women's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    <https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2012Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:wonMedal <https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2012Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Taekwondo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2012Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Mara del Rosario Espinoza Espinoza"  .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight> oly:hasEventName "Taekwondo Women's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    <https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2016Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:wonMedal <https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2016Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Taekwondo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/MaradelRosarioEspinozaEspinoza> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TaekwondoWomensHeavyweight/2016Summer/Silver>  oly:hasMedal "Silver" .

@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NRU/Weightlifting/GerardGarabwan> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NRU/Weightlifting/GerardGarabwan> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Nauru> oly:countryName "Nauru" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Nauru> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "NRU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NRU/Weightlifting/GerardGarabwan> oly:hasNationality <https://w3id.org/olympics-data/Country/Nauru>;
+    oly:hasName "Gerard Garabwan"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensMiddleHeavyweight> oly:hasEventName "Weightlifting Men's Middle-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NRU/Weightlifting/GerardGarabwan> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensMiddleHeavyweight/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NRU/Weightlifting/GerardGarabwan> oly:hasWeight "91.0"^^<http://www.w3.org/2001/XMLSchema#int> .

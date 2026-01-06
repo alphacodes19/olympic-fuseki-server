@@ -1,0 +1,66 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Jia Zongyang"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingMensAerials>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingMensAerials> oly:hasEventName "Freestyle Skiing Men's Aerials" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingMensAerials/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingMensAerials/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Jia Zongyang"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingMensAerials>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingMensAerials> oly:hasEventName "Freestyle Skiing Men's Aerials" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingMensAerials/2014Winter/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingMensAerials/2014Winter/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/FreestyleSkiing/JiaZongyang> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FreestyleSkiingMensAerials/2014Winter/Bronze>  oly:hasMedal "Bronze" .

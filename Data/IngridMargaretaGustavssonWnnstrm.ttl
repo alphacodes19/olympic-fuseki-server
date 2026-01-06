@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Swimming/IngridMargaretaGustavssonWnnstrm> dbo:birthYear "1950.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Swimming/IngridMargaretaGustavssonWnnstrm> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Swimming/IngridMargaretaGustavssonWnnstrm> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Ingrid Margareta Gustavsson Wnnstrm"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresFreestyleRelay> oly:hasEventName "Swimming Women's 4 x 100 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresFreestyleRelay/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Swimming/IngridMargaretaGustavssonWnnstrm> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresFreestyleRelay/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Swimming/IngridMargaretaGustavssonWnnstrm> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Swimming/IngridMargaretaGustavssonWnnstrm> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

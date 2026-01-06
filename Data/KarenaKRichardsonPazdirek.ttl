@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> dbo:birthYear "1960.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Karena K Richardson Pazdirek"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingWomensSingles> oly:hasEventName "Figure Skating Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingWomensSingles/1976Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingWomensSingles/1976Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> dbo:birthYear "1960.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Karena K Richardson Pazdirek"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingWomensSingles> oly:hasEventName "Figure Skating Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingWomensSingles/1980Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/FigureSkating/KarenaKRichardsonPazdirek> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingWomensSingles/1980Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    

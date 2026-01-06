@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUN/Volleyball/AtifLoukil> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUN/Volleyball/AtifLoukil> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Tunisia> oly:countryName "Tunisia" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Tunisia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "TUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUN/Volleyball/AtifLoukil> oly:hasNationality <https://w3id.org/olympics-data/Country/Tunisia>;
+    oly:hasName "Atif Loukil"  .
+    <https://w3id.org/olympics-data/Sport/Volleyball> oly:hasEvent <https://w3id.org/olympics-data/Event/VolleyballMensVolleyball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/VolleyballMensVolleyball> oly:hasEventName "Volleyball Men's Volleyball" .
+    <https://w3id.org/olympics-data/Sport/Volleyball> oly:hasSportName "Volleyball" .
+    <https://w3id.org/olympics-data/Medal/VolleyballMensVolleyball/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUN/Volleyball/AtifLoukil> oly:wonMedal <https://w3id.org/olympics-data/Medal/VolleyballMensVolleyball/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Volleyball> .
+
+    

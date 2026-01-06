@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Rune Gulliksen"  .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasEvent <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey> oly:hasEventName "Ice Hockey Men's Ice Hockey" .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasSportName "Ice Hockey" .
+    <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1988Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Calgary";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:wonMedal <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1988Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/IceHockey> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasHeight "190.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasWeight "83.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Rune Gulliksen"  .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasEvent <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey> oly:hasEventName "Ice Hockey Men's Ice Hockey" .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasSportName "Ice Hockey" .
+    <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:wonMedal <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/IceHockey> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasHeight "190.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/IceHockey/RuneGulliksen> oly:hasWeight "83.0"^^<http://www.w3.org/2001/XMLSchema#int> .

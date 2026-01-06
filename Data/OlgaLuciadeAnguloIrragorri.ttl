@@ -1,0 +1,239 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens400metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens400metresFreestyle> oly:hasEventName "Swimming Women's 400 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresFreestyle/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresFreestyle/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens800metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens800metresFreestyle> oly:hasEventName "Swimming Women's 800 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens800metresFreestyle/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens800metresFreestyle/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley> oly:hasEventName "Swimming Women's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley> oly:hasEventName "Swimming Women's 400 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresFreestyle> oly:hasEventName "Swimming Women's 200 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresFreestyle/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresFreestyle/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens400metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens400metresFreestyle> oly:hasEventName "Swimming Women's 400 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresFreestyle/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresFreestyle/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens800metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens800metresFreestyle> oly:hasEventName "Swimming Women's 800 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens800metresFreestyle/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens800metresFreestyle/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> dbo:birthYear "1956.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:countryName "Colombia" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Colombia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "COL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasNationality <https://w3id.org/olympics-data/Country/Colombia>;
+    oly:hasName "Olga Lucia de Angulo Irragorri"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresButterfly>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresButterfly> oly:hasEventName "Swimming Women's 200 metres Butterfly" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresButterfly/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresButterfly/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/COL/Swimming/OlgaLuciadeAnguloIrragorri> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .

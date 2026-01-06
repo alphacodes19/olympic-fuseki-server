@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Boxing/RicardoDelgadoNogales> dbo:birthYear "1947.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Boxing/RicardoDelgadoNogales> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Boxing/RicardoDelgadoNogales> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Ricardo Delgado Nogales"  .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasEvent <https://w3id.org/olympics-data/Event/BoxingMensFlyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BoxingMensFlyweight> oly:hasEventName "Boxing Men's Flyweight" .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasSportName "Boxing" .
+    <https://w3id.org/olympics-data/Medal/BoxingMensFlyweight/1968Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Boxing/RicardoDelgadoNogales> oly:wonMedal <https://w3id.org/olympics-data/Medal/BoxingMensFlyweight/1968Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Boxing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Boxing/RicardoDelgadoNogales> oly:hasHeight "161.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Boxing/RicardoDelgadoNogales> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/BoxingMensFlyweight/1968Summer/Gold>  oly:hasMedal "Gold" .

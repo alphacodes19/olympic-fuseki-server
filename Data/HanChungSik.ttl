@@ -1,0 +1,239 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise> oly:hasEventName "Gymnastics Men's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault> oly:hasEventName "Gymnastics Men's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars> oly:hasEventName "Gymnastics Men's Parallel Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar> oly:hasEventName "Gymnastics Men's Horizontal Bar" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRings> oly:hasEventName "Gymnastics Men's Rings" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Han ChungSik"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse> oly:hasEventName "Gymnastics Men's Pommelled Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Gymnastics/HanChungSik> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .

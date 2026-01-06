@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> dbo:birthYear "1990.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Gregory Baxter"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> dbo:birthYear "1990.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Gregory Baxter"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual> oly:hasEventName "Ski Jumping Men's Large Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> dbo:birthYear "1990.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Gregory Baxter"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam> oly:hasEventName "Ski Jumping Men's Large Hill, Team" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/SkiJumping/GregoryBaxter> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .

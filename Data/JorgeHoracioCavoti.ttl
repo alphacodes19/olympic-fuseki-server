@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> dbo:birthYear "1925.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Argentina> oly:countryName "Argentina" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Argentina> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "ARG" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasNationality <https://w3id.org/olympics-data/Country/Argentina>;
+    oly:hasName "Jorge Horacio Cavoti"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual> oly:hasEventName "Equestrianism Mixed Dressage, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1956Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1956Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasWeight "86.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> dbo:birthYear "1925.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Argentina> oly:countryName "Argentina" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Argentina> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "ARG" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasNationality <https://w3id.org/olympics-data/Country/Argentina>;
+    oly:hasName "Jorge Horacio Cavoti"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual> oly:hasEventName "Equestrianism Mixed Dressage, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1960Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1960Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ARG/Equestrianism/JorgeHoracioCavoti> oly:hasWeight "86.0"^^<http://www.w3.org/2001/XMLSchema#int> .

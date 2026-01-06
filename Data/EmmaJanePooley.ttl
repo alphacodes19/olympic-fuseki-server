@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Emma Jane Pooley"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual> oly:hasEventName "Cycling Women's Road Race, Individual" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Emma Jane Pooley"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial> oly:hasEventName "Cycling Women's Individual Time Trial" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2008Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2008Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2008Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Emma Jane Pooley"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual> oly:hasEventName "Cycling Women's Road Race, Individual" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Emma Jane Pooley"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial> oly:hasEventName "Cycling Women's Individual Time Trial" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Emma Jane Pooley"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual> oly:hasEventName "Cycling Women's Road Race, Individual" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Emma Jane Pooley"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial> oly:hasEventName "Cycling Women's Individual Time Trial" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Cycling/EmmaJanePooley> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .

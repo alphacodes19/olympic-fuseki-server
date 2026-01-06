@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Athletics/ChiemiTakahashi> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Athletics/ChiemiTakahashi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Athletics/ChiemiTakahashi> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Chiemi Takahashi"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens10000metres> oly:hasEventName "Athletics Women's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens10000metres/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Athletics/ChiemiTakahashi> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens10000metres/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Athletics/ChiemiTakahashi> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/Athletics/ChiemiTakahashi> oly:hasWeight "43.0"^^<http://www.w3.org/2001/XMLSchema#int> .

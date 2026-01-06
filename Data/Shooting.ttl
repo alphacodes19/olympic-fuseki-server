@@ -1,0 +1,988 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/10mAirRifleWomen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/10mAirRifleWomen> oly:hasEventName "10m Air Rifle Women" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/50mRifle3PositionsWomen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/50mRifle3PositionsWomen> oly:hasEventName "50m Rifle 3 Positions Women" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/10mAirRifleMixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/10mAirRifleMixedTeam> oly:hasEventName "10m Air Rifle Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/10mAirRifleMen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/10mAirRifleMen> oly:hasEventName "10m Air Rifle Men" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/50mRifle3PositionsMen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/50mRifle3PositionsMen> oly:hasEventName "50m Rifle 3 Positions Men" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/SkeetMen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkeetMen> oly:hasEventName "Skeet Men" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRapidFirePistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRapidFirePistol25metres> oly:hasEventName "Shooting Men's Rapid-Fire Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrap> oly:hasEventName "Shooting Men's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metres> oly:hasEventName "Shooting Men's Free Pistol, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metres> oly:hasEventName "Shooting Men's Free Rifle, Three Positions, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleProne600metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleProne600metres> oly:hasEventName "Shooting Men's Free Rifle, Prone, 600 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifle400600and800metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifle400600and800metresTeam> oly:hasEventName "Shooting Men's Free Rifle, 400, 600 and 800 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedFreeRifleThreePositions300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedFreeRifleThreePositions300metres> oly:hasEventName "Shooting Mixed Free Rifle, Three Positions, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensAirRifle10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensAirRifle10metres> oly:hasEventName "Shooting Men's Air Rifle, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetSingleAndDoubleShot>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetSingleAndDoubleShot> oly:hasEventName "Shooting Men's Running Target, Single And Double Shot" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleThreePositions300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleThreePositions300metres> oly:hasEventName "Shooting Men's Military Rifle, Three Positions, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metresTeam> oly:hasEventName "Shooting Men's Free Rifle, Three Positions, 300 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleAnyPosition300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleAnyPosition300metres> oly:hasEventName "Shooting Men's Free Rifle, Any Position, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle18731874GrasModelKneelingOrStanding200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle18731874GrasModelKneelingOrStanding200metres> oly:hasEventName "Shooting Men's Military Rifle, 1873-1874 Gras Model, Kneeling Or Standing, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleKneelingOrStanding300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleKneelingOrStanding300metres> oly:hasEventName "Shooting Men's Military Rifle, Kneeling Or Standing, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSkeet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSkeet> oly:hasEventName "Shooting Men's Skeet" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifle1000Yards>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifle1000Yards> oly:hasEventName "Shooting Men's Free Rifle, 1,000 Yards" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle2005006008009001000YardsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle2005006008009001000YardsTeam> oly:hasEventName "Shooting Men's Military Rifle, 200/500/600/800/900/1,000 Yards, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleAnyPosition600metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleAnyPosition600metres> oly:hasEventName "Shooting Men's Military Rifle, Any Position, 600 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleStanding300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleStanding300metres> oly:hasEventName "Shooting Men's Military Rifle, Standing, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle200400500and600metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle200400500and600metresTeam> oly:hasEventName "Shooting Men's Military Rifle, 200, 400, 500 and 600 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedRapidFirePistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedRapidFirePistol25metres> oly:hasEventName "Shooting Mixed Rapid-Fire Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensAirPistol10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensAirPistol10metres> oly:hasEventName "Shooting Men's Air Pistol, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleKneeling300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleKneeling300metres> oly:hasEventName "Shooting Men's Free Rifle, Kneeling, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleProne300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleProne300metres> oly:hasEventName "Shooting Men's Free Rifle, Prone, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleStanding300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleStanding300metres> oly:hasEventName "Shooting Men's Free Rifle, Standing, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensAirRifle10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensAirRifle10metres> oly:hasEventName "Shooting Women's Air Rifle, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Women's Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget50metres> oly:hasEventName "Shooting Men's Running Target, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget10metres> oly:hasEventName "Shooting Men's Running Target, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver20metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver20metres> oly:hasEventName "Shooting Men's Military Revolver, 20 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne300metres> oly:hasEventName "Shooting Men's Military Rifle, Prone, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne300metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne300metresTeam> oly:hasEventName "Shooting Men's Military Rifle, Prone, 300 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne600metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne600metresTeam> oly:hasEventName "Shooting Men's Military Rifle, Prone, 600 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleStanding300metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleStanding300metresTeam> oly:hasEventName "Shooting Men's Military Rifle, Standing, 300 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle300metresand600metresProneTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle300metresand600metresProneTeam> oly:hasEventName "Shooting Men's Military Rifle, 300 metres and 600 metres, Prone, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Standing, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metresTeam> oly:hasEventName "Shooting Men's Small Bore-Rifle, Standing, 50 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrapTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrapTeam> oly:hasEventName "Shooting Men's Trap, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSkeet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSkeet> oly:hasEventName "Shooting Mixed Skeet" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetDoubleShotTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetDoubleShotTeam> oly:hasEventName "Shooting Men's Running Target, Double Shot, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleAnyPosition50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleAnyPosition50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Any Position, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedRunningTarget50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedRunningTarget50metres> oly:hasEventName "Shooting Mixed Running Target, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetSingleShotTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetSingleShotTeam> oly:hasEventName "Shooting Men's Running Target, Single Shot, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetDoubleShot>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetDoubleShot> oly:hasEventName "Shooting Men's Running Target, Double Shot" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetSingleShot>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTargetSingleShot> oly:hasEventName "Shooting Men's Running Target, Single Shot" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedFreePistol50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedFreePistol50metres> oly:hasEventName "Shooting Mixed Free Pistol, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne600metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne600metres> oly:hasEventName "Shooting Men's Military Rifle, Prone, 600 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/TrapMen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TrapMen> oly:hasEventName "Trap Men" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/TrapMixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TrapMixedTeam> oly:hasEventName "Trap Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/TrapWomen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TrapWomen> oly:hasEventName "Trap Women" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistolTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistolTeam> oly:hasEventName "Shooting Men's Military Pistol, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metresTeam> oly:hasEventName "Shooting Men's Free Pistol, 50 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensAirPistol10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensAirPistol10metres> oly:hasEventName "Shooting Women's Air Pistol, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensSportingPistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensSportingPistol25metres> oly:hasEventName "Shooting Women's Sporting Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensTrap> oly:hasEventName "Shooting Women's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensDoubleTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensDoubleTrap> oly:hasEventName "Shooting Men's Double Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensDoubleTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensDoubleTrap> oly:hasEventName "Shooting Women's Double Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/SkeetWomen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkeetWomen> oly:hasEventName "Skeet Women" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/25mRapidFirePistolMen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/25mRapidFirePistolMen> oly:hasEventName "25m Rapid Fire Pistol Men" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/10mAirPistolMen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/10mAirPistolMen> oly:hasEventName "10m Air Pistol Men" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensSkeet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensSkeet> oly:hasEventName "Shooting Women's Skeet" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol25metres> oly:hasEventName "Shooting Men's Free Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver18731874GrasModel20metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver18731874GrasModel20metres> oly:hasEventName "Shooting Men's Military Revolver, 1873-1874 Gras Model, 20 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuVise20metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuVise20metres> oly:hasEventName "Shooting Men's Dueling Pistol Au Vise 20 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuCommandement25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuCommandement25metres> oly:hasEventName "Shooting Men's Dueling Pistol Au Commandement, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle200metres> oly:hasEventName "Shooting Men's Military Rifle, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/10mAirPistolWomen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/10mAirPistolWomen> oly:hasEventName "10m Air Pistol Women" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/25mPistolWomen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/25mPistolWomen> oly:hasEventName "25m Pistol Women" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50yards>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50yards> oly:hasEventName "Shooting Men's Free Pistol, 50 yards" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50yardsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50yardsTeam> oly:hasEventName "Shooting Men's Free Pistol, 50 yards, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50and100yards>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50and100yards> oly:hasEventName "Shooting Men's Small-Bore Rifle, Prone, 50 and 100 yards" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifle50and100yardsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifle50and100yardsTeam> oly:hasEventName "Shooting Men's Small-Bore Rifle, 50 and 100 yards, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrapSingleShot16metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrapSingleShot16metres> oly:hasEventName "Shooting Men's Trap, Single Shot, 16 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrapDoubleShot14metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrapDoubleShot14metres> oly:hasEventName "Shooting Men's Trap, Double Shot, 14 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistol30metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistol30metres> oly:hasEventName "Shooting Men's Dueling Pistol, 30 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistol30metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistol30metresTeam> oly:hasEventName "Shooting Men's Dueling Pistol, 30 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metresTeam> oly:hasEventName "Shooting Men's Small-Bore Rifle, Prone, 50 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleDisappearingTarget25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleDisappearingTarget25metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Disappearing Target, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleDisappearingTarget25yards>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleDisappearingTarget25yards> oly:hasEventName "Shooting Men's Small-Bore Rifle, Disappearing Target, 25 yards" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleMovingTarget25yards>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleMovingTarget25yards> oly:hasEventName "Shooting Men's Small-Bore Rifle, Moving Target, 25 yards" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/10mAirPistolMixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/10mAirPistolMixedTeam> oly:hasEventName "10m Air Pistol Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistol30metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistol30metres> oly:hasEventName "Shooting Men's Military Pistol, 30 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleDisappearingTarget25metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleDisappearingTarget25metresTeam> oly:hasEventName "Shooting Men's Small-Bore Rifle, Disappearing Target, 25 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistol25metres> oly:hasEventName "Shooting Men's Military Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol30metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol30metres> oly:hasEventName "Shooting Men's Free Pistol, 30 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensUnknownEvent>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensUnknownEvent> oly:hasEventName "Shooting Men's Unknown Event" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMuzzleLoadingPistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMuzzleLoadingPistol25metres> oly:hasEventName "Shooting Men's Muzzle-Loading Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    
+   
+
+    

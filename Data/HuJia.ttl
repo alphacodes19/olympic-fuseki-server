@@ -1,0 +1,95 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Hu Jia"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingMensPlatform>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingMensPlatform> oly:hasEventName "Diving Men's Platform" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingMensPlatform/2000Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingMensPlatform/2000Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/DivingMensPlatform/2000Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Hu Jia"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingMensSynchronizedPlatform>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingMensSynchronizedPlatform> oly:hasEventName "Diving Men's Synchronized Platform" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingMensSynchronizedPlatform/2000Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingMensSynchronizedPlatform/2000Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/DivingMensSynchronizedPlatform/2000Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Hu Jia"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingMensPlatform>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingMensPlatform> oly:hasEventName "Diving Men's Platform" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingMensPlatform/2004Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingMensPlatform/2004Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Diving/HuJia> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/DivingMensPlatform/2004Summer/Gold>  oly:hasMedal "Gold" .

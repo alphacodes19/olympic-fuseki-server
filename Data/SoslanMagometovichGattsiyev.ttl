@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/Wrestling/SoslanMagometovichGattsiyev> dbo:birthYear "1986.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/Wrestling/SoslanMagometovichGattsiyev> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belarus> oly:countryName "Belarus" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belarus> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BLR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/Wrestling/SoslanMagometovichGattsiyev> oly:hasNationality <https://w3id.org/olympics-data/Country/Belarus>;
+    oly:hasName "Soslan Magometovich Gattsiyev"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensLightHeavyweightFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensLightHeavyweightFreestyle> oly:hasEventName "Wrestling Men's Light-Heavyweight, Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensLightHeavyweightFreestyle/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/Wrestling/SoslanMagometovichGattsiyev> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensLightHeavyweightFreestyle/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/Wrestling/SoslanMagometovichGattsiyev> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BLR/Wrestling/SoslanMagometovichGattsiyev> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .

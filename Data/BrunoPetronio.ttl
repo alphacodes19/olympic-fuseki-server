@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Sailing/BrunoPetronio> dbo:birthYear "1936.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Sailing/BrunoPetronio> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Grifone> oly:countryName "Grifone" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Grifone> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Sailing/BrunoPetronio> oly:hasNationality <https://w3id.org/olympics-data/Country/Grifone>;
+    oly:hasName "Bruno Petronio"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMixed55metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMixed55metres> oly:hasEventName "Sailing Mixed 5.5 metres" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMixed55metres/1964Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Sailing/BrunoPetronio> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMixed55metres/1964Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Sailing/BrunoPetronio> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Sailing/BrunoPetronio> oly:hasWeight "86.0"^^<http://www.w3.org/2001/XMLSchema#int> .

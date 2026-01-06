@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Swimming/AlanRobertFord> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Swimming/AlanRobertFord> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Swimming/AlanRobertFord> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Alan Robert Ford"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens100metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens100metresFreestyle> oly:hasEventName "Swimming Men's 100 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens100metresFreestyle/1948Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1948Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1948"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Swimming/AlanRobertFord> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens100metresFreestyle/1948Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1948Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Swimming/AlanRobertFord> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Swimming/AlanRobertFord> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingMens100metresFreestyle/1948Summer/Silver>  oly:hasMedal "Silver" .

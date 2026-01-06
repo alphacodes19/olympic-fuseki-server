@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/WaterPolo/CharlesLouisHealy> dbo:birthYear "1884.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/WaterPolo/CharlesLouisHealy> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/ChicagoAthleticAssociation2> oly:countryName "Chicago Athletic Association-2" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/ChicagoAthleticAssociation2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/WaterPolo/CharlesLouisHealy> oly:hasNationality <https://w3id.org/olympics-data/Country/ChicagoAthleticAssociation2>;
+    oly:hasName "Charles Louis Healy"  .
+    <https://w3id.org/olympics-data/Sport/WaterPolo> oly:hasEvent <https://w3id.org/olympics-data/Event/WaterPoloMensWaterPolo>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WaterPoloMensWaterPolo> oly:hasEventName "Water Polo Men's Water Polo" .
+    <https://w3id.org/olympics-data/Sport/WaterPolo> oly:hasSportName "Water Polo" .
+    <https://w3id.org/olympics-data/Medal/WaterPoloMensWaterPolo/1904Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1904Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "St. Louis";
+    oly:heldInYear "1904"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/WaterPolo/CharlesLouisHealy> oly:wonMedal <https://w3id.org/olympics-data/Medal/WaterPoloMensWaterPolo/1904Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1904Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/WaterPolo> .
+
+    <https://w3id.org/olympics-data/Medal/WaterPoloMensWaterPolo/1904Summer/Silver>  oly:hasMedal "Silver" .

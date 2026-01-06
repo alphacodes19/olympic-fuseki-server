@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Snowboarding/ScottyLago> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Snowboarding/ScottyLago> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Snowboarding/ScottyLago> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Scotty Lago"  .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/SnowboardingMensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SnowboardingMensHalfpipe> oly:hasEventName "Snowboarding Men's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasSportName "Snowboarding" .
+    <https://w3id.org/olympics-data/Medal/SnowboardingMensHalfpipe/2010Winter/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Snowboarding/ScottyLago> oly:wonMedal <https://w3id.org/olympics-data/Medal/SnowboardingMensHalfpipe/2010Winter/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Snowboarding> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Snowboarding/ScottyLago> oly:hasHeight "185.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Snowboarding/ScottyLago> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SnowboardingMensHalfpipe/2010Winter/Bronze>  oly:hasMedal "Bronze" .

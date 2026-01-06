@@ -1,0 +1,95 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Carlos Jimnez Snchez"  .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasEvent <https://w3id.org/olympics-data/Event/BasketballMensBasketball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BasketballMensBasketball> oly:hasEventName "Basketball Men's Basketball" .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasSportName "Basketball" .
+    <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:wonMedal <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Basketball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasHeight "201.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasWeight "100.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Carlos Jimnez Snchez"  .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasEvent <https://w3id.org/olympics-data/Event/BasketballMensBasketball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BasketballMensBasketball> oly:hasEventName "Basketball Men's Basketball" .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasSportName "Basketball" .
+    <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:wonMedal <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Basketball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasHeight "201.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasWeight "100.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Carlos Jimnez Snchez"  .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasEvent <https://w3id.org/olympics-data/Event/BasketballMensBasketball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BasketballMensBasketball> oly:hasEventName "Basketball Men's Basketball" .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasSportName "Basketball" .
+    <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/2008Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:wonMedal <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/2008Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Basketball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasHeight "201.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ESP/Basketball/CarlosJimnezSnchez> oly:hasWeight "100.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/BasketballMensBasketball/2008Summer/Silver>  oly:hasMedal "Silver" .

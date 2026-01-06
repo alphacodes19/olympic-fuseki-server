@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Weightlifting/PterTamtom> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Weightlifting/PterTamtom> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Weightlifting/PterTamtom> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Pter Tamtom"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensHeavyweight> oly:hasEventName "Weightlifting Men's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensHeavyweight/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Weightlifting/PterTamtom> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensHeavyweight/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Weightlifting/PterTamtom> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Weightlifting/PterTamtom> oly:hasWeight "105.0"^^<http://www.w3.org/2001/XMLSchema#int> .

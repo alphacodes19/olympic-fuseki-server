@@ -1,0 +1,440 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistol25metres> oly:hasEventName "Shooting Men's Military Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryPistol25metres/1896Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1896Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1896"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryPistol25metres/1896Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1896Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMuzzleLoadingPistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMuzzleLoadingPistol25metres> oly:hasEventName "Shooting Men's Muzzle-Loading Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMuzzleLoadingPistol25metres/1896Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1896Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1896"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMuzzleLoadingPistol25metres/1896Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1896Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metres> oly:hasEventName "Shooting Men's Free Rifle, Three Positions, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensFreeRifleThreePositions300metres/1896Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1896Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1896"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensFreeRifleThreePositions300metres/1896Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1896Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle200metres> oly:hasEventName "Shooting Men's Military Rifle, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifle200metres/1896Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1896Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1896"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifle200metres/1896Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1896Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1856.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrap> oly:hasEventName "Shooting Men's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensTrap/1900Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1900Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1900"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensTrap/1900Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1900Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol25metres> oly:hasEventName "Shooting Men's Free Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol25metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol25metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metres> oly:hasEventName "Shooting Men's Free Pistol, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol50metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol50metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver18731874GrasModel20metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver18731874GrasModel20metres> oly:hasEventName "Shooting Men's Military Revolver, 1873-1874 Gras Model, 20 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRevolver18731874GrasModel20metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRevolver18731874GrasModel20metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver20metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRevolver20metres> oly:hasEventName "Shooting Men's Military Revolver, 20 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRevolver20metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRevolver20metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuVise20metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuVise20metres> oly:hasEventName "Shooting Men's Dueling Pistol Au Vise 20 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensDuelingPistolAuVise20metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensDuelingPistolAuVise20metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuCommandement25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensDuelingPistolAuCommandement25metres> oly:hasEventName "Shooting Men's Dueling Pistol Au Commandement, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensDuelingPistolAuCommandement25metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensDuelingPistolAuCommandement25metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleAnyPosition300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleAnyPosition300metres> oly:hasEventName "Shooting Men's Free Rifle, Any Position, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensFreeRifleAnyPosition300metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensFreeRifleAnyPosition300metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle18731874GrasModelKneelingOrStanding200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle18731874GrasModelKneelingOrStanding200metres> oly:hasEventName "Shooting Men's Military Rifle, 1873-1874 Gras Model, Kneeling Or Standing, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifle18731874GrasModelKneelingOrStanding200metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifle18731874GrasModelKneelingOrStanding200metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleKneelingOrStanding300metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleKneelingOrStanding300metres> oly:hasEventName "Shooting Men's Military Rifle, Kneeling Or Standing, 300 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleKneelingOrStanding300metres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleKneelingOrStanding300metres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrapSingleShot16metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrapSingleShot16metres> oly:hasEventName "Shooting Men's Trap, Single Shot, 16 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensTrapSingleShot16metres/1906Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensTrapSingleShot16metres/1906Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Medal/ShootingMensTrapSingleShot16metres/1906Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> dbo:birthYear "1857.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney Louis Walter Merlin"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrapDoubleShot14metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrapDoubleShot14metres> oly:hasEventName "Shooting Men's Trap, Double Shot, 14 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensTrapDoubleShot14metres/1906Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Shooting/SidneyLouisWalterMerlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensTrapDoubleShot14metres/1906Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Medal/ShootingMensTrapDoubleShot14metres/1906Summer/Gold>  oly:hasMedal "Gold" .

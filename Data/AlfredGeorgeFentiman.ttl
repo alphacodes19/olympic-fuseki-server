@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Motorboating/AlfredGeorgeFentiman> dbo:birthYear "1868.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Motorboating/AlfredGeorgeFentiman> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Dylan2> oly:countryName "Dylan-2" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Dylan2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Motorboating/AlfredGeorgeFentiman> oly:hasNationality <https://w3id.org/olympics-data/Country/Dylan2>;
+    oly:hasName "Alfred George Fentiman"  .
+    <https://w3id.org/olympics-data/Sport/Motorboating> oly:hasEvent <https://w3id.org/olympics-data/Event/MotorboatingMixedAClassOpen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MotorboatingMixedAClassOpen> oly:hasEventName "Motorboating Mixed A-Class (Open)" .
+    <https://w3id.org/olympics-data/Sport/Motorboating> oly:hasSportName "Motorboating" .
+    <https://w3id.org/olympics-data/Medal/MotorboatingMixedAClassOpen/1908Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Motorboating/AlfredGeorgeFentiman> oly:wonMedal <https://w3id.org/olympics-data/Medal/MotorboatingMixedAClassOpen/1908Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Motorboating> .
+
+    

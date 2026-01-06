@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Belarus> oly:countryName "Belarus" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belarus> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BLR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> oly:hasNationality <https://w3id.org/olympics-data/Country/Belarus>;
+    oly:hasName "Alena Amialiusik"  .
+    <https://w3id.org/olympics-data/Sport/CyclingRoad> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensRoadRace>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensRoadRace> oly:hasEventName "Women's Road Race" .
+    <https://w3id.org/olympics-data/Sport/CyclingRoad> oly:hasSportName "Cycling Road" .
+    <https://w3id.org/olympics-data/Medal/WomensRoadRace/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensRoadRace/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CyclingRoad> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Belarus> oly:countryName "Belarus" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belarus> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BLR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> oly:hasNationality <https://w3id.org/olympics-data/Country/Belarus>;
+    oly:hasName "Alena Amialiusik"  .
+    <https://w3id.org/olympics-data/Sport/CyclingRoad> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensIndividualTimeTrial>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensIndividualTimeTrial> oly:hasEventName "Women's Individual Time Trial" .
+    <https://w3id.org/olympics-data/Sport/CyclingRoad> oly:hasSportName "Cycling Road" .
+    <https://w3id.org/olympics-data/Medal/WomensIndividualTimeTrial/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BLR/CyclingRoad/AlenaAmialiusik> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensIndividualTimeTrial/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CyclingRoad> .
+
+    

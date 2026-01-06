@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> dbo:birthYear "2002.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gabor Zombori"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Mens400mFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Mens400mFreestyle> oly:hasEventName "Men's 400m Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Mens400mFreestyle/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> oly:wonMedal <https://w3id.org/olympics-data/Medal/Mens400mFreestyle/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> dbo:birthYear "2002.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gabor Zombori"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Mens4x200mFreestyleRelayTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Mens4x200mFreestyleRelayTeam> oly:hasEventName "Men's 4 x 200m Freestyle Relay Team" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Mens4x200mFreestyleRelayTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Swimming/GaborZombori> oly:wonMedal <https://w3id.org/olympics-data/Medal/Mens4x200mFreestyleRelayTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    

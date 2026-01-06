@@ -1,0 +1,28 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/BaseballSoftball> oly:hasEvent <https://w3id.org/olympics-data/Event/SoftballTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SoftballTeam> oly:hasEventName "Softball Team" .
+    <https://w3id.org/olympics-data/Sport/BaseballSoftball> oly:hasSportName "Baseball/Softball" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/BaseballSoftball> oly:hasEvent <https://w3id.org/olympics-data/Event/BaseballTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BaseballTeam> oly:hasEventName "Baseball Team" .
+    <https://w3id.org/olympics-data/Sport/BaseballSoftball> oly:hasSportName "Baseball/Softball" .
+    
+   
+
+    

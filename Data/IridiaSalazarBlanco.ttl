@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/IridiaSalazarBlanco> dbo:birthYear "1982.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/IridiaSalazarBlanco> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/IridiaSalazarBlanco> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Iridia Salazar Blanco"  .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensFeatherweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensFeatherweight> oly:hasEventName "Taekwondo Women's Featherweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    <https://w3id.org/olympics-data/Medal/TaekwondoWomensFeatherweight/2004Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/IridiaSalazarBlanco> oly:wonMedal <https://w3id.org/olympics-data/Medal/TaekwondoWomensFeatherweight/2004Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Taekwondo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/IridiaSalazarBlanco> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Taekwondo/IridiaSalazarBlanco> oly:hasWeight "57.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TaekwondoWomensFeatherweight/2004Summer/Bronze>  oly:hasMedal "Bronze" .

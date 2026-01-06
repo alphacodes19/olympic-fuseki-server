@@ -1,0 +1,177 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukie Nakayama"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/TrapWomen>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TrapWomen> oly:hasEventName "Trap Women" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/TrapWomen/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:wonMedal <https://w3id.org/olympics-data/Medal/TrapWomen/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukie Nakayama"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/TrapMixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TrapMixedTeam> oly:hasEventName "Trap Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/TrapMixedTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:wonMedal <https://w3id.org/olympics-data/Medal/TrapMixedTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> dbo:birthYear "1979.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukie Nakayama"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensDoubleTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensDoubleTrap> oly:hasEventName "Shooting Women's Double Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingWomensDoubleTrap/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingWomensDoubleTrap/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasHeight "161.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> dbo:birthYear "1979.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukie Nakayama"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensTrap> oly:hasEventName "Shooting Women's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingWomensTrap/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingWomensTrap/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasHeight "161.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> dbo:birthYear "1979.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukie Nakayama"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensTrap> oly:hasEventName "Shooting Women's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingWomensTrap/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingWomensTrap/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasHeight "161.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> dbo:birthYear "1979.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukie Nakayama"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingWomensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingWomensTrap> oly:hasEventName "Shooting Women's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingWomensTrap/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingWomensTrap/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasHeight "161.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/Shooting/YukieNakayama> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .

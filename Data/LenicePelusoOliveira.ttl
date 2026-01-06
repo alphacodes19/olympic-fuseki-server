@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Volleyball/LenicePelusoOliveira> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Volleyball/LenicePelusoOliveira> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Volleyball/LenicePelusoOliveira> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Lenice Peluso Oliveira"  .
+    <https://w3id.org/olympics-data/Sport/Volleyball> oly:hasEvent <https://w3id.org/olympics-data/Event/VolleyballWomensVolleyball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/VolleyballWomensVolleyball> oly:hasEventName "Volleyball Women's Volleyball" .
+    <https://w3id.org/olympics-data/Sport/Volleyball> oly:hasSportName "Volleyball" .
+    <https://w3id.org/olympics-data/Medal/VolleyballWomensVolleyball/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Volleyball/LenicePelusoOliveira> oly:wonMedal <https://w3id.org/olympics-data/Medal/VolleyballWomensVolleyball/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Volleyball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Volleyball/LenicePelusoOliveira> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Volleyball/LenicePelusoOliveira> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .

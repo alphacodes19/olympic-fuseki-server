@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Katya Crema"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSkiCross>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSkiCross> oly:hasEventName "Freestyle Skiing Women's Ski Cross" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensSkiCross/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensSkiCross/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Katya Crema"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSkiCross>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensSkiCross> oly:hasEventName "Freestyle Skiing Women's Ski Cross" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensSkiCross/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensSkiCross/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/FreestyleSkiing/KatyaCrema> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .

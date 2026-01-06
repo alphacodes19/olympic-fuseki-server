@@ -1,0 +1,123 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Denis Valeryevich Kuzin"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens1000metres> oly:hasEventName "Speed Skating Men's 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1000metres/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1000metres/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasHeight "184.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Denis Valeryevich Kuzin"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres> oly:hasEventName "Speed Skating Men's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasHeight "184.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Denis Valeryevich Kuzin"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens1000metres> oly:hasEventName "Speed Skating Men's 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1000metres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1000metres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasHeight "184.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Denis Valeryevich Kuzin"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres> oly:hasEventName "Speed Skating Men's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasHeight "184.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/SpeedSkating/DenisValeryevichKuzin> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .

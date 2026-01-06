@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Shooting/BadirShoukri> dbo:birthYear "1926.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Shooting/BadirShoukri> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:countryName "Egypt" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "EGY" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Shooting/BadirShoukri> oly:hasNationality <https://w3id.org/olympics-data/Country/Egypt>;
+    oly:hasName "Badir Shoukri"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Shooting/BadirShoukri> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    

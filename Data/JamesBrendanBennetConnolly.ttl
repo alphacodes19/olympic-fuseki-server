@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> dbo:birthYear "1869.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "James Brendan Bennet Connolly"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensHighJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensHighJump> oly:hasEventName "Athletics Men's High Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensHighJump/1896Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1896Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1896"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensHighJump/1896Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1896Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMensHighJump/1896Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> dbo:birthYear "1869.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "James Brendan Bennet Connolly"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensLongJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensLongJump> oly:hasEventName "Athletics Men's Long Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensLongJump/1896Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1896Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1896"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensLongJump/1896Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1896Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMensLongJump/1896Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> dbo:birthYear "1869.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "James Brendan Bennet Connolly"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump> oly:hasEventName "Athletics Men's Triple Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1896Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1896Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1896"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1896Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1896Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1896Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> dbo:birthYear "1869.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "James Brendan Bennet Connolly"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump> oly:hasEventName "Athletics Men's Triple Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1900Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1900Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1900"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1900Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1900Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1900Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> dbo:birthYear "1869.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "James Brendan Bennet Connolly"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensLongJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensLongJump> oly:hasEventName "Athletics Men's Long Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensLongJump/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensLongJump/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> dbo:birthYear "1869.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "James Brendan Bennet Connolly"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensTripleJump> oly:hasEventName "Athletics Men's Triple Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensTripleJump/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Athletics/JamesBrendanBennetConnolly> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .

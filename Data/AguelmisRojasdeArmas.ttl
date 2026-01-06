@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Athletics/AguelmisRojasdeArmas> dbo:birthYear "1979.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Athletics/AguelmisRojasdeArmas> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Cuba> oly:countryName "Cuba" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Cuba> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CUB" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Athletics/AguelmisRojasdeArmas> oly:hasNationality <https://w3id.org/olympics-data/Country/Cuba>;
+    oly:hasName "Aguelmis Rojas de Armas"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensMarathon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensMarathon> oly:hasEventName "Athletics Men's Marathon" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensMarathon/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Athletics/AguelmisRojasdeArmas> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensMarathon/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Athletics/AguelmisRojasdeArmas> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CUB/Athletics/AguelmisRojasdeArmas> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .

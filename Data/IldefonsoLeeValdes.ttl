@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> dbo:birthYear "1936.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Panama> oly:countryName "Panama" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Panama> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "PAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasNationality <https://w3id.org/olympics-data/Country/Panama>;
+    oly:hasName "Ildefonso Lee Valdes"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensFeatherweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensFeatherweight> oly:hasEventName "Weightlifting Men's Featherweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensFeatherweight/1964Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensFeatherweight/1964Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> dbo:birthYear "1936.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Panama> oly:countryName "Panama" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Panama> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "PAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasNationality <https://w3id.org/olympics-data/Country/Panama>;
+    oly:hasName "Ildefonso Lee Valdes"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensFeatherweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensFeatherweight> oly:hasEventName "Weightlifting Men's Featherweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensFeatherweight/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensFeatherweight/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> dbo:birthYear "1936.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Panama> oly:countryName "Panama" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Panama> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "PAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasNationality <https://w3id.org/olympics-data/Country/Panama>;
+    oly:hasName "Ildefonso Lee Valdes"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingMensLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingMensLightweight> oly:hasEventName "Weightlifting Men's Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingMensLightweight/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingMensLightweight/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PAN/Weightlifting/IldefonsoLeeValdes> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .

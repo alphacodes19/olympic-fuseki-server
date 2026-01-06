@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Han Dawei"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMensSprint> oly:hasEventName "Cross Country Skiing Men's Sprint" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensSprint/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMensSprint/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Han Dawei"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Han Dawei"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres> oly:hasEventName "Cross Country Skiing Men's 30 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Han Dawei"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres> oly:hasEventName "Cross Country Skiing Men's 50 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Han Dawei"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens1010kilometresPursuit>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens1010kilometresPursuit> oly:hasEventName "Cross Country Skiing Men's 10/10 kilometres Pursuit" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens1010kilometresPursuit/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens1010kilometresPursuit/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> dbo:birthYear "1978.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Han Dawei"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon> oly:hasEventName "Cross Country Skiing Men's 30 km Skiathlon" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/CrossCountrySkiing/HanDawei> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .

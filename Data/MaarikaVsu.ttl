@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Maarika Vsu"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingWomensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingWomensepeeIndividual> oly:hasEventName "Fencing Women's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingWomensepeeIndividual/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingWomensepeeIndividual/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Maarika Vsu"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingWomensepeeTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingWomensepeeTeam> oly:hasEventName "Fencing Women's epee, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingWomensepeeTeam/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingWomensepeeTeam/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/Fencing/MaarikaVsu> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .

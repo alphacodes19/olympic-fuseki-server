@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> dbo:birthYear "1929.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Arrigo Delladio"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens18kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens18kilometres> oly:hasEventName "Cross Country Skiing Men's 18 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens18kilometres/1952Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Oslo";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens18kilometres/1952Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> dbo:birthYear "1929.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Arrigo Delladio"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay> oly:hasEventName "Cross Country Skiing Men's 4 x 10 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/1952Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Oslo";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/1952Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> dbo:birthYear "1929.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Arrigo Delladio"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres> oly:hasEventName "Cross Country Skiing Men's 30 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/1956Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Cortina d'Ampezzo";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/CrossCountrySkiing/ArrigoDelladio> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/1956Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    

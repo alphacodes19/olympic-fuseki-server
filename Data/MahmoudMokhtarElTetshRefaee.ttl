@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> dbo:birthYear "1906.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:countryName "Egypt" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "EGY" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasNationality <https://w3id.org/olympics-data/Country/Egypt>;
+    oly:hasName "Mahmoud Mokhtar ElTetsh Refaee"  .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasEvent <https://w3id.org/olympics-data/Event/FootballMensFootball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FootballMensFootball> oly:hasEventName "Football Men's Football" .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasSportName "Football" .
+    <https://w3id.org/olympics-data/Medal/FootballMensFootball/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:wonMedal <https://w3id.org/olympics-data/Medal/FootballMensFootball/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Football> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> dbo:birthYear "1906.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:countryName "Egypt" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "EGY" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasNationality <https://w3id.org/olympics-data/Country/Egypt>;
+    oly:hasName "Mahmoud Mokhtar ElTetsh Refaee"  .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasEvent <https://w3id.org/olympics-data/Event/FootballMensFootball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FootballMensFootball> oly:hasEventName "Football Men's Football" .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasSportName "Football" .
+    <https://w3id.org/olympics-data/Medal/FootballMensFootball/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:wonMedal <https://w3id.org/olympics-data/Medal/FootballMensFootball/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Football> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EGY/Football/MahmoudMokhtarElTetshRefaee> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .

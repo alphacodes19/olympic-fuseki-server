@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> dbo:birthYear "1967.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "AnnMarie Lillemor Mia Stadig Bredberg"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens75kilometresSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens75kilometresSprint> oly:hasEventName "Biathlon Women's 7.5 kilometres Sprint" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens75kilometresSprint/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens75kilometresSprint/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> dbo:birthYear "1967.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "AnnMarie Lillemor Mia Stadig Bredberg"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens15kilometres> oly:hasEventName "Biathlon Women's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens15kilometres/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens15kilometres/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> dbo:birthYear "1967.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "AnnMarie Lillemor Mia Stadig Bredberg"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens3x75kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens3x75kilometresRelay> oly:hasEventName "Biathlon Women's 3 x 7.5 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens3x75kilometresRelay/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens3x75kilometresRelay/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/Biathlon/AnnMarieLillemorMiaStadigBredberg> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .

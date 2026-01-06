@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Barbara Sadleder"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingWomensDownhill>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingWomensDownhill> oly:hasEventName "Alpine Skiing Women's Downhill" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensDownhill/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensDownhill/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasHeight "168.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Barbara Sadleder"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingWomensSuperG>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingWomensSuperG> oly:hasEventName "Alpine Skiing Women's Super G" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensSuperG/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensSuperG/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasHeight "168.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUT/AlpineSkiing/BarbaraSadleder> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .

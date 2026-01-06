@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/YekaterinaSadovnik> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/YekaterinaSadovnik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/YekaterinaSadovnik> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yekaterina Sadovnik"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens100metresBreaststroke>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens100metresBreaststroke> oly:hasEventName "Swimming Women's 100 metres Breaststroke" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresBreaststroke/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/YekaterinaSadovnik> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresBreaststroke/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/YekaterinaSadovnik> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/YekaterinaSadovnik> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/FrancisJohnJackHarris> dbo:birthYear "nan"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/FrancisJohnJackHarris> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/FrancisJohnJackHarris> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Francis John Jack Harris"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens800metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens800metres> oly:hasEventName "Athletics Men's 800 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens800metres/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/FrancisJohnJackHarris> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens800metres/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    

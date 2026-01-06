@@ -1,0 +1,92 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> dbo:birthYear "1880.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand> oly:countryName "Royal Club Nautique de Gand" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasNationality <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand>;
+    oly:hasName "Joseph Albert Clestin Rmy Orban"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1kilometres> oly:hasEventName "Rowing Men's Coxed Pairs (1 kilometres)" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensCoxedPairs1kilometres/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensCoxedPairs1kilometres/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasWeight "79.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> dbo:birthYear "1880.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand> oly:countryName "Royal Club Nautique de Gand" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasNationality <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand>;
+    oly:hasName "Joseph Albert Clestin Rmy Orban"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1mile>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1mile> oly:hasEventName "Rowing Men's Coxed Pairs (1 mile)" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensCoxedPairs1mile/1906Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensCoxedPairs1mile/1906Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasWeight "79.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/RowingMensCoxedPairs1mile/1906Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> dbo:birthYear "1880.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand> oly:countryName "Royal Club Nautique de Gand" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasNationality <https://w3id.org/olympics-data/Country/RoyalClubNautiquedeGand>;
+    oly:hasName "Joseph Albert Clestin Rmy Orban"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedEights>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedEights> oly:hasEventName "Rowing Men's Coxed Eights" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensCoxedEights/1908Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensCoxedEights/1908Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Rowing/JosephAlbertClestinRmyOrban> oly:hasWeight "79.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/RowingMensCoxedEights/1908Summer/Silver>  oly:hasMedal "Silver" .

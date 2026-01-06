@@ -1,0 +1,124 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Liu Guoliang"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisMensSingles> oly:hasEventName "Table Tennis Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisMensSingles/1996Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisMensSingles/1996Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasHeight "168.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TableTennisMensSingles/1996Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China2> oly:countryName "China-2" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasNationality <https://w3id.org/olympics-data/Country/China2>;
+    oly:hasName "Liu Guoliang"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisMensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisMensDoubles> oly:hasEventName "Table Tennis Men's Doubles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/1996Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/1996Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasHeight "168.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/1996Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Liu Guoliang"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisMensSingles> oly:hasEventName "Table Tennis Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisMensSingles/2000Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisMensSingles/2000Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasHeight "168.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TableTennisMensSingles/2000Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China1> oly:countryName "China-1" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China1> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasNationality <https://w3id.org/olympics-data/Country/China1>;
+    oly:hasName "Liu Guoliang"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisMensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisMensDoubles> oly:hasEventName "Table Tennis Men's Doubles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/2000Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/2000Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasHeight "168.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/LiuGuoliang> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/2000Summer/Silver>  oly:hasMedal "Silver" .

@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> dbo:birthYear "1955.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:countryName "Egypt" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "EGY" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasNationality <https://w3id.org/olympics-data/Country/Egypt>;
+    oly:hasName "Mohamed ElAshram"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensMiddleweightGrecoRoman>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensMiddleweightGrecoRoman> oly:hasEventName "Wrestling Men's Middleweight, Greco-Roman" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensMiddleweightGrecoRoman/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensMiddleweightGrecoRoman/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> dbo:birthYear "1955.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:countryName "Egypt" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "EGY" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasNationality <https://w3id.org/olympics-data/Country/Egypt>;
+    oly:hasName "Mohamed ElAshram"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensMiddleweightFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensMiddleweightFreestyle> oly:hasEventName "Wrestling Men's Middleweight, Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensMiddleweightFreestyle/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensMiddleweightFreestyle/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EGY/Wrestling/MohamedElAshram> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,66 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Russia1> oly:countryName "Russia-1" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Russia1> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "RUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasNationality <https://w3id.org/olympics-data/Country/Russia1>;
+    oly:hasName "Oksana Vladimirovna Pasha Grishchuk"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingMixedIceDancing>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingMixedIceDancing> oly:hasEventName "Figure Skating Mixed Ice Dancing" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingMixedIceDancing/1994Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingMixedIceDancing/1994Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FigureSkatingMixedIceDancing/1994Winter/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Russia1> oly:countryName "Russia-1" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Russia1> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "RUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasNationality <https://w3id.org/olympics-data/Country/Russia1>;
+    oly:hasName "Oksana Vladimirovna Pasha Grishchuk"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingMixedIceDancing>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingMixedIceDancing> oly:hasEventName "Figure Skating Mixed Ice Dancing" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingMixedIceDancing/1998Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingMixedIceDancing/1998Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/RUS/FigureSkating/OksanaVladimirovnaPashaGrishchuk> oly:hasWeight "50.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FigureSkatingMixedIceDancing/1998Winter/Gold>  oly:hasMedal "Gold" .

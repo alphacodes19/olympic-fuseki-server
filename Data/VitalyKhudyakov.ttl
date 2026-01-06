@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/VitalyKhudyakov> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/VitalyKhudyakov> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/VitalyKhudyakov> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Vitaly Khudyakov"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens10kilometresOpenWater>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens10kilometresOpenWater> oly:hasEventName "Swimming Men's 10 kilometres Open Water" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens10kilometresOpenWater/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/VitalyKhudyakov> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens10kilometresOpenWater/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/VitalyKhudyakov> oly:hasHeight "186.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/Swimming/VitalyKhudyakov> oly:hasWeight "83.0"^^<http://www.w3.org/2001/XMLSchema#int> .

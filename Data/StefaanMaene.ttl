@@ -1,0 +1,152 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Stefaan Maene"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresFreestyle> oly:hasEventName "Swimming Men's 200 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresFreestyle/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasHeight "189.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Stefaan Maene"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens100metresBackstroke>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens100metresBackstroke> oly:hasEventName "Swimming Men's 100 metres Backstroke" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens100metresBackstroke/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens100metresBackstroke/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasHeight "189.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Stefaan Maene"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresBackstroke>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresBackstroke> oly:hasEventName "Swimming Men's 200 metres Backstroke" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresBackstroke/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresBackstroke/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasHeight "189.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Stefaan Maene"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley> oly:hasEventName "Swimming Men's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasHeight "189.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Stefaan Maene"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresMedleyRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresMedleyRelay> oly:hasEventName "Swimming Men's 4 x 100 metres Medley Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresMedleyRelay/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresMedleyRelay/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasHeight "189.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Swimming/StefaanMaene> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .

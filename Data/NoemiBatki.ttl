@@ -1,0 +1,121 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Noemi Batki"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/Womens10mPlatform>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Womens10mPlatform> oly:hasEventName "Women's 10m Platform" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/Womens10mPlatform/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:wonMedal <https://w3id.org/olympics-data/Medal/Womens10mPlatform/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Noemi Batki"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingWomensSynchronizedSpringboard>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingWomensSynchronizedSpringboard> oly:hasEventName "Diving Women's Synchronized Springboard" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingWomensSynchronizedSpringboard/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingWomensSynchronizedSpringboard/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Noemi Batki"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingWomensPlatform>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingWomensPlatform> oly:hasEventName "Diving Women's Platform" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingWomensPlatform/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingWomensPlatform/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Noemi Batki"  .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasEvent <https://w3id.org/olympics-data/Event/DivingWomensPlatform>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/DivingWomensPlatform> oly:hasEventName "Diving Women's Platform" .
+    <https://w3id.org/olympics-data/Sport/Diving> oly:hasSportName "Diving" .
+    <https://w3id.org/olympics-data/Medal/DivingWomensPlatform/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:wonMedal <https://w3id.org/olympics-data/Medal/DivingWomensPlatform/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Diving> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Diving/NoemiBatki> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .

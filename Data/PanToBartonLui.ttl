@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HKG/ShortTrackSpeedSkating/PanToBartonLui> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HKG/ShortTrackSpeedSkating/PanToBartonLui> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/HongKong> oly:countryName "Hong Kong" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/HongKong> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "HKG" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HKG/ShortTrackSpeedSkating/PanToBartonLui> oly:hasNationality <https://w3id.org/olympics-data/Country/HongKong>;
+    oly:hasName "PanTo Barton Lui"  .
+    <https://w3id.org/olympics-data/Sport/ShortTrackSpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/ShortTrackSpeedSkatingMens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShortTrackSpeedSkatingMens1500metres> oly:hasEventName "Short Track Speed Skating Men's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/ShortTrackSpeedSkating> oly:hasSportName "Short Track Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/ShortTrackSpeedSkatingMens1500metres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HKG/ShortTrackSpeedSkating/PanToBartonLui> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShortTrackSpeedSkatingMens1500metres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ShortTrackSpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HKG/ShortTrackSpeedSkating/PanToBartonLui> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HKG/ShortTrackSpeedSkating/PanToBartonLui> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .

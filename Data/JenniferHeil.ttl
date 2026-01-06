@@ -1,0 +1,95 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Jennifer Heil"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls> oly:hasEventName "Freestyle Skiing Women's Moguls" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasWeight "56.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Jennifer Heil"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls> oly:hasEventName "Freestyle Skiing Women's Moguls" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2006Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2006Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasWeight "56.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2006Winter/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Jennifer Heil"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensMoguls> oly:hasEventName "Freestyle Skiing Women's Moguls" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2010Winter/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2010Winter/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/FreestyleSkiing/JenniferHeil> oly:hasWeight "56.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensMoguls/2010Winter/Silver>  oly:hasMedal "Silver" .

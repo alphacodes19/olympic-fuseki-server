@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Volleyball/GwagYongJa> dbo:birthYear "1947.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Volleyball/GwagYongJa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Volleyball/GwagYongJa> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Gwag YongJa"  .
+    <https://w3id.org/olympics-data/Sport/Volleyball> oly:hasEvent <https://w3id.org/olympics-data/Event/VolleyballWomensVolleyball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/VolleyballWomensVolleyball> oly:hasEventName "Volleyball Women's Volleyball" .
+    <https://w3id.org/olympics-data/Sport/Volleyball> oly:hasSportName "Volleyball" .
+    <https://w3id.org/olympics-data/Medal/VolleyballWomensVolleyball/1964Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Volleyball/GwagYongJa> oly:wonMedal <https://w3id.org/olympics-data/Medal/VolleyballWomensVolleyball/1964Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Volleyball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/Volleyball/GwagYongJa> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/Volleyball/GwagYongJa> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .

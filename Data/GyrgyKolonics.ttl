@@ -1,0 +1,211 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gyrgy Kolonics"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles500metres/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles500metres/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gyrgy Kolonics"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gyrgy Kolonics"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles500metres/1996Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles500metres/1996Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles500metres/1996Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gyrgy Kolonics"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/1996Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/1996Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/1996Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gyrgy Kolonics"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles500metres> oly:hasEventName "Canoeing Men's Canadian Singles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSingles500metres/2000Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSingles500metres/2000Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSingles500metres/2000Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gyrgy Kolonics"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles500metres/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles500metres/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> dbo:birthYear "1972.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Gyrgy Kolonics"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/2004Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/2004Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/HUN/Canoeing/GyrgyKolonics> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CanoeingMensCanadianDoubles1000metres/2004Summer/Bronze>  oly:hasMedal "Bronze" .

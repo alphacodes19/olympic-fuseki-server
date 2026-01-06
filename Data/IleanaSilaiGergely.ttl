@@ -1,0 +1,152 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> dbo:birthYear "1942.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Romania> oly:countryName "Romania" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Romania> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ROU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasNationality <https://w3id.org/olympics-data/Country/Romania>;
+    oly:hasName "Ileana Silai Gergely"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens800metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens800metres> oly:hasEventName "Athletics Women's 800 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/1968Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/1968Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasWeight "49.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/1968Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> dbo:birthYear "1942.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Romania> oly:countryName "Romania" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Romania> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ROU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasNationality <https://w3id.org/olympics-data/Country/Romania>;
+    oly:hasName "Ileana Silai Gergely"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens800metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens800metres> oly:hasEventName "Athletics Women's 800 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasWeight "49.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> dbo:birthYear "1942.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Romania> oly:countryName "Romania" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Romania> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ROU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasNationality <https://w3id.org/olympics-data/Country/Romania>;
+    oly:hasName "Ileana Silai Gergely"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens800metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens800metres> oly:hasEventName "Athletics Women's 800 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasWeight "49.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> dbo:birthYear "1942.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Romania> oly:countryName "Romania" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Romania> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ROU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasNationality <https://w3id.org/olympics-data/Country/Romania>;
+    oly:hasName "Ileana Silai Gergely"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens1500metres> oly:hasEventName "Athletics Women's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens1500metres/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens1500metres/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasWeight "49.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> dbo:birthYear "1942.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Romania> oly:countryName "Romania" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Romania> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ROU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasNationality <https://w3id.org/olympics-data/Country/Romania>;
+    oly:hasName "Ileana Silai Gergely"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens1500metres> oly:hasEventName "Athletics Women's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens1500metres/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens1500metres/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ROU/Athletics/IleanaSilaiGergely> oly:hasWeight "49.0"^^<http://www.w3.org/2001/XMLSchema#int> .

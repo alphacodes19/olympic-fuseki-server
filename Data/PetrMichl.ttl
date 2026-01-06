@@ -1,0 +1,268 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens10kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens10kilometres> oly:hasEventName "Cross Country Skiing Men's 10 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens10kilometres/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens10kilometres/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres> oly:hasEventName "Cross Country Skiing Men's 50 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens1015kilometresPursuit>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens1015kilometresPursuit> oly:hasEventName "Cross Country Skiing Men's 10/15 kilometres Pursuit" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens1015kilometresPursuit/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens1015kilometresPursuit/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay> oly:hasEventName "Cross Country Skiing Men's 4 x 10 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kilometres> oly:hasEventName "Cross Country Skiing Men's 30 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kilometres/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres> oly:hasEventName "Cross Country Skiing Men's 50 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay> oly:hasEventName "Cross Country Skiing Men's 4 x 10 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> dbo:birthYear "1971.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Petr Michl"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/CrossCountrySkiing/PetrMichl> oly:hasWeight "69.0"^^<http://www.w3.org/2001/XMLSchema#int> .

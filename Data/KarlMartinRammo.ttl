@@ -1,0 +1,92 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "KarlMartin Rammo"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensOnePersonDinghyLaser>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensOnePersonDinghyLaser> oly:hasEventName "Men's One Person Dinghy - Laser" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/MensOnePersonDinghyLaser/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensOnePersonDinghyLaser/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "KarlMartin Rammo"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMensOnePersonDinghy>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMensOnePersonDinghy> oly:hasEventName "Sailing Men's One Person Dinghy" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMensOnePersonDinghy/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMensOnePersonDinghy/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasHeight "190.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "KarlMartin Rammo"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMensOnePersonDinghy>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMensOnePersonDinghy> oly:hasEventName "Sailing Men's One Person Dinghy" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMensOnePersonDinghy/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMensOnePersonDinghy/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasHeight "190.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/Sailing/KarlMartinRammo> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .

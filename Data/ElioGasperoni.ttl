@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> dbo:birthYear "1943.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SanMarino> oly:countryName "San Marino" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/SanMarino> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SMR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasNationality <https://w3id.org/olympics-data/Country/SanMarino>;
+    oly:hasName "Elio Gasperoni"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> dbo:birthYear "1943.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SanMarino> oly:countryName "San Marino" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/SanMarino> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SMR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasNationality <https://w3id.org/olympics-data/Country/SanMarino>;
+    oly:hasName "Elio Gasperoni"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SMR/Shooting/ElioGasperoni> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .

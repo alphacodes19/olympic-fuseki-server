@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kathrine Bomstad Aldabe"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresButterfly>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresButterfly> oly:hasEventName "Swimming Women's 200 metres Butterfly" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresButterfly/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresButterfly/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kathrine Bomstad Aldabe"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresIndividualMedley> oly:hasEventName "Swimming Women's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresIndividualMedley/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kathrine Bomstad Aldabe"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens400metresIndividualMedley> oly:hasEventName "Swimming Women's 400 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens400metresIndividualMedley/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Swimming/KathrineBomstadAldabe> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .

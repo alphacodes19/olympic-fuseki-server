@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Wioletta Potpa"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomensDiscusThrow>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomensDiscusThrow> oly:hasEventName "Athletics Women's Discus Throw" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomensDiscusThrow/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomensDiscusThrow/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasWeight "95.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Wioletta Potpa"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomensDiscusThrow>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomensDiscusThrow> oly:hasEventName "Athletics Women's Discus Throw" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomensDiscusThrow/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomensDiscusThrow/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Athletics/WiolettaPotpa> oly:hasWeight "95.0"^^<http://www.w3.org/2001/XMLSchema#int> .

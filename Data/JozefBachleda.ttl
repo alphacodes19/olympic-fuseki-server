@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/NordicCombined/JozefBachleda> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/NordicCombined/JozefBachleda> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Slovakia> oly:countryName "Slovakia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Slovakia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SVK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/NordicCombined/JozefBachleda> oly:hasNationality <https://w3id.org/olympics-data/Country/Slovakia>;
+    oly:hasName "Jozef Bachleda"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/NordicCombined/JozefBachleda> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/NordicCombined/JozefBachleda> oly:hasHeight "181.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SVK/NordicCombined/JozefBachleda> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .

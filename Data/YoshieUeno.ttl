@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Judo/YoshieUeno> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Judo/YoshieUeno> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Judo/YoshieUeno> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yoshie Ueno"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensHalfMiddleweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensHalfMiddleweight> oly:hasEventName "Judo Women's Half-Middleweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/JudoWomensHalfMiddleweight/2012Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Judo/YoshieUeno> oly:wonMedal <https://w3id.org/olympics-data/Medal/JudoWomensHalfMiddleweight/2012Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/Judo/YoshieUeno> oly:hasHeight "164.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/Judo/YoshieUeno> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/JudoWomensHalfMiddleweight/2012Summer/Bronze>  oly:hasMedal "Bronze" .

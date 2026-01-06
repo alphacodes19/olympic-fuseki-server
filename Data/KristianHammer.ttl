@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kristian Hammer"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kristian Hammer"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam> oly:hasEventName "Nordic Combined Men's Team" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kristian Hammer"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kristian Hammer"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensSprint> oly:hasEventName "Nordic Combined Men's Sprint" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensSprint/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensSprint/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kristian Hammer"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Kristian Hammer"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensSprint> oly:hasEventName "Nordic Combined Men's Sprint" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensSprint/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensSprint/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/KristianHammer> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .

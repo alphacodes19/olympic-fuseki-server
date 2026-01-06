@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Tennis/SbastienLeBlanc> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Tennis/SbastienLeBlanc> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Tennis/SbastienLeBlanc> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Sbastien LeBlanc"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisMensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisMensDoubles> oly:hasEventName "Tennis Men's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisMensDoubles/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Tennis/SbastienLeBlanc> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisMensDoubles/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Tennis/SbastienLeBlanc> oly:hasHeight "193.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Tennis/SbastienLeBlanc> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .

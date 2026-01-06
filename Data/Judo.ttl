@@ -1,0 +1,308 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensHalfLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensHalfLightweight> oly:hasEventName "Judo Men's Half-Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensLightweight> oly:hasEventName "Judo Men's Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensHalfMiddleweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensHalfMiddleweight> oly:hasEventName "Judo Men's Half-Middleweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women70kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women70kg> oly:hasEventName "Women -70 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women63kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women63kg> oly:hasEventName "Women -63 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women48kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women48kg> oly:hasEventName "Women -48 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men66kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men66kg> oly:hasEventName "Men -66 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men60kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men60kg> oly:hasEventName "Men -60 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women52kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women52kg> oly:hasEventName "Women -52 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men90kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men90kg> oly:hasEventName "Men -90 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensMiddleweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensMiddleweight> oly:hasEventName "Judo Men's Middleweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensHalfMiddleweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensHalfMiddleweight> oly:hasEventName "Judo Women's Half-Middleweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensExtraLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensExtraLightweight> oly:hasEventName "Judo Women's Extra-Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensMiddleweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensMiddleweight> oly:hasEventName "Judo Women's Middleweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensLightweight> oly:hasEventName "Judo Women's Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensHalfLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensHalfLightweight> oly:hasEventName "Judo Women's Half-Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensHalfHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensHalfHeavyweight> oly:hasEventName "Judo Women's Half-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensExtraLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensExtraLightweight> oly:hasEventName "Judo Men's Extra-Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensHeavyweight> oly:hasEventName "Judo Women's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensHeavyweight> oly:hasEventName "Judo Men's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensOpenClass>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensOpenClass> oly:hasEventName "Judo Men's Open Class" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensHalfHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensHalfHeavyweight> oly:hasEventName "Judo Men's Half-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men73kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men73kg> oly:hasEventName "Men -73 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/MixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MixedTeam> oly:hasEventName "Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men81kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men81kg> oly:hasEventName "Men -81 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women57kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women57kg> oly:hasEventName "Women -57 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women78kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women78kg> oly:hasEventName "Women +78 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men100kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men100kg> oly:hasEventName "Men -100 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women78kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women78kg> oly:hasEventName "Women -78 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men100kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men100kg> oly:hasEventName "Men +100 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    
+   
+
+    

@@ -1,0 +1,12 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    @prefix dbo: <https://dbpedia.org/ontology/>.
+    
+    <https://w3id.org/olympics-data/Medal/WrestlingWomensMiddleweightFreestyle/2016Summer/Bronze> a oly:Medal .
+    
+    
+    <https://w3id.org/olympics-data/Medal/WrestlingWomensMiddleweightFreestyle/2016Summer/Bronze>  oly:hasMedal "Bronze" .

@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Ella Gjmle Berg"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomensSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomensSprint> oly:hasEventName "Cross Country Skiing Women's Sprint" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomensSprint/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomensSprint/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasWeight "61.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Ella Gjmle Berg"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens30kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens30kilometres> oly:hasEventName "Cross Country Skiing Women's 30 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens30kilometres/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens30kilometres/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasWeight "61.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Ella Gjmle Berg"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomensTeamSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomensTeamSprint> oly:hasEventName "Cross Country Skiing Women's Team Sprint" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomensTeamSprint/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomensTeamSprint/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/CrossCountrySkiing/EllaGjmleBerg> oly:hasWeight "61.0"^^<http://www.w3.org/2001/XMLSchema#int> .

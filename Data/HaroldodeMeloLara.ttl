@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Haroldo de Melo Lara"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens100metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens100metresFreestyle> oly:hasEventName "Swimming Men's 100 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens100metresFreestyle/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens100metresFreestyle/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Haroldo de Melo Lara"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x200metresFreestyleRelay> oly:hasEventName "Swimming Men's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x200metresFreestyleRelay/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Haroldo de Melo Lara"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens100metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens100metresFreestyle> oly:hasEventName "Swimming Men's 100 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens100metresFreestyle/1956Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Melbourne";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Swimming/HaroldodeMeloLara> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens100metresFreestyle/1956Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    

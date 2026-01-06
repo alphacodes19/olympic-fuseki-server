@@ -1,0 +1,258 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAroundFreeSystem>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAroundFreeSystem> oly:hasEventName "Gymnastics Men's Team All-Around, Free System" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAroundSwedishSystem>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAroundSwedishSystem> oly:hasEventName "Gymnastics Men's Team All-Around, Swedish System" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround5Events>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround5Events> oly:hasEventName "Gymnastics Men's Individual All-Around, 5 Events" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround> oly:hasEventName "Gymnastics Women's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround> oly:hasEventName "Gymnastics Women's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise> oly:hasEventName "Gymnastics Women's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensHorseVault> oly:hasEventName "Gymnastics Women's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars> oly:hasEventName "Gymnastics Women's Uneven Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam> oly:hasEventName "Gymnastics Women's Balance Beam" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise> oly:hasEventName "Gymnastics Men's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault> oly:hasEventName "Gymnastics Men's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars> oly:hasEventName "Gymnastics Men's Parallel Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar> oly:hasEventName "Gymnastics Men's Horizontal Bar" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRings> oly:hasEventName "Gymnastics Men's Rings" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse> oly:hasEventName "Gymnastics Men's Pommelled Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAroundFieldSports>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAroundFieldSports> oly:hasEventName "Gymnastics Men's Individual All-Around, Field Sports" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAroundApparatusWork>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAroundApparatusWork> oly:hasEventName "Gymnastics Men's Individual All-Around, Apparatus Work" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamPortableApparatus>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamPortableApparatus> oly:hasEventName "Gymnastics Women's Team Portable Apparatus" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRopeClimbing>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRopeClimbing> oly:hasEventName "Gymnastics Men's Rope Climbing" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensSideHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensSideHorse> oly:hasEventName "Gymnastics Men's Side Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround4Events>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround4Events> oly:hasEventName "Gymnastics Men's Individual All-Around, 4 Events" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensClubSwinging>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensClubSwinging> oly:hasEventName "Gymnastics Men's Club Swinging" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTumbling>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTumbling> oly:hasEventName "Gymnastics Men's Tumbling" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    
+   
+
+    

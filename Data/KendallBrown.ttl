@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> dbo:birthYear "1990.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NewZealand> oly:countryName "New Zealand" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/NewZealand> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "NZL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasNationality <https://w3id.org/olympics-data/Country/NewZealand>;
+    oly:hasName "Kendall Brown"  .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/SnowboardingWomensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SnowboardingWomensHalfpipe> oly:hasEventName "Snowboarding Women's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasSportName "Snowboarding" .
+    <https://w3id.org/olympics-data/Medal/SnowboardingWomensHalfpipe/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:wonMedal <https://w3id.org/olympics-data/Medal/SnowboardingWomensHalfpipe/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Snowboarding> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasHeight "153.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasWeight "43.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> dbo:birthYear "1990.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NewZealand> oly:countryName "New Zealand" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/NewZealand> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "NZL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasNationality <https://w3id.org/olympics-data/Country/NewZealand>;
+    oly:hasName "Kendall Brown"  .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/SnowboardingWomensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SnowboardingWomensHalfpipe> oly:hasEventName "Snowboarding Women's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasSportName "Snowboarding" .
+    <https://w3id.org/olympics-data/Medal/SnowboardingWomensHalfpipe/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:wonMedal <https://w3id.org/olympics-data/Medal/SnowboardingWomensHalfpipe/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Snowboarding> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasHeight "153.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NZL/Snowboarding/KendallBrown> oly:hasWeight "43.0"^^<http://www.w3.org/2001/XMLSchema#int> .

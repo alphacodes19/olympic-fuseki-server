@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> dbo:birthYear "1888.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Arne Halse"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrowFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrowFreestyle> oly:hasEventName "Athletics Men's Javelin Throw, Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrowFreestyle/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrowFreestyle/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> dbo:birthYear "1888.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Arne Halse"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensShotPut>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensShotPut> oly:hasEventName "Athletics Men's Shot Put" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensShotPut/1908Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensShotPut/1908Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> dbo:birthYear "1888.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Arne Halse"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrow>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrow> oly:hasEventName "Athletics Men's Javelin Throw" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrow/1908Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrow/1908Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrow/1908Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> dbo:birthYear "1888.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Arne Halse"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrowFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrowFreestyle> oly:hasEventName "Athletics Men's Javelin Throw, Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrowFreestyle/1908Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrowFreestyle/1908Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrowFreestyle/1908Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> dbo:birthYear "1888.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Arne Halse"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrow>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrow> oly:hasEventName "Athletics Men's Javelin Throw" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrow/1912Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1912Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1912"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrow/1912Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1912Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> dbo:birthYear "1888.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Arne Halse"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrowBothHands>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensJavelinThrowBothHands> oly:hasEventName "Athletics Men's Javelin Throw, Both Hands" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrowBothHands/1912Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1912Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1912"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensJavelinThrowBothHands/1912Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1912Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/Athletics/ArneHalse> oly:hasWeight "80.0"^^<http://www.w3.org/2001/XMLSchema#int> .

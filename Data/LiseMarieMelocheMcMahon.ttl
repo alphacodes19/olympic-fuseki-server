@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Lise Marie Meloche McMahon"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens75kilometresSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens75kilometresSprint> oly:hasEventName "Biathlon Women's 7.5 kilometres Sprint" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens75kilometresSprint/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens75kilometresSprint/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Lise Marie Meloche McMahon"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens15kilometres> oly:hasEventName "Biathlon Women's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens15kilometres/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens15kilometres/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Lise Marie Meloche McMahon"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens3x75kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens3x75kilometresRelay> oly:hasEventName "Biathlon Women's 3 x 7.5 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens3x75kilometresRelay/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens3x75kilometresRelay/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Lise Marie Meloche McMahon"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens75kilometresSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens75kilometresSprint> oly:hasEventName "Biathlon Women's 7.5 kilometres Sprint" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens75kilometresSprint/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens75kilometresSprint/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Lise Marie Meloche McMahon"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens15kilometres> oly:hasEventName "Biathlon Women's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens15kilometres/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens15kilometres/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Lise Marie Meloche McMahon"  .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasEvent <https://w3id.org/olympics-data/Event/BiathlonWomens4x75kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BiathlonWomens4x75kilometresRelay> oly:hasEventName "Biathlon Women's 4 x 7.5 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/Biathlon> oly:hasSportName "Biathlon" .
+    <https://w3id.org/olympics-data/Medal/BiathlonWomens4x75kilometresRelay/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:wonMedal <https://w3id.org/olympics-data/Medal/BiathlonWomens4x75kilometresRelay/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Biathlon> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Biathlon/LiseMarieMelocheMcMahon> oly:hasWeight "59.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Snowboarding/NikitaAlekseyevichAvtaneyev> dbo:birthYear "1996.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Snowboarding/NikitaAlekseyevichAvtaneyev> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Russia> oly:countryName "Russia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Russia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "RUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Snowboarding/NikitaAlekseyevichAvtaneyev> oly:hasNationality <https://w3id.org/olympics-data/Country/Russia>;
+    oly:hasName "Nikita Alekseyevich Avtaneyev"  .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/SnowboardingMensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SnowboardingMensHalfpipe> oly:hasEventName "Snowboarding Men's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasSportName "Snowboarding" .
+    <https://w3id.org/olympics-data/Medal/SnowboardingMensHalfpipe/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Snowboarding/NikitaAlekseyevichAvtaneyev> oly:wonMedal <https://w3id.org/olympics-data/Medal/SnowboardingMensHalfpipe/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Snowboarding> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Snowboarding/NikitaAlekseyevichAvtaneyev> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/RUS/Snowboarding/NikitaAlekseyevichAvtaneyev> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .

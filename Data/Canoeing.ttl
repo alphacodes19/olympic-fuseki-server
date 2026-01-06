@@ -1,0 +1,278 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakFours1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakFours1000metres> oly:hasEventName "Canoeing Men's Kayak Fours, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles1000metres> oly:hasEventName "Canoeing Men's Kayak Doubles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingWomensKayakFours500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingWomensKayakFours500metres> oly:hasEventName "Canoeing Women's Kayak Fours, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingWomensKayakDoubles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingWomensKayakDoubles500metres> oly:hasEventName "Canoeing Women's Kayak Doubles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles500metres> oly:hasEventName "Canoeing Men's Kayak Doubles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles500metres> oly:hasEventName "Canoeing Men's Canadian Singles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles1000metres> oly:hasEventName "Canoeing Men's Canadian Singles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres> oly:hasEventName "Canoeing Men's Kayak Singles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles10000metres> oly:hasEventName "Canoeing Men's Kayak Singles, 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles500metres> oly:hasEventName "Canoeing Men's Kayak Singles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingWomensKayakSingles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingWomensKayakSingles500metres> oly:hasEventName "Canoeing Women's Kayak Singles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles10000metres> oly:hasEventName "Canoeing Men's Kayak Doubles, 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSinglesSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSinglesSlalom> oly:hasEventName "Canoeing Men's Kayak Singles, Slalom" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles500metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles1000metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles200metres> oly:hasEventName "Canoeing Men's Canadian Singles, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingWomensKayakSinglesSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingWomensKayakSinglesSlalom> oly:hasEventName "Canoeing Women's Kayak Singles, Slalom" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles200metres> oly:hasEventName "Canoeing Men's Kayak Singles, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles200metres> oly:hasEventName "Canoeing Men's Kayak Doubles, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSinglesSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSinglesSlalom> oly:hasEventName "Canoeing Men's Canadian Singles, Slalom" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoublesSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoublesSlalom> oly:hasEventName "Canoeing Men's Canadian Doubles, Slalom" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingWomensKayakSingles200metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingWomensKayakSingles200metres> oly:hasEventName "Canoeing Women's Kayak Singles, 200 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakRelay4x500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakRelay4x500metres> oly:hasEventName "Canoeing Men's Kayak Relay 4 x 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSingles10000metres> oly:hasEventName "Canoeing Men's Canadian Singles, 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianDoubles10000metres> oly:hasEventName "Canoeing Men's Canadian Doubles, 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensFoldingKayakSingles10kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensFoldingKayakSingles10kilometres> oly:hasEventName "Canoeing Men's Folding Kayak Singles, 10 kilometres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensFoldingKayakDoubles10kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensFoldingKayakDoubles10kilometres> oly:hasEventName "Canoeing Men's Folding Kayak Doubles, 10 kilometres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    
+   
+
+    

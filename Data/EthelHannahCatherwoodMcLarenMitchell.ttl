@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/EthelHannahCatherwoodMcLarenMitchell> dbo:birthYear "1908.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/EthelHannahCatherwoodMcLarenMitchell> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/EthelHannahCatherwoodMcLarenMitchell> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Ethel Hannah Catherwood McLaren Mitchell"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomensHighJump>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomensHighJump> oly:hasEventName "Athletics Women's High Jump" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomensHighJump/1928Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/EthelHannahCatherwoodMcLarenMitchell> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomensHighJump/1928Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/EthelHannahCatherwoodMcLarenMitchell> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Athletics/EthelHannahCatherwoodMcLarenMitchell> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/AthleticsWomensHighJump/1928Summer/Gold>  oly:hasMedal "Gold" .

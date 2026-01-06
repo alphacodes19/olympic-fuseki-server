@@ -1,0 +1,168 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men80kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men80kg> oly:hasEventName "Men -80kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensWelterweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensWelterweight> oly:hasEventName "Taekwondo Women's Welterweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensHeavyweight> oly:hasEventName "Taekwondo Women's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women49kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women49kg> oly:hasEventName "Women -49kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men68kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men68kg> oly:hasEventName "Men -68kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men58kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men58kg> oly:hasEventName "Men -58kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensFeatherweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensFeatherweight> oly:hasEventName "Taekwondo Women's Featherweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoMensFlyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoMensFlyweight> oly:hasEventName "Taekwondo Men's Flyweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoMensHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoMensHeavyweight> oly:hasEventName "Taekwondo Men's Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoMensWelterweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoMensWelterweight> oly:hasEventName "Taekwondo Men's Welterweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoMensFeatherweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoMensFeatherweight> oly:hasEventName "Taekwondo Men's Featherweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/TaekwondoWomensFlyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TaekwondoWomensFlyweight> oly:hasEventName "Taekwondo Women's Flyweight" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women67kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women67kg> oly:hasEventName "Women +67kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women67kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women67kg> oly:hasEventName "Women -67kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women57kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women57kg> oly:hasEventName "Women -57kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men80kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men80kg> oly:hasEventName "Men +80kg" .
+    <https://w3id.org/olympics-data/Sport/Taekwondo> oly:hasSportName "Taekwondo" .
+    
+   
+
+    

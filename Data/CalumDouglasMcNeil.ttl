@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Wrestling/CalumDouglasMcNeil> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Wrestling/CalumDouglasMcNeil> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Wrestling/CalumDouglasMcNeil> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Calum Douglas McNeil"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensLightweightFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensLightweightFreestyle> oly:hasEventName "Wrestling Men's Lightweight, Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightFreestyle/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Wrestling/CalumDouglasMcNeil> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightFreestyle/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Wrestling/CalumDouglasMcNeil> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Wrestling/CalumDouglasMcNeil> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .

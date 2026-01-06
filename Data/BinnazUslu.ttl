@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Turkey> oly:countryName "Turkey" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Turkey> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "TUR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasNationality <https://w3id.org/olympics-data/Country/Turkey>;
+    oly:hasName "Binnaz Uslu"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens800metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens800metres> oly:hasEventName "Athletics Women's 800 metres" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens800metres/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasWeight "55.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Turkey> oly:countryName "Turkey" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Turkey> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "TUR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasNationality <https://w3id.org/olympics-data/Country/Turkey>;
+    oly:hasName "Binnaz Uslu"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens3000metresSteeplechase>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens3000metresSteeplechase> oly:hasEventName "Athletics Women's 3,000 metres Steeplechase" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens3000metresSteeplechase/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens3000metresSteeplechase/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/TUR/Athletics/BinnazUslu> oly:hasWeight "55.0"^^<http://www.w3.org/2001/XMLSchema#int> .

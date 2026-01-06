@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Ladislav Dluho"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasWeight "65.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Ladislav Dluho"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual> oly:hasEventName "Ski Jumping Men's Large Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasWeight "65.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> dbo:birthYear "1966.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:countryName "Czech Republic" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/CzechRepublic> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "CZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasNationality <https://w3id.org/olympics-data/Country/CzechRepublic>;
+    oly:hasName "Ladislav Dluho"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam> oly:hasEventName "Ski Jumping Men's Large Hill, Team" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CZE/SkiJumping/LadislavDluho> oly:hasWeight "65.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> dbo:birthYear "1975.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Kim HyonUng"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensAirPistol10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensAirPistol10metres> oly:hasEventName "Shooting Men's Air Pistol, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensAirPistol10metres/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensAirPistol10metres/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> dbo:birthYear "1975.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Kim HyonUng"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRapidFirePistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRapidFirePistol25metres> oly:hasEventName "Shooting Men's Rapid-Fire Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensRapidFirePistol25metres/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensRapidFirePistol25metres/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> dbo:birthYear "1975.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Kim HyonUng"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metres> oly:hasEventName "Shooting Men's Free Pistol, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol50metres/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol50metres/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/Shooting/KimHyonUng> oly:hasWeight "75.0"^^<http://www.w3.org/2001/XMLSchema#int> .

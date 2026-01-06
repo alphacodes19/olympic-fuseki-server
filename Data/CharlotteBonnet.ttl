@@ -1,0 +1,347 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Womens100mFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Womens100mFreestyle> oly:hasEventName "Women's 100m Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Womens100mFreestyle/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/Womens100mFreestyle/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Womens200mFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Womens200mFreestyle> oly:hasEventName "Women's 200m Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Womens200mFreestyle/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/Womens200mFreestyle/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Womens4x100mFreestyleRelayTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Womens4x100mFreestyleRelayTeam> oly:hasEventName "Women's 4 x 100m Freestyle Relay Team" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Womens4x100mFreestyleRelayTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/Womens4x100mFreestyleRelayTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Womens4x200mFreestyleRelayTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Womens4x200mFreestyleRelayTeam> oly:hasEventName "Women's 4 x 200m Freestyle Relay Team" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Womens4x200mFreestyleRelayTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/Womens4x200mFreestyleRelayTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens100metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens100metresFreestyle> oly:hasEventName "Swimming Women's 100 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresFreestyle/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresFreestyle/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens4x200metresFreestyleRelay> oly:hasEventName "Swimming Women's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens4x200metresFreestyleRelay/2012Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens4x200metresFreestyleRelay/2012Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SwimmingWomens4x200metresFreestyleRelay/2012Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresMedleyRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresMedleyRelay> oly:hasEventName "Swimming Women's 4 x 100 metres Medley Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresMedleyRelay/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresMedleyRelay/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens100metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens100metresFreestyle> oly:hasEventName "Swimming Women's 100 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresFreestyle/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens100metresFreestyle/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens200metresFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens200metresFreestyle> oly:hasEventName "Swimming Women's 200 metres Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresFreestyle/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens200metresFreestyle/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresFreestyleRelay> oly:hasEventName "Swimming Women's 4 x 100 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresFreestyleRelay/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresFreestyleRelay/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens4x200metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens4x200metresFreestyleRelay> oly:hasEventName "Swimming Women's 4 x 200 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens4x200metresFreestyleRelay/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens4x200metresFreestyleRelay/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Charlotte Bonnet"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresMedleyRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingWomens4x100metresMedleyRelay> oly:hasEventName "Swimming Women's 4 x 100 metres Medley Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresMedleyRelay/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingWomens4x100metresMedleyRelay/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Swimming/CharlotteBonnet> oly:hasWeight "64.0"^^<http://www.w3.org/2001/XMLSchema#int> .

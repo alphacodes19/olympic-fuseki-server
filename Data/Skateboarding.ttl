@@ -1,0 +1,48 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensPark>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensPark> oly:hasEventName "Women's Park" .
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasSportName "Skateboarding" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensStreet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensStreet> oly:hasEventName "Women's Street" .
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasSportName "Skateboarding" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/MensPark>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensPark> oly:hasEventName "Men's Park" .
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasSportName "Skateboarding" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/MensStreet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensStreet> oly:hasEventName "Men's Street" .
+    <https://w3id.org/olympics-data/Sport/Skateboarding> oly:hasSportName "Skateboarding" .
+    
+   
+
+    

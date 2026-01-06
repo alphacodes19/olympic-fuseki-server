@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Shooting/ArturoVillanueva> dbo:birthYear "nan"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Shooting/ArturoVillanueva> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Shooting/ArturoVillanueva> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Arturo Villanueva"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRapidFirePistol25metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRapidFirePistol25metres> oly:hasEventName "Shooting Men's Rapid-Fire Pistol, 25 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensRapidFirePistol25metres/1932Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Shooting/ArturoVillanueva> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensRapidFirePistol25metres/1932Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    

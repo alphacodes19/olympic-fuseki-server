@@ -1,0 +1,28 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Racquets> oly:hasEvent <https://w3id.org/olympics-data/Event/RacquetsMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RacquetsMensSingles> oly:hasEventName "Racquets Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/Racquets> oly:hasSportName "Racquets" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Racquets> oly:hasEvent <https://w3id.org/olympics-data/Event/RacquetsMensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RacquetsMensDoubles> oly:hasEventName "Racquets Men's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Racquets> oly:hasSportName "Racquets" .
+    
+   
+
+    

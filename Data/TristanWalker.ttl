@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada2> oly:countryName "Canada-2" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada2>;
+    oly:hasName "Tristan Walker"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeMixedMensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeMixedMensDoubles> oly:hasEventName "Luge Mixed (Men)'s Doubles" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeMixedMensDoubles/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeMixedMensDoubles/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasHeight "185.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Tristan Walker"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeMixedMensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeMixedMensDoubles> oly:hasEventName "Luge Mixed (Men)'s Doubles" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeMixedMensDoubles/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeMixedMensDoubles/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasHeight "185.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Tristan Walker"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeMixedTeamRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeMixedTeamRelay> oly:hasEventName "Luge Mixed Team Relay" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeMixedTeamRelay/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeMixedTeamRelay/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasHeight "185.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CAN/Luge/TristanWalker> oly:hasWeight "88.0"^^<http://www.w3.org/2001/XMLSchema#int> .

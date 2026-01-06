@@ -1,0 +1,123 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Bryan Kenneth Wilson"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget50metres> oly:hasEventName "Shooting Men's Running Target, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget50metres/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget50metres/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasWeight "100.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Bryan Kenneth Wilson"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget50metres> oly:hasEventName "Shooting Men's Running Target, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget50metres/1988Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget50metres/1988Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasWeight "100.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Bryan Kenneth Wilson"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget10metres> oly:hasEventName "Shooting Men's Running Target, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget10metres/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget10metres/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasWeight "100.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> dbo:birthYear "1963.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Bryan Kenneth Wilson"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget10metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensRunningTarget10metres> oly:hasEventName "Shooting Men's Running Target, 10 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget10metres/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensRunningTarget10metres/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Shooting/BryanKennethWilson> oly:hasWeight "100.0"^^<http://www.w3.org/2001/XMLSchema#int> .

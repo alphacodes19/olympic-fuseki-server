@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Shara Gillow"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensRoadRaceIndividual> oly:hasEventName "Cycling Women's Road Race, Individual" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensRoadRaceIndividual/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Shara Gillow"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingWomensIndividualTimeTrial> oly:hasEventName "Cycling Women's Individual Time Trial" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingWomensIndividualTimeTrial/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Cycling/SharaGillow> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,239 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres> oly:hasEventName "Cross Country Skiing Men's 50 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon> oly:hasEventName "Cross Country Skiing Men's 30 km Skiathlon" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay> oly:hasEventName "Cross Country Skiing Men's 4 x 10 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens15kilometres> oly:hasEventName "Cross Country Skiing Men's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens15kilometres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres> oly:hasEventName "Cross Country Skiing Men's 50 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens30kmSkiathlon> oly:hasEventName "Cross Country Skiing Men's 30 km Skiathlon" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens30kmSkiathlon/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:countryName "Kazakhstan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Kazakhstan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KAZ" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasNationality <https://w3id.org/olympics-data/Country/Kazakhstan>;
+    oly:hasName "Yevgeny Aleksandrovich Velichko"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens4x10kilometresRelay> oly:hasEventName "Cross Country Skiing Men's 4 x 10 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens4x10kilometresRelay/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KAZ/CrossCountrySkiing/YevgenyAleksandrovichVelichko> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .

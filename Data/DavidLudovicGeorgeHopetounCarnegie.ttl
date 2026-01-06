@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Skeleton/DavidLudovicGeorgeHopetounCarnegie> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Skeleton/DavidLudovicGeorgeHopetounCarnegie> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Skeleton/DavidLudovicGeorgeHopetounCarnegie> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "David Ludovic George Hopetoun Carnegie"  .
+    <https://w3id.org/olympics-data/Sport/Skeleton> oly:hasEvent <https://w3id.org/olympics-data/Event/SkeletonMensSkeleton>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkeletonMensSkeleton> oly:hasEventName "Skeleton Men's Skeleton" .
+    <https://w3id.org/olympics-data/Sport/Skeleton> oly:hasSportName "Skeleton" .
+    <https://w3id.org/olympics-data/Medal/SkeletonMensSkeleton/1928Winter/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sankt Moritz";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Skeleton/DavidLudovicGeorgeHopetounCarnegie> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkeletonMensSkeleton/1928Winter/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Skeleton> .
+
+    <https://w3id.org/olympics-data/Medal/SkeletonMensSkeleton/1928Winter/Bronze>  oly:hasMedal "Bronze" .

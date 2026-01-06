@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ecuador> oly:countryName "Ecuador" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Ecuador> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "ECU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> oly:hasNationality <https://w3id.org/olympics-data/Country/Ecuador>;
+    oly:hasName "Peribonio Avila Tomas"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Mens200mIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Mens200mIndividualMedley> oly:hasEventName "Men's 200m Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Mens200mIndividualMedley/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> oly:wonMedal <https://w3id.org/olympics-data/Medal/Mens200mIndividualMedley/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ecuador> oly:countryName "Ecuador" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Ecuador> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "ECU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> oly:hasNationality <https://w3id.org/olympics-data/Country/Ecuador>;
+    oly:hasName "Peribonio Avila Tomas"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/Mens400mIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Mens400mIndividualMedley> oly:hasEventName "Men's 400m Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/Mens400mIndividualMedley/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ECU/Swimming/PeribonioAvilaTomas> oly:wonMedal <https://w3id.org/olympics-data/Medal/Mens400mIndividualMedley/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    

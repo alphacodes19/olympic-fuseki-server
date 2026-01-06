@@ -1,0 +1,95 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> dbo:birthYear "1903.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Veli Selim Saarinen"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens18kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens18kilometres> oly:hasEventName "Cross Country Skiing Men's 18 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens18kilometres/1928Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sankt Moritz";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens18kilometres/1928Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasWeight "65.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> dbo:birthYear "1903.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Veli Selim Saarinen"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens18kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens18kilometres> oly:hasEventName "Cross Country Skiing Men's 18 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens18kilometres/1932Winter/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens18kilometres/1932Winter/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasWeight "65.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens18kilometres/1932Winter/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> dbo:birthYear "1903.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Finland> oly:countryName "Finland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Finland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FIN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasNationality <https://w3id.org/olympics-data/Country/Finland>;
+    oly:hasName "Veli Selim Saarinen"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingMens50kilometres> oly:hasEventName "Cross Country Skiing Men's 50 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/1932Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/1932Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FIN/CrossCountrySkiing/VeliSelimSaarinen> oly:hasWeight "65.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CrossCountrySkiingMens50kilometres/1932Winter/Gold>  oly:hasMedal "Gold" .

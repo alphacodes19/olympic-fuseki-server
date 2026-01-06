@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> dbo:birthYear "1906.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Elizabeth Betty CarnegyArbuthnott"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingWomensFoilIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingWomensFoilIndividual> oly:hasEventName "Fencing Women's Foil, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingWomensFoilIndividual/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingWomensFoilIndividual/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> dbo:birthYear "1906.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Elizabeth Betty CarnegyArbuthnott"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingWomensFoilIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingWomensFoilIndividual> oly:hasEventName "Fencing Women's Foil, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingWomensFoilIndividual/1948Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1948Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1948"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Fencing/ElizabethBettyCarnegyArbuthnott> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingWomensFoilIndividual/1948Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1948Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    

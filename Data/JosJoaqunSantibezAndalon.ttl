@@ -1,0 +1,239 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens100metresBackstroke>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens100metresBackstroke> oly:hasEventName "Swimming Men's 100 metres Backstroke" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens100metresBackstroke/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens100metresBackstroke/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresBackstroke>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresBackstroke> oly:hasEventName "Swimming Men's 200 metres Backstroke" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresBackstroke/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresBackstroke/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley> oly:hasEventName "Swimming Men's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresMedleyRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresMedleyRelay> oly:hasEventName "Swimming Men's 4 x 100 metres Medley Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresMedleyRelay/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresMedleyRelay/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresFreestyleRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresFreestyleRelay> oly:hasEventName "Swimming Men's 4 x 100 metres Freestyle Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresFreestyleRelay/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresFreestyleRelay/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens100metresBackstroke>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens100metresBackstroke> oly:hasEventName "Swimming Men's 100 metres Backstroke" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens100metresBackstroke/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens100metresBackstroke/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens200metresIndividualMedley> oly:hasEventName "Swimming Men's 200 metres Individual Medley" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens200metresIndividualMedley/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:countryName "Mexico" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Mexico> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "MEX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasNationality <https://w3id.org/olympics-data/Country/Mexico>;
+    oly:hasName "Jos Joaqun Santibez Andalon"  .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresMedleyRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SwimmingMens4x100metresMedleyRelay> oly:hasEventName "Swimming Men's 4 x 100 metres Medley Relay" .
+    <https://w3id.org/olympics-data/Sport/Swimming> oly:hasSportName "Swimming" .
+    <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresMedleyRelay/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:wonMedal <https://w3id.org/olympics-data/Medal/SwimmingMens4x100metresMedleyRelay/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Swimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/MEX/Swimming/JosJoaqunSantibezAndalon> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .

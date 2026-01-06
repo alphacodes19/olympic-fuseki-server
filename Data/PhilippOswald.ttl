@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Tennis/PhilippOswald> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Tennis/PhilippOswald> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Tennis/PhilippOswald> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Philipp Oswald"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/MensDoublesTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensDoublesTeam> oly:hasEventName "Men's Doubles Team" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/MensDoublesTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Tennis/PhilippOswald> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensDoublesTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    

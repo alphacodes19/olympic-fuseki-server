@@ -1,0 +1,152 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> dbo:birthYear "1903.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Hilda Lorna Johnstone WailesFairbairn"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual> oly:hasEventName "Equestrianism Mixed Dressage, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1956Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Stockholm";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1956Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Hilda Lorna Johnstone WailesFairbairn"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual> oly:hasEventName "Equestrianism Mixed Dressage, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Hilda Lorna Johnstone WailesFairbairn"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageTeam> oly:hasEventName "Equestrianism Mixed Dressage, Team" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageTeam/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageTeam/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> dbo:birthYear "1903.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Hilda Lorna Johnstone WailesFairbairn"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageIndividual> oly:hasEventName "Equestrianism Mixed Dressage, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageIndividual/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> dbo:birthYear "1903.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Hilda Lorna Johnstone WailesFairbairn"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMixedDressageTeam> oly:hasEventName "Equestrianism Mixed Dressage, Team" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageTeam/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMixedDressageTeam/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Equestrianism/HildaLornaJohnstoneWailesFairbairn> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/FreestyleSkiing/AnasCaradeux> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/FreestyleSkiing/AnasCaradeux> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/FreestyleSkiing/AnasCaradeux> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Anas Caradeux"  .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FreestyleSkiingWomensHalfpipe> oly:hasEventName "Freestyle Skiing Women's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/FreestyleSkiing> oly:hasSportName "Freestyle Skiing" .
+    <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensHalfpipe/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/FreestyleSkiing/AnasCaradeux> oly:wonMedal <https://w3id.org/olympics-data/Medal/FreestyleSkiingWomensHalfpipe/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FreestyleSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/FreestyleSkiing/AnasCaradeux> oly:hasHeight "152.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/FreestyleSkiing/AnasCaradeux> oly:hasWeight "53.0"^^<http://www.w3.org/2001/XMLSchema#int> .

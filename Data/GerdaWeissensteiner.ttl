@@ -1,0 +1,123 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> dbo:birthYear "1969.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Gerda Weissensteiner"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeWomensSingles> oly:hasEventName "Luge Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1988Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Calgary";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1988Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasHeight "166.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> dbo:birthYear "1969.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Gerda Weissensteiner"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeWomensSingles> oly:hasEventName "Luge Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasHeight "166.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> dbo:birthYear "1969.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Gerda Weissensteiner"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeWomensSingles> oly:hasEventName "Luge Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1994Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1994Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasHeight "166.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/LugeWomensSingles/1994Winter/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> dbo:birthYear "1969.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Gerda Weissensteiner"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeWomensSingles> oly:hasEventName "Luge Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasHeight "166.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Luge/GerdaWeissensteiner> oly:hasWeight "63.0"^^<http://www.w3.org/2001/XMLSchema#int> .

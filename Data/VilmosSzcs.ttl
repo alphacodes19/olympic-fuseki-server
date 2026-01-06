@@ -1,0 +1,143 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> dbo:birthYear "1892.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Vilmos Szcs"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> dbo:birthYear "1892.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Vilmos Szcs"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround5Events>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround5Events> oly:hasEventName "Gymnastics Men's Individual All-Around, 5 Events" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround5Events/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround5Events/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> dbo:birthYear "1892.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Vilmos Szcs"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> dbo:birthYear "1892.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Vilmos Szcs"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRopeClimbing>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRopeClimbing> oly:hasEventName "Gymnastics Men's Rope Climbing" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensRopeClimbing/1906Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensRopeClimbing/1906Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> dbo:birthYear "1892.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:countryName "Hungary" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Hungary> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "HUN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:hasNationality <https://w3id.org/olympics-data/Country/Hungary>;
+    oly:hasName "Vilmos Szcs"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1908Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1908Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1908"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/HUN/Gymnastics/VilmosSzcs> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1908Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1908Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    

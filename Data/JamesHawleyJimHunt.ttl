@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Sailing/JamesHawleyJimHunt> dbo:birthYear "1936.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Sailing/JamesHawleyJimHunt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Minotaur> oly:countryName "Minotaur" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Minotaur> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Sailing/JamesHawleyJimHunt> oly:hasNationality <https://w3id.org/olympics-data/Country/Minotaur>;
+    oly:hasName "James Hawley Jim Hunt"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMixed55metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMixed55metres> oly:hasEventName "Sailing Mixed 5.5 metres" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMixed55metres/1960Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Sailing/JamesHawleyJimHunt> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMixed55metres/1960Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Sailing/JamesHawleyJimHunt> oly:hasHeight "188.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/Sailing/JamesHawleyJimHunt> oly:hasWeight "94.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SailingMixed55metres/1960Summer/Gold>  oly:hasMedal "Gold" .

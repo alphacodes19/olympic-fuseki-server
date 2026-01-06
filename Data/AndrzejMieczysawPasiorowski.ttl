@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> dbo:birthYear "1946.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Andrzej Mieczysaw Pasiorowski"  .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasEvent <https://w3id.org/olympics-data/Event/BasketballMensBasketball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BasketballMensBasketball> oly:hasEventName "Basketball Men's Basketball" .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasSportName "Basketball" .
+    <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:wonMedal <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Basketball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasHeight "203.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasWeight "98.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> dbo:birthYear "1946.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Andrzej Mieczysaw Pasiorowski"  .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasEvent <https://w3id.org/olympics-data/Event/BasketballMensBasketball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BasketballMensBasketball> oly:hasEventName "Basketball Men's Basketball" .
+    <https://w3id.org/olympics-data/Sport/Basketball> oly:hasSportName "Basketball" .
+    <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:wonMedal <https://w3id.org/olympics-data/Medal/BasketballMensBasketball/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Basketball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasHeight "203.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Basketball/AndrzejMieczysawPasiorowski> oly:hasWeight "98.0"^^<http://www.w3.org/2001/XMLSchema#int> .

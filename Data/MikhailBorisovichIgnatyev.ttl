@@ -1,0 +1,95 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Russia> oly:countryName "Russia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Russia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "RUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasNationality <https://w3id.org/olympics-data/Country/Russia>;
+    oly:hasName "Mikhail Borisovich Ignatyev"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingMensPointsRace>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingMensPointsRace> oly:hasEventName "Cycling Men's Points Race" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingMensPointsRace/2004Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingMensPointsRace/2004Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CyclingMensPointsRace/2004Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Russia> oly:countryName "Russia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Russia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "RUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasNationality <https://w3id.org/olympics-data/Country/Russia>;
+    oly:hasName "Mikhail Borisovich Ignatyev"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingMensPointsRace>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingMensPointsRace> oly:hasEventName "Cycling Men's Points Race" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingMensPointsRace/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingMensPointsRace/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Russia> oly:countryName "Russia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Russia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "RUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasNationality <https://w3id.org/olympics-data/Country/Russia>;
+    oly:hasName "Mikhail Borisovich Ignatyev"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingMensMadison>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingMensMadison> oly:hasEventName "Cycling Men's Madison" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingMensMadison/2008Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingMensMadison/2008Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasHeight "176.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/RUS/Cycling/MikhailBorisovichIgnatyev> oly:hasWeight "67.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CyclingMensMadison/2008Summer/Bronze>  oly:hasMedal "Bronze" .

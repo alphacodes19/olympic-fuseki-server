@@ -1,0 +1,152 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Alicia Molik"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensSingles> oly:hasEventName "Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Alicia Molik"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensSingles> oly:hasEventName "Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2004Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2004Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TennisWomensSingles/2004Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia1> oly:countryName "Australia-1" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia1> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia1>;
+    oly:hasName "Alicia Molik"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensDoubles> oly:hasEventName "Tennis Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Alicia Molik"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensSingles> oly:hasEventName "Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensSingles/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia2> oly:countryName "Australia-2" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia2>;
+    oly:hasName "Alicia Molik"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisWomensDoubles> oly:hasEventName "Tennis Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisWomensDoubles/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/AliciaMolik> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .

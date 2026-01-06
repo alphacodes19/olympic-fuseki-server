@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Fabin Velasco Coello"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens3000metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens3000metresTeam> oly:hasEventName "Athletics Men's 3,000 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens3000metresTeam/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens3000metresTeam/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Fabin Velasco Coello"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensCrossCountryIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensCrossCountryIndividual> oly:hasEventName "Athletics Men's Cross-Country, Individual" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensCrossCountryIndividual/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensCrossCountryIndividual/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Fabin Velasco Coello"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMensCrossCountryTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMensCrossCountryTeam> oly:hasEventName "Athletics Men's Cross-Country, Team" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMensCrossCountryTeam/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Athletics/FabinVelascoCoello> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMensCrossCountryTeam/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    

@@ -1,0 +1,471 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1992Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1992Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1992Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise> oly:hasEventName "Gymnastics Men's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1992Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1992Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1992Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault> oly:hasEventName "Gymnastics Men's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars> oly:hasEventName "Gymnastics Men's Parallel Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar> oly:hasEventName "Gymnastics Men's Horizontal Bar" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRings> oly:hasEventName "Gymnastics Men's Rings" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1992Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1992Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1992Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse> oly:hasEventName "Gymnastics Men's Pommelled Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1996Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1996Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1996Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1996Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1996Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1996Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise> oly:hasEventName "Gymnastics Men's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1996Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1996Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/1996Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault> oly:hasEventName "Gymnastics Men's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars> oly:hasEventName "Gymnastics Men's Parallel Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar> oly:hasEventName "Gymnastics Men's Horizontal Bar" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRings> oly:hasEventName "Gymnastics Men's Rings" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Li Xiaoshuang"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse> oly:hasEventName "Gymnastics Men's Pommelled Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Gymnastics/LiXiaoshuang> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .

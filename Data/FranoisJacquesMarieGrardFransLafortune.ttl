@@ -1,0 +1,413 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1956Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Melbourne";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1956Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1956Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Melbourne";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1956Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1960Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1960Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1960Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1960Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1964Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleThreePositions50metres/1964Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleProne50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1964Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleProne50metres/1964Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleThreePositions50metres/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleThreePositions50metres/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleProne50metres/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleProne50metres/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleThreePositions50metres/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleThreePositions50metres/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleProne50metres/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleProne50metres/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleThreePositions50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Three Positions, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleThreePositions50metres/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleThreePositions50metres/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> dbo:birthYear "1933.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Franois Jacques Marie Grard Frans Lafortune"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSmallBoreRifleProne50metres> oly:hasEventName "Shooting Mixed Small-Bore Rifle, Prone, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleProne50metres/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSmallBoreRifleProne50metres/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasHeight "173.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BEL/Shooting/FranoisJacquesMarieGrardFransLafortune> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Rowing/JosLuisCortaElizondo> dbo:birthYear "1949.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Rowing/JosLuisCortaElizondo> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Rowing/JosLuisCortaElizondo> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Luis Corta Elizondo"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls> oly:hasEventName "Rowing Men's Double Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensDoubleSculls/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Rowing/JosLuisCortaElizondo> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensDoubleSculls/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Rowing/JosLuisCortaElizondo> oly:hasHeight "180.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ESP/Rowing/JosLuisCortaElizondo> oly:hasWeight "86.0"^^<http://www.w3.org/2001/XMLSchema#int> .

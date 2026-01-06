@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> dbo:birthYear "1920.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Paul James McLaughlin"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMixedOnePersonDinghy>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMixedOnePersonDinghy> oly:hasEventName "Sailing Mixed One Person Dinghy" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMixedOnePersonDinghy/1948Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1948Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1948"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMixedOnePersonDinghy/1948Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1948Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> dbo:birthYear "1920.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Canada> oly:countryName "Canada" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Canada> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CAN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> oly:hasNationality <https://w3id.org/olympics-data/Country/Canada>;
+    oly:hasName "Paul James McLaughlin"  .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasEvent <https://w3id.org/olympics-data/Event/SailingMixedOnePersonDinghy>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SailingMixedOnePersonDinghy> oly:hasEventName "Sailing Mixed One Person Dinghy" .
+    <https://w3id.org/olympics-data/Sport/Sailing> oly:hasSportName "Sailing" .
+    <https://w3id.org/olympics-data/Medal/SailingMixedOnePersonDinghy/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CAN/Sailing/PaulJamesMcLaughlin> oly:wonMedal <https://w3id.org/olympics-data/Medal/SailingMixedOnePersonDinghy/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Sailing> .
+
+    

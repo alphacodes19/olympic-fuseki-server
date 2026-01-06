@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Margaret Yates Maggie Crowley"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingWomens3000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingWomens3000metres> oly:hasEventName "Speed Skating Women's 3,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingWomens3000metres/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingWomens3000metres/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasWeight "61.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Margaret Yates Maggie Crowley"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingWomensTeamPursuit6laps>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingWomensTeamPursuit6laps> oly:hasEventName "Speed Skating Women's Team Pursuit (6 laps)" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingWomensTeamPursuit6laps/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingWomensTeamPursuit6laps/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/SpeedSkating/MargaretYatesMaggieCrowley> oly:hasWeight "61.0"^^<http://www.w3.org/2001/XMLSchema#int> .

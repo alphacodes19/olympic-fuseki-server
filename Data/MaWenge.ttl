@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Ma Wenge"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisMensSingles> oly:hasEventName "Table Tennis Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisMensSingles/1992Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisMensSingles/1992Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasWeight "53.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TableTennisMensSingles/1992Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/China2> oly:countryName "China-2" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasNationality <https://w3id.org/olympics-data/Country/China2>;
+    oly:hasName "Ma Wenge"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisMensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisMensDoubles> oly:hasEventName "Table Tennis Men's Doubles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisMensDoubles/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/TableTennis/MaWenge> oly:hasWeight "53.0"^^<http://www.w3.org/2001/XMLSchema#int> .

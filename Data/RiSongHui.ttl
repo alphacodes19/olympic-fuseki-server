@@ -1,0 +1,66 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> dbo:birthYear "1979.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Ri SongHui"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingWomensLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingWomensLightweight> oly:hasEventName "Weightlifting Women's Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingWomensLightweight/2000Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingWomensLightweight/2000Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasHeight "152.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasWeight "55.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/WeightliftingWomensLightweight/2000Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> dbo:birthYear "1979.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Ri SongHui"  .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasEvent <https://w3id.org/olympics-data/Event/WeightliftingWomensLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WeightliftingWomensLightweight> oly:hasEventName "Weightlifting Women's Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Weightlifting> oly:hasSportName "Weightlifting" .
+    <https://w3id.org/olympics-data/Medal/WeightliftingWomensLightweight/2004Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:wonMedal <https://w3id.org/olympics-data/Medal/WeightliftingWomensLightweight/2004Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Weightlifting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasHeight "152.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/Weightlifting/RiSongHui> oly:hasWeight "55.5"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/WeightliftingWomensLightweight/2004Summer/Silver>  oly:hasMedal "Silver" .

@@ -1,0 +1,398 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensSingleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensSingleSculls> oly:hasEventName "Men's Single Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/LightweightMensDoubleScullsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LightweightMensDoubleScullsTeam> oly:hasEventName "Lightweight Men's Double Sculls Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensQuadrupleScullsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensQuadrupleScullsTeam> oly:hasEventName "Men's Quadruple Sculls Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensDoubleSculls> oly:hasEventName "Rowing Men's Double Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedFours>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedFours> oly:hasEventName "Rowing Men's Coxed Fours" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxlessFours>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxlessFours> oly:hasEventName "Rowing Men's Coxless Fours" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxlessPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxlessPairs> oly:hasEventName "Rowing Men's Coxless Pairs" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs> oly:hasEventName "Rowing Men's Coxed Pairs" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensSingleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensSingleSculls> oly:hasEventName "Rowing Men's Single Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensDoubleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensDoubleSculls> oly:hasEventName "Rowing Women's Double Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensQuadrupleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensQuadrupleSculls> oly:hasEventName "Rowing Men's Quadruple Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedFoursInriggers>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedFoursInriggers> oly:hasEventName "Rowing Men's Coxed Fours, Inriggers" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedEights>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedEights> oly:hasEventName "Rowing Men's Coxed Eights" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensLightweightDoubleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensLightweightDoubleSculls> oly:hasEventName "Rowing Men's Lightweight Double Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedFoursOutriggers>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedFoursOutriggers> oly:hasEventName "Rowing Men's Coxed Fours, Outriggers" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensSingleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensSingleSculls> oly:hasEventName "Rowing Women's Single Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensPairTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensPairTeam> oly:hasEventName "Men's Pair Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensPairTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensPairTeam> oly:hasEventName "Women's Pair Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensLightweightDoubleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensLightweightDoubleSculls> oly:hasEventName "Rowing Women's Lightweight Double Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensLightweightCoxlessFours>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensLightweightCoxlessFours> oly:hasEventName "Rowing Men's Lightweight Coxless Fours" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensCoxlessPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensCoxlessPairs> oly:hasEventName "Rowing Women's Coxless Pairs" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensFourTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensFourTeam> oly:hasEventName "Men's Four Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/LightweightWomensDoubleScullsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LightweightWomensDoubleScullsTeam> oly:hasEventName "Lightweight Women's Double Sculls Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensQuadrupleScullsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensQuadrupleScullsTeam> oly:hasEventName "Women's Quadruple Sculls Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensDoubleScullsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensDoubleScullsTeam> oly:hasEventName "Women's Double Sculls Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMens6ManNavalRowingBoats>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMens6ManNavalRowingBoats> oly:hasEventName "Rowing Men's 6-Man Naval Rowing Boats" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensCoxedQuadrupleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensCoxedQuadrupleSculls> oly:hasEventName "Rowing Women's Coxed Quadruple Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1kilometres> oly:hasEventName "Rowing Men's Coxed Pairs (1 kilometres)" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1mile>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs1mile> oly:hasEventName "Rowing Men's Coxed Pairs (1 mile)" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMens17ManNavalRowingBoats>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMens17ManNavalRowingBoats> oly:hasEventName "Rowing Men's 17-Man Naval Rowing Boats" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensDoubleScullsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensDoubleScullsTeam> oly:hasEventName "Men's Double Sculls Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensCoxlessFours>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensCoxlessFours> oly:hasEventName "Rowing Women's Coxless Fours" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensQuadrupleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensQuadrupleSculls> oly:hasEventName "Rowing Women's Quadruple Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensEightTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensEightTeam> oly:hasEventName "Women's Eight Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensEightTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensEightTeam> oly:hasEventName "Men's Eight Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensFourTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensFourTeam> oly:hasEventName "Women's Four Team" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensCoxedEights>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensCoxedEights> oly:hasEventName "Rowing Women's Coxed Eights" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingWomensCoxedFours>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingWomensCoxedFours> oly:hasEventName "Rowing Women's Coxed Fours" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensSingleSculls>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensSingleSculls> oly:hasEventName "Women's Single Sculls" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    
+   
+
+    

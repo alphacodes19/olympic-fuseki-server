@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Rowing/MohamedSamehAnwar> dbo:birthYear "1925.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Rowing/MohamedSamehAnwar> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:countryName "Egypt" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "EGY" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Rowing/MohamedSamehAnwar> oly:hasNationality <https://w3id.org/olympics-data/Country/Egypt>;
+    oly:hasName "Mohamed Sameh Anwar"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxedPairs> oly:hasEventName "Rowing Men's Coxed Pairs" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensCoxedPairs/1952Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1952Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Helsinki";
+    oly:heldInYear "1952"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Rowing/MohamedSamehAnwar> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensCoxedPairs/1952Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1952Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    

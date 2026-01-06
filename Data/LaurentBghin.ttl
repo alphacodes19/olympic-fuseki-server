@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Rowing/LaurentBghin> dbo:birthYear "1976.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Rowing/LaurentBghin> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Rowing/LaurentBghin> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Laurent Bghin"  .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasEvent <https://w3id.org/olympics-data/Event/RowingMensCoxlessFours>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RowingMensCoxlessFours> oly:hasEventName "Rowing Men's Coxless Fours" .
+    <https://w3id.org/olympics-data/Sport/Rowing> oly:hasSportName "Rowing" .
+    <https://w3id.org/olympics-data/Medal/RowingMensCoxlessFours/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Rowing/LaurentBghin> oly:wonMedal <https://w3id.org/olympics-data/Medal/RowingMensCoxlessFours/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Rowing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Rowing/LaurentBghin> oly:hasHeight "197.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Rowing/LaurentBghin> oly:hasWeight "90.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/Canoeing/MatejBeu> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/Canoeing/MatejBeu> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Slovakia> oly:countryName "Slovakia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Slovakia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SVK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/Canoeing/MatejBeu> oly:hasNationality <https://w3id.org/olympics-data/Country/Slovakia>;
+    oly:hasName "Matej Beu"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSinglesSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensCanadianSinglesSlalom> oly:hasEventName "Canoeing Men's Canadian Singles, Slalom" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSinglesSlalom/2016Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/Canoeing/MatejBeu> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSinglesSlalom/2016Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SVK/Canoeing/MatejBeu> oly:hasHeight "196.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SVK/Canoeing/MatejBeu> oly:hasWeight "83.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CanoeingMensCanadianSinglesSlalom/2016Summer/Silver>  oly:hasMedal "Silver" .

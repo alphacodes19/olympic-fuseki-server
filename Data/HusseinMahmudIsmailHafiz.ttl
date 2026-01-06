@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Judo/HusseinMahmudIsmailHafiz> dbo:birthYear "1986.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Judo/HusseinMahmudIsmailHafiz> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:countryName "Egypt" .
+    <https://w3id.org/olympics-data/Continent/Africa> rdfs:label "Africa" .
+    <https://w3id.org/olympics-data/Country/Egypt> oly:hasContinent <https://w3id.org/olympics-data/Continent/Africa>;
+    oly:memberOf "EGY" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Judo/HusseinMahmudIsmailHafiz> oly:hasNationality <https://w3id.org/olympics-data/Country/Egypt>;
+    oly:hasName "Hussein Mahmud Ismail Hafiz"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensLightweight> oly:hasEventName "Judo Men's Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/JudoMensLightweight/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Judo/HusseinMahmudIsmailHafiz> oly:wonMedal <https://w3id.org/olympics-data/Medal/JudoMensLightweight/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EGY/Judo/HusseinMahmudIsmailHafiz> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EGY/Judo/HusseinMahmudIsmailHafiz> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .

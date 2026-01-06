@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> dbo:birthYear "nan"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Maurice E Van Damme"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensFoilIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensFoilIndividual> oly:hasEventName "Fencing Men's Foil, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensFoilIndividual/1924Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensFoilIndividual/1924Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Medal/FencingMensFoilIndividual/1924Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> dbo:birthYear "nan"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:countryName "Belgium" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Belgium> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "BEL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> oly:hasNationality <https://w3id.org/olympics-data/Country/Belgium>;
+    oly:hasName "Maurice E Van Damme"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensFoilTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensFoilTeam> oly:hasEventName "Fencing Men's Foil, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensFoilTeam/1924Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BEL/Fencing/MauriceEVanDamme> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensFoilTeam/1924Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Medal/FencingMensFoilTeam/1924Summer/Silver>  oly:hasMedal "Silver" .

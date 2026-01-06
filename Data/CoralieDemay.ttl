@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Coralie Demay"  .
+    <https://w3id.org/olympics-data/Sport/CyclingTrack> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensSprint>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensSprint> oly:hasEventName "Women's Sprint" .
+    <https://w3id.org/olympics-data/Sport/CyclingTrack> oly:hasSportName "Cycling Track" .
+    <https://w3id.org/olympics-data/Medal/WomensSprint/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensSprint/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CyclingTrack> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Coralie Demay"  .
+    <https://w3id.org/olympics-data/Sport/CyclingTrack> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensKeirin>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensKeirin> oly:hasEventName "Women's Keirin" .
+    <https://w3id.org/olympics-data/Sport/CyclingTrack> oly:hasSportName "Cycling Track" .
+    <https://w3id.org/olympics-data/Medal/WomensKeirin/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensKeirin/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CyclingTrack> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Coralie Demay"  .
+    <https://w3id.org/olympics-data/Sport/CyclingTrack> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensTeamPursuitTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensTeamPursuitTeam> oly:hasEventName "Women's Team Pursuit Team" .
+    <https://w3id.org/olympics-data/Sport/CyclingTrack> oly:hasSportName "Cycling Track" .
+    <https://w3id.org/olympics-data/Medal/WomensTeamPursuitTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/CyclingTrack/CoralieDemay> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensTeamPursuitTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CyclingTrack> .
+
+    

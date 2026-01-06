@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Luge/ElenaStan> dbo:birthYear "1959.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Luge/ElenaStan> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Romania> oly:countryName "Romania" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Romania> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ROU" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Luge/ElenaStan> oly:hasNationality <https://w3id.org/olympics-data/Country/Romania>;
+    oly:hasName "Elena Stan"  .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasEvent <https://w3id.org/olympics-data/Event/LugeWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/LugeWomensSingles> oly:hasEventName "Luge Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/Luge> oly:hasSportName "Luge" .
+    <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1980Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ROU/Luge/ElenaStan> oly:wonMedal <https://w3id.org/olympics-data/Medal/LugeWomensSingles/1980Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Luge> .
+
+    

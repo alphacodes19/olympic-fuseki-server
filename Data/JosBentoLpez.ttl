@@ -1,0 +1,251 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistolTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryPistolTeam> oly:hasEventName "Shooting Men's Military Pistol, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryPistolTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryPistolTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreePistol50metresTeam> oly:hasEventName "Shooting Men's Free Pistol, 50 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol50metresTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensFreePistol50metresTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensFreeRifleThreePositions300metresTeam> oly:hasEventName "Shooting Men's Free Rifle, Three Positions, 300 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensFreeRifleThreePositions300metresTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensFreeRifleThreePositions300metresTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne300metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne300metresTeam> oly:hasEventName "Shooting Men's Military Rifle, Prone, 300 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleProne300metresTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleProne300metresTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne600metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleProne600metresTeam> oly:hasEventName "Shooting Men's Military Rifle, Prone, 600 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleProne600metresTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleProne600metresTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleStanding300metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifleStanding300metresTeam> oly:hasEventName "Shooting Men's Military Rifle, Standing, 300 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleStanding300metresTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifleStanding300metresTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle300metresand600metresProneTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensMilitaryRifle300metresand600metresProneTeam> oly:hasEventName "Shooting Men's Military Rifle, 300 metres and 600 metres, Prone, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifle300metresand600metresProneTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensMilitaryRifle300metresand600metresProneTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metres> oly:hasEventName "Shooting Men's Small-Bore Rifle, Standing, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleStanding50metres/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleStanding50metres/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Jos Bento Lpez"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensSmallBoreRifleStanding50metresTeam> oly:hasEventName "Shooting Men's Small Bore-Rifle, Standing, 50 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleStanding50metresTeam/1920Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1920Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Antwerpen";
+    oly:heldInYear "1920"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Shooting/JosBentoLpez> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensSmallBoreRifleStanding50metresTeam/1920Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1920Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    

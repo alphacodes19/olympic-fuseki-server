@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Mark Anthony Philippoussis"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisMensSingles> oly:hasEventName "Tennis Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisMensSingles/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisMensSingles/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasHeight "193.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasWeight "91.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Mark Anthony Philippoussis"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisMensSingles> oly:hasEventName "Tennis Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisMensSingles/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisMensSingles/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasHeight "193.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasWeight "91.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> dbo:birthYear "1977.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Mark Anthony Philippoussis"  .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TennisMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TennisMensSingles> oly:hasEventName "Tennis Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/Tennis> oly:hasSportName "Tennis" .
+    <https://w3id.org/olympics-data/Medal/TennisMensSingles/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:wonMedal <https://w3id.org/olympics-data/Medal/TennisMensSingles/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Tennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasHeight "193.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/Tennis/MarkAnthonyPhilippoussis> oly:hasWeight "91.0"^^<http://www.w3.org/2001/XMLSchema#int> .

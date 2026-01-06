@@ -1,0 +1,89 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> dbo:birthYear "1877.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney John Robinson"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens2500metresSteeplechase>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens2500metresSteeplechase> oly:hasEventName "Athletics Men's 2,500 metres Steeplechase" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens2500metresSteeplechase/1900Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1900Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1900"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens2500metresSteeplechase/1900Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1900Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Medal/AthleticsMens2500metresSteeplechase/1900Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> dbo:birthYear "1877.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Sidney John Robinson"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens4000metresSteeplechase>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens4000metresSteeplechase> oly:hasEventName "Athletics Men's 4,000 metres Steeplechase" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens4000metresSteeplechase/1900Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1900Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1900"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens4000metresSteeplechase/1900Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1900Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Medal/AthleticsMens4000metresSteeplechase/1900Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> dbo:birthYear "1877.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/AmateurAthleticAssociation> oly:countryName "Amateur Athletic Association" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/AmateurAthleticAssociation> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:hasNationality <https://w3id.org/olympics-data/Country/AmateurAthleticAssociation>;
+    oly:hasName "Sidney John Robinson"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsMens5000metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsMens5000metresTeam> oly:hasEventName "Athletics Men's 5,000 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsMens5000metresTeam/1900Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1900Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1900"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Athletics/SidneyJohnRobinson> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsMens5000metresTeam/1900Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1900Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Medal/AthleticsMens5000metresTeam/1900Summer/Gold>  oly:hasMedal "Gold" .

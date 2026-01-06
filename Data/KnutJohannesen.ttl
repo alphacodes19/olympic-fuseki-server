@@ -1,0 +1,269 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres> oly:hasEventName "Speed Skating Men's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/1956Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Cortina d'Ampezzo";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/1956Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1956Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Cortina d'Ampezzo";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1956Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres> oly:hasEventName "Speed Skating Men's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1956Winter/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1956Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Cortina d'Ampezzo";
+    oly:heldInYear "1956"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1956Winter/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1956Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1956Winter/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens500metres> oly:hasEventName "Speed Skating Men's 500 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens500metres/1960Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Squaw Valley";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens500metres/1960Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens1500metres> oly:hasEventName "Speed Skating Men's 1,500 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/1960Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Squaw Valley";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens1500metres/1960Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1960Winter/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Squaw Valley";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1960Winter/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1960Winter/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres> oly:hasEventName "Speed Skating Men's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1960Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Squaw Valley";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1960Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1960Winter/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens5000metres> oly:hasEventName "Speed Skating Men's 5,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1964Winter/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1964Winter/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMens5000metres/1964Winter/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> dbo:birthYear "1934.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Knut Johannesen"  .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SpeedSkatingMens10000metres> oly:hasEventName "Speed Skating Men's 10,000 metres" .
+    <https://w3id.org/olympics-data/Sport/SpeedSkating> oly:hasSportName "Speed Skating" .
+    <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1964Winter/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:wonMedal <https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1964Winter/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SpeedSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/NOR/SpeedSkating/KnutJohannesen> oly:hasWeight "85.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SpeedSkatingMens10000metres/1964Winter/Bronze>  oly:hasMedal "Bronze" .

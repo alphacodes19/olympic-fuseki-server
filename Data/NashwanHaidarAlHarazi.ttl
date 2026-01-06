@@ -1,0 +1,123 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:countryName "Yemen" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "YEM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasNationality <https://w3id.org/olympics-data/Country/Yemen>;
+    oly:hasName "Nashwan Haidar AlHarazi"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:countryName "Yemen" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "YEM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasNationality <https://w3id.org/olympics-data/Country/Yemen>;
+    oly:hasName "Nashwan Haidar AlHarazi"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensFloorExercise> oly:hasEventName "Gymnastics Men's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensFloorExercise/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:countryName "Yemen" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "YEM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasNationality <https://w3id.org/olympics-data/Country/Yemen>;
+    oly:hasName "Nashwan Haidar AlHarazi"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault> oly:hasEventName "Gymnastics Men's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> dbo:birthYear "1987.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:countryName "Yemen" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Yemen> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "YEM" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasNationality <https://w3id.org/olympics-data/Country/Yemen>;
+    oly:hasName "Nashwan Haidar AlHarazi"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse> oly:hasEventName "Gymnastics Men's Pommelled Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/YEM/Gymnastics/NashwanHaidarAlHarazi> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .

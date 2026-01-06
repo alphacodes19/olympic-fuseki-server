@@ -1,0 +1,64 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Charlotte Caslick"  .
+    <https://w3id.org/olympics-data/Sport/RugbySevens> oly:hasEvent <https://w3id.org/olympics-data/Event/WomenTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomenTeam> oly:hasEventName "Women Team" .
+    <https://w3id.org/olympics-data/Sport/RugbySevens> oly:hasSportName "Rugby Sevens" .
+    <https://w3id.org/olympics-data/Medal/WomenTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomenTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/RugbySevens> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> dbo:birthYear "1995.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Australia> oly:countryName "Australia" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/Australia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "AUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:hasNationality <https://w3id.org/olympics-data/Country/Australia>;
+    oly:hasName "Charlotte Caslick"  .
+    <https://w3id.org/olympics-data/Sport/RugbySevens> oly:hasEvent <https://w3id.org/olympics-data/Event/RugbySevensWomensRugbySevens>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/RugbySevensWomensRugbySevens> oly:hasEventName "Rugby Sevens Women's Rugby Sevens" .
+    <https://w3id.org/olympics-data/Sport/RugbySevens> oly:hasSportName "Rugby Sevens" .
+    <https://w3id.org/olympics-data/Medal/RugbySevensWomensRugbySevens/2016Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:wonMedal <https://w3id.org/olympics-data/Medal/RugbySevensWomensRugbySevens/2016Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/RugbySevens> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:hasHeight "172.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/AUS/RugbySevens/CharlotteCaslick> oly:hasWeight "65.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/RugbySevensWomensRugbySevens/2016Summer/Gold>  oly:hasMedal "Gold" .

@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Elisabeth Eli Pinedo Senz"  .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasEvent <https://w3id.org/olympics-data/Event/HandballWomensHandball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/HandballWomensHandball> oly:hasEventName "Handball Women's Handball" .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasSportName "Handball" .
+    <https://w3id.org/olympics-data/Medal/HandballWomensHandball/2012Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:wonMedal <https://w3id.org/olympics-data/Medal/HandballWomensHandball/2012Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Handball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/HandballWomensHandball/2012Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> dbo:birthYear "1981.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Spain> oly:countryName "Spain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Spain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ESP" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasNationality <https://w3id.org/olympics-data/Country/Spain>;
+    oly:hasName "Elisabeth Eli Pinedo Senz"  .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasEvent <https://w3id.org/olympics-data/Event/HandballWomensHandball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/HandballWomensHandball> oly:hasEventName "Handball Women's Handball" .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasSportName "Handball" .
+    <https://w3id.org/olympics-data/Medal/HandballWomensHandball/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:wonMedal <https://w3id.org/olympics-data/Medal/HandballWomensHandball/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Handball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ESP/Handball/ElisabethEliPinedoSenz> oly:hasWeight "68.0"^^<http://www.w3.org/2001/XMLSchema#int> .

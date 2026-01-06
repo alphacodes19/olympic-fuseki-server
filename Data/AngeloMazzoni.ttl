@@ -1,0 +1,327 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual> oly:hasEventName "Fencing Men's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual> oly:hasEventName "Fencing Men's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeTeam> oly:hasEventName "Fencing Men's epee, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1984Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1984Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1984Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual> oly:hasEventName "Fencing Men's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1988Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1988Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeTeam> oly:hasEventName "Fencing Men's epee, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1988Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1988Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual> oly:hasEventName "Fencing Men's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeTeam> oly:hasEventName "Fencing Men's epee, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual> oly:hasEventName "Fencing Men's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeTeam> oly:hasEventName "Fencing Men's epee, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1996Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1996Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/1996Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeIndividual> oly:hasEventName "Fencing Men's epee, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeIndividual/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Angelo Mazzoni"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingMensepeeTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingMensepeeTeam> oly:hasEventName "Fencing Men's epee, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/2000Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/2000Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasHeight "183.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/ITA/Fencing/AngeloMazzoni> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FencingMensepeeTeam/2000Summer/Gold>  oly:hasMedal "Gold" .

@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> dbo:birthYear "1944.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Madeleine Bochatay Montessuit"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingWomensDownhill>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingWomensDownhill> oly:hasEventName "Alpine Skiing Women's Downhill" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensDownhill/1964Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensDownhill/1964Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> dbo:birthYear "1944.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Madeleine Bochatay Montessuit"  .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/AlpineSkiingWomensGiantSlalom>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AlpineSkiingWomensGiantSlalom> oly:hasEventName "Alpine Skiing Women's Giant Slalom" .
+    <https://w3id.org/olympics-data/Sport/AlpineSkiing> oly:hasSportName "Alpine Skiing" .
+    <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensGiantSlalom/1964Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Innsbruck";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:wonMedal <https://w3id.org/olympics-data/Medal/AlpineSkiingWomensGiantSlalom/1964Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/AlpineSkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/AlpineSkiing/MadeleineBochatayMontessuit> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .

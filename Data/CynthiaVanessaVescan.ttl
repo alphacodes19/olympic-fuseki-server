@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Cynthia Vanessa Vescan"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingWomensHeavyweightFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingWomensHeavyweightFreestyle> oly:hasEventName "Wrestling Women's Heavyweight, Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingWomensHeavyweightFreestyle/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingWomensHeavyweightFreestyle/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasWeight "74.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> dbo:birthYear "1992.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Cynthia Vanessa Vescan"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingWomensHeavyweightFreestyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingWomensHeavyweightFreestyle> oly:hasEventName "Wrestling Women's Heavyweight, Freestyle" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingWomensHeavyweightFreestyle/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingWomensHeavyweightFreestyle/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/FRA/Wrestling/CynthiaVanessaVescan> oly:hasWeight "74.0"^^<http://www.w3.org/2001/XMLSchema#int> .

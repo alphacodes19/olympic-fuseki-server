@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Rudolf Watzl"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensLightweightGrecoRoman>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensLightweightGrecoRoman> oly:hasEventName "Wrestling Men's Lightweight, Greco-Roman" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightGrecoRoman/1906Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightGrecoRoman/1906Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Medal/WrestlingMensLightweightGrecoRoman/1906Summer/Gold>  oly:hasMedal "Gold" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> dbo:birthYear "1882.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Rudolf Watzl"  .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasEvent <https://w3id.org/olympics-data/Event/WrestlingMensAllAroundGrecoRoman>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WrestlingMensAllAroundGrecoRoman> oly:hasEventName "Wrestling Men's All-Around, Greco-Roman" .
+    <https://w3id.org/olympics-data/Sport/Wrestling> oly:hasSportName "Wrestling" .
+    <https://w3id.org/olympics-data/Medal/WrestlingMensAllAroundGrecoRoman/1906Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1906Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "1906"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/Wrestling/RudolfWatzl> oly:wonMedal <https://w3id.org/olympics-data/Medal/WrestlingMensAllAroundGrecoRoman/1906Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1906Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Wrestling> .
+
+    <https://w3id.org/olympics-data/Medal/WrestlingMensAllAroundGrecoRoman/1906Summer/Bronze>  oly:hasMedal "Bronze" .

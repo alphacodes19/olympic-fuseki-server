@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Judo/DivyaTewar> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Judo/DivyaTewar> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Judo/DivyaTewar> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Divya Tewar"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoWomensHalfHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoWomensHalfHeavyweight> oly:hasEventName "Judo Women's Half-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/JudoWomensHalfHeavyweight/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Judo/DivyaTewar> oly:wonMedal <https://w3id.org/olympics-data/Medal/JudoWomensHalfHeavyweight/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Judo/DivyaTewar> oly:hasHeight "157.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Judo/DivyaTewar> oly:hasWeight "78.0"^^<http://www.w3.org/2001/XMLSchema#int> .

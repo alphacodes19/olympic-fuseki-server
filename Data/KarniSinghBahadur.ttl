@@ -1,0 +1,210 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Karni Singh Bahadur"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrap> oly:hasEventName "Shooting Men's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensTrap/1960Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1960Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Roma";
+    oly:heldInYear "1960"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensTrap/1960Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1960Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasWeight "99.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Karni Singh Bahadur"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMensTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMensTrap> oly:hasEventName "Shooting Men's Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMensTrap/1964Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1964Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "1964"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMensTrap/1964Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1964Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasWeight "99.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Karni Singh Bahadur"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasWeight "99.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Karni Singh Bahadur"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSkeet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSkeet> oly:hasEventName "Shooting Mixed Skeet" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSkeet/1968Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1968Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Mexico City";
+    oly:heldInYear "1968"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSkeet/1968Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1968Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasWeight "99.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Karni Singh Bahadur"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasWeight "99.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Karni Singh Bahadur"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedSkeet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedSkeet> oly:hasEventName "Shooting Mixed Skeet" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedSkeet/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedSkeet/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasWeight "99.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> dbo:birthYear "1924.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/India> oly:countryName "India" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/India> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "IND" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasNationality <https://w3id.org/olympics-data/Country/India>;
+    oly:hasName "Karni Singh Bahadur"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/IND/Shooting/KarniSinghBahadur> oly:hasWeight "99.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Umberto Caligaris"  .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasEvent <https://w3id.org/olympics-data/Event/FootballMensFootball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FootballMensFootball> oly:hasEventName "Football Men's Football" .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasSportName "Football" .
+    <https://w3id.org/olympics-data/Medal/FootballMensFootball/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> oly:wonMedal <https://w3id.org/olympics-data/Medal/FootballMensFootball/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Football> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Italy> oly:countryName "Italy" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Italy> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "ITA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> oly:hasNationality <https://w3id.org/olympics-data/Country/Italy>;
+    oly:hasName "Umberto Caligaris"  .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasEvent <https://w3id.org/olympics-data/Event/FootballMensFootball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FootballMensFootball> oly:hasEventName "Football Men's Football" .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasSportName "Football" .
+    <https://w3id.org/olympics-data/Medal/FootballMensFootball/1928Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/ITA/Football/UmbertoCaligaris> oly:wonMedal <https://w3id.org/olympics-data/Medal/FootballMensFootball/1928Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Football> .
+
+    <https://w3id.org/olympics-data/Medal/FootballMensFootball/1928Summer/Bronze>  oly:hasMedal "Bronze" .

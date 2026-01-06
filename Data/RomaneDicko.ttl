@@ -1,0 +1,62 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> dbo:birthYear "1999.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Romane Dicko"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Women78kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Women78kg> oly:hasEventName "Women +78 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/Women78kg/2020Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> oly:wonMedal <https://w3id.org/olympics-data/Medal/Women78kg/2020Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Medal/Women78kg/2020Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> dbo:birthYear "1999.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/France> oly:countryName "France" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/France> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "FRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> oly:hasNationality <https://w3id.org/olympics-data/Country/France>;
+    oly:hasName "Romane Dicko"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/MixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MixedTeam> oly:hasEventName "Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/MixedTeam/2020Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/FRA/Judo/RomaneDicko> oly:wonMedal <https://w3id.org/olympics-data/Medal/MixedTeam/2020Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Medal/MixedTeam/2020Summer/Gold>  oly:hasMedal "Gold" .

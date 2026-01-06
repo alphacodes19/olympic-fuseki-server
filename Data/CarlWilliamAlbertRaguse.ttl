@@ -1,0 +1,116 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Carl William Albert Raguse"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensJumpingIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensJumpingIndividual> oly:hasEventName "Equestrianism Men's Jumping, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensJumpingIndividual/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensJumpingIndividual/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Carl William Albert Raguse"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensJumpingTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensJumpingTeam> oly:hasEventName "Equestrianism Men's Jumping, Team" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensJumpingTeam/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensJumpingTeam/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Carl William Albert Raguse"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventIndividual> oly:hasEventName "Equestrianism Men's Three-Day Event, Individual" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventIndividual/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> dbo:birthYear "1902.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Carl William Albert Raguse"  .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasEvent <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/EquestrianismMensThreeDayEventTeam> oly:hasEventName "Equestrianism Men's Three-Day Event, Team" .
+    <https://w3id.org/olympics-data/Sport/Equestrianism> oly:hasSportName "Equestrianism" .
+    <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/Equestrianism/CarlWilliamAlbertRaguse> oly:wonMedal <https://w3id.org/olympics-data/Medal/EquestrianismMensThreeDayEventTeam/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Equestrianism> .
+
+    

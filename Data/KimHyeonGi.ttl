@@ -1,0 +1,413 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual> oly:hasEventName "Ski Jumping Men's Large Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam> oly:hasEventName "Ski Jumping Men's Large Hill, Team" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual> oly:hasEventName "Ski Jumping Men's Large Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam> oly:hasEventName "Ski Jumping Men's Large Hill, Team" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2002Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2002Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Salt Lake City";
+    oly:heldInYear "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2002Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2002Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual> oly:hasEventName "Ski Jumping Men's Large Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam> oly:hasEventName "Ski Jumping Men's Large Hill, Team" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2006Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2006Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Torino";
+    oly:heldInYear "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2006Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2006Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual> oly:hasEventName "Ski Jumping Men's Large Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillIndividual> oly:hasEventName "Ski Jumping Men's Large Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillIndividual/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:countryName "South Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/SouthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "KOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasNationality <https://w3id.org/olympics-data/Country/SouthKorea>;
+    oly:hasName "Kim HyeonGi"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensLargeHillTeam> oly:hasEventName "Ski Jumping Men's Large Hill, Team" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2014Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2014Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sochi";
+    oly:heldInYear "2014"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensLargeHillTeam/2014Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2014Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasHeight "174.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/KOR/SkiJumping/KimHyeonGi> oly:hasWeight "62.0"^^<http://www.w3.org/2001/XMLSchema#int> .

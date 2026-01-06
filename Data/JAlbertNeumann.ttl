@@ -1,0 +1,440 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault> oly:hasEventName "Gymnastics Men's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars> oly:hasEventName "Gymnastics Men's Parallel Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar> oly:hasEventName "Gymnastics Men's Horizontal Bar" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRings> oly:hasEventName "Gymnastics Men's Rings" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse> oly:hasEventName "Gymnastics Men's Pommelled Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRopeClimbing>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRopeClimbing> oly:hasEventName "Gymnastics Men's Rope Climbing" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensRopeClimbing/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensRopeClimbing/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensSideHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensSideHorse> oly:hasEventName "Gymnastics Men's Side Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensSideHorse/1924Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1924Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Paris";
+    oly:heldInYear "1924"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensSideHorse/1924Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1924Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensIndividualAllAround> oly:hasEventName "Gymnastics Men's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensIndividualAllAround/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensTeamAllAround> oly:hasEventName "Gymnastics Men's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensTeamAllAround/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorseVault> oly:hasEventName "Gymnastics Men's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorseVault/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensParallelBars> oly:hasEventName "Gymnastics Men's Parallel Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensParallelBars/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensHorizontalBar> oly:hasEventName "Gymnastics Men's Horizontal Bar" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensHorizontalBar/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensRings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensRings> oly:hasEventName "Gymnastics Men's Rings" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensRings/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "J Albert Neumann"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsMensPommelledHorse> oly:hasEventName "Gymnastics Men's Pommelled Horse" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1928Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Amsterdam";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/Gymnastics/JAlbertNeumann> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsMensPommelledHorse/1928Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    

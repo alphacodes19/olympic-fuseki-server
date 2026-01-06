@@ -1,0 +1,224 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensAllAround> oly:hasEventName "Men's All-Around" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensAllAround/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensAllAround/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensFloorExercise> oly:hasEventName "Men's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensFloorExercise/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensFloorExercise/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensPommelHorse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensPommelHorse> oly:hasEventName "Men's Pommel Horse" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensPommelHorse/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensPommelHorse/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensRings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensRings> oly:hasEventName "Men's Rings" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensRings/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensRings/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensVault> oly:hasEventName "Men's Vault" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensVault/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensVault/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensParallelBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensParallelBars> oly:hasEventName "Men's Parallel Bars" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensParallelBars/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensParallelBars/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensHorizontalBar>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensHorizontalBar> oly:hasEventName "Men's Horizontal Bar" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensHorizontalBar/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensHorizontalBar/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> dbo:birthYear "2003.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Illia Kovtun"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/MensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensTeam> oly:hasEventName "Men's Team" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/MensTeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/ArtisticGymnastics/IlliaKovtun> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensTeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    

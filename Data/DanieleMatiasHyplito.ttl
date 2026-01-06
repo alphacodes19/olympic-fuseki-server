@@ -1,0 +1,703 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround> oly:hasEventName "Gymnastics Women's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise> oly:hasEventName "Gymnastics Women's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensHorseVault> oly:hasEventName "Gymnastics Women's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensHorseVault/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensHorseVault/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars> oly:hasEventName "Gymnastics Women's Uneven Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam> oly:hasEventName "Gymnastics Women's Balance Beam" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround> oly:hasEventName "Gymnastics Women's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround> oly:hasEventName "Gymnastics Women's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise> oly:hasEventName "Gymnastics Women's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensHorseVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensHorseVault> oly:hasEventName "Gymnastics Women's Horse Vault" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensHorseVault/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensHorseVault/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars> oly:hasEventName "Gymnastics Women's Uneven Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam> oly:hasEventName "Gymnastics Women's Balance Beam" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround> oly:hasEventName "Gymnastics Women's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround> oly:hasEventName "Gymnastics Women's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise> oly:hasEventName "Gymnastics Women's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars> oly:hasEventName "Gymnastics Women's Uneven Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam> oly:hasEventName "Gymnastics Women's Balance Beam" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensIndividualAllAround> oly:hasEventName "Gymnastics Women's Individual All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensIndividualAllAround/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround> oly:hasEventName "Gymnastics Women's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise> oly:hasEventName "Gymnastics Women's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensUnevenBars> oly:hasEventName "Gymnastics Women's Uneven Bars" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensUnevenBars/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam> oly:hasEventName "Gymnastics Women's Balance Beam" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensTeamAllAround> oly:hasEventName "Gymnastics Women's Team All-Around" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensTeamAllAround/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensFloorExercise> oly:hasEventName "Gymnastics Women's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensFloorExercise/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> dbo:birthYear "1985.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:countryName "Brazil" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Brazil> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "BRA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasNationality <https://w3id.org/olympics-data/Country/Brazil>;
+    oly:hasName "Daniele Matias Hyplito"  .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/GymnasticsWomensBalanceBeam> oly:hasEventName "Gymnastics Women's Balance Beam" .
+    <https://w3id.org/olympics-data/Sport/Gymnastics> oly:hasSportName "Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:wonMedal <https://w3id.org/olympics-data/Medal/GymnasticsWomensBalanceBeam/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Gymnastics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasHeight "147.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/BRA/Gymnastics/DanieleMatiasHyplito> oly:hasWeight "51.0"^^<http://www.w3.org/2001/XMLSchema#int> .

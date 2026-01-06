@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/ArtCompetitions/MariaJacobyKasteleinerLamkin> dbo:birthYear "1900.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/ArtCompetitions/MariaJacobyKasteleinerLamkin> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:countryName "Luxembourg" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Luxembourg> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "LUX" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/ArtCompetitions/MariaJacobyKasteleinerLamkin> oly:hasNationality <https://w3id.org/olympics-data/Country/Luxembourg>;
+    oly:hasName "Maria Jacoby Kasteleiner Lamkin"  .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasEvent <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedPaintingAppliedArts>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedPaintingAppliedArts> oly:hasEventName "Art Competitions Mixed Painting, Applied Arts" .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasSportName "Art Competitions" .
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedPaintingAppliedArts/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/LUX/ArtCompetitions/MariaJacobyKasteleinerLamkin> oly:wonMedal <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedPaintingAppliedArts/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtCompetitions> .
+
+    

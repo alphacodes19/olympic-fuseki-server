@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> dbo:birthYear "1951.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Douglas Robert Doug Parnham"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakDoubles1000metres> oly:hasEventName "Canoeing Men's Kayak Doubles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakDoubles1000metres/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakDoubles1000metres/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasHeight "186.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> dbo:birthYear "1951.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Douglas Robert Doug Parnham"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakFours1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakFours1000metres> oly:hasEventName "Canoeing Men's Kayak Fours, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakFours1000metres/1972Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1972Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Munich";
+    oly:heldInYear "1972"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakFours1000metres/1972Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1972Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasHeight "186.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Douglas Robert Doug Parnham"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles500metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles500metres> oly:hasEventName "Canoeing Men's Kayak Singles, 500 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles500metres/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles500metres/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasHeight "186.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Douglas Robert Doug Parnham"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres> oly:hasEventName "Canoeing Men's Kayak Singles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles1000metres/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles1000metres/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasHeight "186.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Douglas Robert Doug Parnham"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakSingles1000metres> oly:hasEventName "Canoeing Men's Kayak Singles, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles1000metres/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakSingles1000metres/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasHeight "186.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> dbo:birthYear "1952.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:countryName "Great Britain" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/GreatBritain> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "GBR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasNationality <https://w3id.org/olympics-data/Country/GreatBritain>;
+    oly:hasName "Douglas Robert Doug Parnham"  .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasEvent <https://w3id.org/olympics-data/Event/CanoeingMensKayakFours1000metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CanoeingMensKayakFours1000metres> oly:hasEventName "Canoeing Men's Kayak Fours, 1,000 metres" .
+    <https://w3id.org/olympics-data/Sport/Canoeing> oly:hasSportName "Canoeing" .
+    <https://w3id.org/olympics-data/Medal/CanoeingMensKayakFours1000metres/1980Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1980Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Moskva";
+    oly:heldInYear "1980"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:wonMedal <https://w3id.org/olympics-data/Medal/CanoeingMensKayakFours1000metres/1980Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1980Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Canoeing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasHeight "186.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GBR/Canoeing/DouglasRobertDougParnham> oly:hasWeight "84.0"^^<http://www.w3.org/2001/XMLSchema#int> .

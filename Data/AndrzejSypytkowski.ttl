@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> dbo:birthYear "1964.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Andrzej Sypytkowski"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingMens100kilometresTeamTimeTrial>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingMens100kilometresTeamTimeTrial> oly:hasEventName "Cycling Men's 100 kilometres Team Time Trial" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingMens100kilometresTeamTimeTrial/1988Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1988Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Seoul";
+    oly:heldInYear "1988"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingMens100kilometresTeamTimeTrial/1988Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1988Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasWeight "76.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/CyclingMens100kilometresTeamTimeTrial/1988Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> dbo:birthYear "1964.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Andrzej Sypytkowski"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingMensRoadRaceIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingMensRoadRaceIndividual> oly:hasEventName "Cycling Men's Road Race, Individual" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingMensRoadRaceIndividual/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingMensRoadRaceIndividual/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasWeight "76.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> dbo:birthYear "1964.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Andrzej Sypytkowski"  .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasEvent <https://w3id.org/olympics-data/Event/CyclingMens100kilometresTeamTimeTrial>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CyclingMens100kilometresTeamTimeTrial> oly:hasEventName "Cycling Men's 100 kilometres Team Time Trial" .
+    <https://w3id.org/olympics-data/Sport/Cycling> oly:hasSportName "Cycling" .
+    <https://w3id.org/olympics-data/Medal/CyclingMens100kilometresTeamTimeTrial/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:wonMedal <https://w3id.org/olympics-data/Medal/CyclingMens100kilometresTeamTimeTrial/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Cycling> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Cycling/AndrzejSypytkowski> oly:hasWeight "76.0"^^<http://www.w3.org/2001/XMLSchema#int> .

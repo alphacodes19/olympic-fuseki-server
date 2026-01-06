@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/EilertManngaardDahl> dbo:birthYear "1920.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/EilertManngaardDahl> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/EilertManngaardDahl> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Eilert Manngaard Dahl"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1948Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1948Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sankt Moritz";
+    oly:heldInYear "1948"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/NordicCombined/EilertManngaardDahl> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1948Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1948Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    

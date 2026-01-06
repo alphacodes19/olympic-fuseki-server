@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/FigureSkating/BurtJudeLancon> dbo:birthYear "1961.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/FigureSkating/BurtJudeLancon> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates2> oly:countryName "United States-2" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/FigureSkating/BurtJudeLancon> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates2>;
+    oly:hasName "Burt Jude Lancon"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingMixedPairs> oly:hasEventName "Figure Skating Mixed Pairs" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1984Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sarajevo";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/FigureSkating/BurtJudeLancon> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingMixedPairs/1984Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/FigureSkating/BurtJudeLancon> oly:hasHeight "178.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/FigureSkating/BurtJudeLancon> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .

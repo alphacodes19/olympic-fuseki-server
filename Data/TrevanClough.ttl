@@ -1,0 +1,65 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> dbo:birthYear "1943.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/PapuaNewGuinea> oly:countryName "Papua New Guinea" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/PapuaNewGuinea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "PNG" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasNationality <https://w3id.org/olympics-data/Country/PapuaNewGuinea>;
+    oly:hasName "Trevan Clough"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1976Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1976Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Montreal";
+    oly:heldInYear "1976"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1976Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1976Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> dbo:birthYear "1943.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/PapuaNewGuinea> oly:countryName "Papua New Guinea" .
+    <https://w3id.org/olympics-data/Continent/Oceania> rdfs:label "Oceania" .
+    <https://w3id.org/olympics-data/Country/PapuaNewGuinea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Oceania>;
+    oly:memberOf "PNG" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasNationality <https://w3id.org/olympics-data/Country/PapuaNewGuinea>;
+    oly:hasName "Trevan Clough"  .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasEvent <https://w3id.org/olympics-data/Event/ShootingMixedTrap>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ShootingMixedTrap> oly:hasEventName "Shooting Mixed Trap" .
+    <https://w3id.org/olympics-data/Sport/Shooting> oly:hasSportName "Shooting" .
+    <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1984Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1984Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1984"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:wonMedal <https://w3id.org/olympics-data/Medal/ShootingMixedTrap/1984Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1984Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Shooting> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasHeight "179.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PNG/Shooting/TrevanClough> oly:hasWeight "70.0"^^<http://www.w3.org/2001/XMLSchema#int> .

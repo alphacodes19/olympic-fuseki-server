@@ -1,0 +1,239 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens5kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens5kilometres> oly:hasEventName "Cross Country Skiing Women's 5 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens5kilometres/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens5kilometres/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens510kilometresPursuit>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens510kilometresPursuit> oly:hasEventName "Cross Country Skiing Women's 5/10 kilometres Pursuit" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens510kilometresPursuit/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens510kilometresPursuit/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens4x5kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens4x5kilometresRelay> oly:hasEventName "Cross Country Skiing Women's 4 x 5 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens4x5kilometresRelay/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens4x5kilometresRelay/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens5kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens5kilometres> oly:hasEventName "Cross Country Skiing Women's 5 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens5kilometres/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens5kilometres/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens15kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens15kilometres> oly:hasEventName "Cross Country Skiing Women's 15 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens15kilometres/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens15kilometres/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens30kilometres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens30kilometres> oly:hasEventName "Cross Country Skiing Women's 30 kilometres" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens30kilometres/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens30kilometres/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens510kilometresPursuit>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens510kilometresPursuit> oly:hasEventName "Cross Country Skiing Women's 5/10 kilometres Pursuit" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens510kilometresPursuit/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens510kilometresPursuit/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> dbo:birthYear "1973.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:countryName "Sweden" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Sweden> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "SWE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasNationality <https://w3id.org/olympics-data/Country/Sweden>;
+    oly:hasName "Karin Sterkvist Hvittfeldt"  .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasEvent <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens4x5kilometresRelay>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/CrossCountrySkiingWomens4x5kilometresRelay> oly:hasEventName "Cross Country Skiing Women's 4 x 5 kilometres Relay" .
+    <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> oly:hasSportName "Cross Country Skiing" .
+    <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens4x5kilometresRelay/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:wonMedal <https://w3id.org/olympics-data/Medal/CrossCountrySkiingWomens4x5kilometresRelay/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/CrossCountrySkiing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/SWE/CrossCountrySkiing/KarinSterkvistHvittfeldt> oly:hasWeight "60.0"^^<http://www.w3.org/2001/XMLSchema#int> .

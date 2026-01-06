@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Handball/BartomiejJaszka> dbo:birthYear "1983.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Handball/BartomiejJaszka> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Handball/BartomiejJaszka> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Bartomiej Jaszka"  .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasEvent <https://w3id.org/olympics-data/Event/HandballMensHandball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/HandballMensHandball> oly:hasEventName "Handball Men's Handball" .
+    <https://w3id.org/olympics-data/Sport/Handball> oly:hasSportName "Handball" .
+    <https://w3id.org/olympics-data/Medal/HandballMensHandball/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Handball/BartomiejJaszka> oly:wonMedal <https://w3id.org/olympics-data/Medal/HandballMensHandball/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Handball> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/Handball/BartomiejJaszka> oly:hasHeight "184.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/Handball/BartomiejJaszka> oly:hasWeight "82.0"^^<http://www.w3.org/2001/XMLSchema#int> .

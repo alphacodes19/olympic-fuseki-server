@@ -1,0 +1,123 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Kim HyangMi"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisWomensSingles> oly:hasEventName "Table Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisWomensSingles/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisWomensSingles/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasHeight "158.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NorthKorea2> oly:countryName "North Korea-2" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea2> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea2>;
+    oly:hasName "Kim HyangMi"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisWomensDoubles> oly:hasEventName "Table Tennis Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisWomensDoubles/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisWomensDoubles/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasHeight "158.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Kim HyangMi"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisWomensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisWomensSingles> oly:hasEventName "Table Tennis Women's Singles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisWomensSingles/2004Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisWomensSingles/2004Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasHeight "158.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/TableTennisWomensSingles/2004Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> dbo:birthYear "1980.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:countryName "North Korea" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/NorthKorea> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "PRK" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasNationality <https://w3id.org/olympics-data/Country/NorthKorea>;
+    oly:hasName "Kim HyangMi"  .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasEvent <https://w3id.org/olympics-data/Event/TableTennisWomensDoubles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/TableTennisWomensDoubles> oly:hasEventName "Table Tennis Women's Doubles" .
+    <https://w3id.org/olympics-data/Sport/TableTennis> oly:hasSportName "Table Tennis" .
+    <https://w3id.org/olympics-data/Medal/TableTennisWomensDoubles/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:wonMedal <https://w3id.org/olympics-data/Medal/TableTennisWomensDoubles/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/TableTennis> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasHeight "158.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/PRK/TableTennis/KimHyangMi> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

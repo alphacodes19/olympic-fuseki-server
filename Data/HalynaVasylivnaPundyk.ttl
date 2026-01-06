@@ -1,0 +1,66 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Halyna Vasylivna Pundyk"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingWomensSabreIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingWomensSabreIndividual> oly:hasEventName "Fencing Women's Sabre, Individual" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingWomensSabreIndividual/2008Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingWomensSabreIndividual/2008Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasHeight "163.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> dbo:birthYear "1988.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:countryName "Ukraine" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Ukraine> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "UKR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasNationality <https://w3id.org/olympics-data/Country/Ukraine>;
+    oly:hasName "Halyna Vasylivna Pundyk"  .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasEvent <https://w3id.org/olympics-data/Event/FencingWomensSabreTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FencingWomensSabreTeam> oly:hasEventName "Fencing Women's Sabre, Team" .
+    <https://w3id.org/olympics-data/Sport/Fencing> oly:hasSportName "Fencing" .
+    <https://w3id.org/olympics-data/Medal/FencingWomensSabreTeam/2008Summer/Gold> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2008Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Beijing";
+    oly:heldInYear "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:wonMedal <https://w3id.org/olympics-data/Medal/FencingWomensSabreTeam/2008Summer/Gold>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2008Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Fencing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasHeight "163.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/UKR/Fencing/HalynaVasylivnaPundyk> oly:hasWeight "54.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FencingWomensSabreTeam/2008Summer/Gold>  oly:hasMedal "Gold" .

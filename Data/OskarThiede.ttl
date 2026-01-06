@@ -1,0 +1,116 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> dbo:birthYear "1879.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Oskar Thiede"  .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasEvent <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingUnknownEvent>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingUnknownEvent> oly:hasEventName "Art Competitions Mixed Sculpturing, Unknown Event" .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasSportName "Art Competitions" .
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingUnknownEvent/1932Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:wonMedal <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingUnknownEvent/1932Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtCompetitions> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> dbo:birthYear "1879.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Oskar Thiede"  .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasEvent <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingUnknownEvent>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingUnknownEvent> oly:hasEventName "Art Competitions Mixed Sculpturing, Unknown Event" .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasSportName "Art Competitions" .
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingUnknownEvent/1932Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Los Angeles";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:wonMedal <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingUnknownEvent/1932Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtCompetitions> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> dbo:birthYear "1879.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Oskar Thiede"  .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasEvent <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingUnknownEvent>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingUnknownEvent> oly:hasEventName "Art Competitions Mixed Sculpturing, Unknown Event" .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasSportName "Art Competitions" .
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingUnknownEvent/1936Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:wonMedal <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingUnknownEvent/1936Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtCompetitions> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> dbo:birthYear "1879.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Austria> oly:countryName "Austria" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Austria> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "AUT" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:hasNationality <https://w3id.org/olympics-data/Country/Austria>;
+    oly:hasName "Oskar Thiede"  .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasEvent <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingMedalsAndPlaques>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedSculpturingMedalsAndPlaques> oly:hasEventName "Art Competitions Mixed Sculpturing, Medals And Plaques" .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasSportName "Art Competitions" .
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingMedalsAndPlaques/1948Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1948Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "1948"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AUT/ArtCompetitions/OskarThiede> oly:wonMedal <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingMedalsAndPlaques/1948Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1948Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtCompetitions> .
+
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedSculpturingMedalsAndPlaques/1948Summer/Silver>  oly:hasMedal "Silver" .

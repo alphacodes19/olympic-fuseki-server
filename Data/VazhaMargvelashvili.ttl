@@ -1,0 +1,63 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> dbo:birthYear "1993.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Georgia> oly:countryName "Georgia" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Georgia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "GEO" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:hasNationality <https://w3id.org/olympics-data/Country/Georgia>;
+    oly:hasName "Vazha Margvelashvili"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/Men66kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/Men66kg> oly:hasEventName "Men -66 kg" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/Men66kg/2020Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:wonMedal <https://w3id.org/olympics-data/Medal/Men66kg/2020Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Medal/Men66kg/2020Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> dbo:birthYear "1994.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Georgia> oly:countryName "Georgia" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Georgia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "GEO" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:hasNationality <https://w3id.org/olympics-data/Country/Georgia>;
+    oly:hasName "Vazha Margvelashvili"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensHalfLightweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensHalfLightweight> oly:hasEventName "Judo Men's Half-Lightweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/JudoMensHalfLightweight/2016Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:wonMedal <https://w3id.org/olympics-data/Medal/JudoMensHalfLightweight/2016Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:hasHeight "167.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/GEO/Judo/VazhaMargvelashvili> oly:hasWeight "66.0"^^<http://www.w3.org/2001/XMLSchema#int> .

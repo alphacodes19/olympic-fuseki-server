@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/FigureSkating/TakahikoKozuka> dbo:birthYear "1990.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/FigureSkating/TakahikoKozuka> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/FigureSkating/TakahikoKozuka> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Takahiko Kozuka"  .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasEvent <https://w3id.org/olympics-data/Event/FigureSkatingMensSingles>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FigureSkatingMensSingles> oly:hasEventName "Figure Skating Men's Singles" .
+    <https://w3id.org/olympics-data/Sport/FigureSkating> oly:hasSportName "Figure Skating" .
+    <https://w3id.org/olympics-data/Medal/FigureSkatingMensSingles/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/FigureSkating/TakahikoKozuka> oly:wonMedal <https://w3id.org/olympics-data/Medal/FigureSkatingMensSingles/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/FigureSkating> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/FigureSkating/TakahikoKozuka> oly:hasHeight "170.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/FigureSkating/TakahikoKozuka> oly:hasWeight "58.0"^^<http://www.w3.org/2001/XMLSchema#int> .

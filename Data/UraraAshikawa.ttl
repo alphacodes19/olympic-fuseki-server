@@ -1,0 +1,143 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> dbo:birthYear "2002.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Urara Ashikawa"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensAllAround>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensAllAround> oly:hasEventName "Women's All-Around" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/WomensAllAround/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensAllAround/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> dbo:birthYear "2002.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Urara Ashikawa"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensVault>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensVault> oly:hasEventName "Women's Vault" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/WomensVault/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensVault/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> dbo:birthYear "2002.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Urara Ashikawa"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensUnevenBars>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensUnevenBars> oly:hasEventName "Women's Uneven Bars" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/WomensUnevenBars/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensUnevenBars/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> dbo:birthYear "2002.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Urara Ashikawa"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensBalanceBeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensBalanceBeam> oly:hasEventName "Women's Balance Beam" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/WomensBalanceBeam/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensBalanceBeam/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> dbo:birthYear "2002.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Urara Ashikawa"  .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensFloorExercise>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensFloorExercise> oly:hasEventName "Women's Floor Exercise" .
+    <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> oly:hasSportName "Artistic Gymnastics" .
+    <https://w3id.org/olympics-data/Medal/WomensFloorExercise/2020Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtisticGymnastics/UraraAshikawa> oly:wonMedal <https://w3id.org/olympics-data/Medal/WomensFloorExercise/2020Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtisticGymnastics> .
+
+    

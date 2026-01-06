@@ -1,0 +1,124 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukiko Inui"  .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensDuet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensDuet> oly:hasEventName "Synchronized Swimming Women's Duet" .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasSportName "Synchronized Swimming" .
+    <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensDuet/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:wonMedal <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensDuet/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasWeight "55.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukiko Inui"  .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensTeam> oly:hasEventName "Synchronized Swimming Women's Team" .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasSportName "Synchronized Swimming" .
+    <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensTeam/2012Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2012Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "London";
+    oly:heldInYear "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:wonMedal <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensTeam/2012Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2012Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasWeight "55.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukiko Inui"  .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensDuet>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensDuet> oly:hasEventName "Synchronized Swimming Women's Duet" .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasSportName "Synchronized Swimming" .
+    <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensDuet/2016Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:wonMedal <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensDuet/2016Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasWeight "55.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensDuet/2016Summer/Bronze>  oly:hasMedal "Bronze" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> dbo:birthYear "1991.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Yukiko Inui"  .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasEvent <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SynchronizedSwimmingWomensTeam> oly:hasEventName "Synchronized Swimming Women's Team" .
+    <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> oly:hasSportName "Synchronized Swimming" .
+    <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensTeam/2016Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2016Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Rio de Janeiro";
+    oly:heldInYear "2016"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:wonMedal <https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensTeam/2016Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2016Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SynchronizedSwimming> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/JPN/SynchronizedSwimming/YukikoInui> oly:hasWeight "55.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/SynchronizedSwimmingWomensTeam/2016Summer/Bronze>  oly:hasMedal "Bronze" .

@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/AZE/Karate/RafaelAghayev> dbo:birthYear "1984.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AZE/Karate/RafaelAghayev> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Azerbaijan> oly:countryName "Azerbaijan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Azerbaijan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "AZE" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AZE/Karate/RafaelAghayev> oly:hasNationality <https://w3id.org/olympics-data/Country/Azerbaijan>;
+    oly:hasName "Rafael Aghayev"  .
+    <https://w3id.org/olympics-data/Sport/Karate> oly:hasEvent <https://w3id.org/olympics-data/Event/MensKumite75kg>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensKumite75kg> oly:hasEventName "Men's Kumite -75kg" .
+    <https://w3id.org/olympics-data/Sport/Karate> oly:hasSportName "Karate" .
+    <https://w3id.org/olympics-data/Medal/MensKumite75kg/2020Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2020Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Tokyo";
+    oly:heldInYear "2020"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/AZE/Karate/RafaelAghayev> oly:wonMedal <https://w3id.org/olympics-data/Medal/MensKumite75kg/2020Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2020Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Karate> .
+
+    <https://w3id.org/olympics-data/Medal/MensKumite75kg/2020Summer/Silver>  oly:hasMedal "Silver" .

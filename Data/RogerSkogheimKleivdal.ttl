@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Snowboarding/RogerSkogheimKleivdal> dbo:birthYear "1989.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Snowboarding/RogerSkogheimKleivdal> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Norway> oly:countryName "Norway" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Norway> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "NOR" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Snowboarding/RogerSkogheimKleivdal> oly:hasNationality <https://w3id.org/olympics-data/Country/Norway>;
+    oly:hasName "Roger Skogheim Kleivdal"  .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasEvent <https://w3id.org/olympics-data/Event/SnowboardingMensHalfpipe>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SnowboardingMensHalfpipe> oly:hasEventName "Snowboarding Men's Halfpipe" .
+    <https://w3id.org/olympics-data/Sport/Snowboarding> oly:hasSportName "Snowboarding" .
+    <https://w3id.org/olympics-data/Medal/SnowboardingMensHalfpipe/2010Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2010Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Vancouver";
+    oly:heldInYear "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Snowboarding/RogerSkogheimKleivdal> oly:wonMedal <https://w3id.org/olympics-data/Medal/SnowboardingMensHalfpipe/2010Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2010Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Snowboarding> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/NOR/Snowboarding/RogerSkogheimKleivdal> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.

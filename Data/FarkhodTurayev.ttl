@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/UZB/Judo/FarkhodTurayev> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UZB/Judo/FarkhodTurayev> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Uzbekistan> oly:countryName "Uzbekistan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Uzbekistan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "UZB" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UZB/Judo/FarkhodTurayev> oly:hasNationality <https://w3id.org/olympics-data/Country/Uzbekistan>;
+    oly:hasName "Farkhod Turayev"  .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasEvent <https://w3id.org/olympics-data/Event/JudoMensHalfMiddleweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/JudoMensHalfMiddleweight> oly:hasEventName "Judo Men's Half-Middleweight" .
+    <https://w3id.org/olympics-data/Sport/Judo> oly:hasSportName "Judo" .
+    <https://w3id.org/olympics-data/Medal/JudoMensHalfMiddleweight/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/UZB/Judo/FarkhodTurayev> oly:wonMedal <https://w3id.org/olympics-data/Medal/JudoMensHalfMiddleweight/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Judo> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/UZB/Judo/FarkhodTurayev> oly:hasHeight "190.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/UZB/Judo/FarkhodTurayev> oly:hasWeight "81.0"^^<http://www.w3.org/2001/XMLSchema#int> .

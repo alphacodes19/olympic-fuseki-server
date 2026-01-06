@@ -1,0 +1,181 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> dbo:birthYear "1970.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Ago Markvardt"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam> oly:hasEventName "Nordic Combined Men's Team" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> dbo:birthYear "1970.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Ago Markvardt"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1992Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Albertville";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1992Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> dbo:birthYear "1970.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Ago Markvardt"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam> oly:hasEventName "Nordic Combined Men's Team" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> dbo:birthYear "1970.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Ago Markvardt"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1994Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1994Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lillehammer";
+    oly:heldInYear "1994"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1994Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1994Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> dbo:birthYear "1970.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Ago Markvardt"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensTeam> oly:hasEventName "Nordic Combined Men's Team" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensTeam/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> dbo:birthYear "1970.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:countryName "Estonia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Estonia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "EST" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasNationality <https://w3id.org/olympics-data/Country/Estonia>;
+    oly:hasName "Ago Markvardt"  .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasEvent <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/NordicCombinedMensIndividual> oly:hasEventName "Nordic Combined Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/NordicCombined> oly:hasSportName "Nordic Combined" .
+    <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1998Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1998Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Nagano";
+    oly:heldInYear "1998"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:wonMedal <https://w3id.org/olympics-data/Medal/NordicCombinedMensIndividual/1998Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1998Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/NordicCombined> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasHeight "182.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/EST/NordicCombined/AgoMarkvardt> oly:hasWeight "73.0"^^<http://www.w3.org/2001/XMLSchema#int> .

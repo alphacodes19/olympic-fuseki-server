@@ -1,0 +1,37 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/IceHockey/OsborneTyAnderson> dbo:birthYear "1909.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/IceHockey/OsborneTyAnderson> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:countryName "United States" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/UnitedStates> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "USA" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/IceHockey/OsborneTyAnderson> oly:hasNationality <https://w3id.org/olympics-data/Country/UnitedStates>;
+    oly:hasName "Osborne Ty Anderson"  .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasEvent <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/IceHockeyMensIceHockey> oly:hasEventName "Ice Hockey Men's Ice Hockey" .
+    <https://w3id.org/olympics-data/Sport/IceHockey> oly:hasSportName "Ice Hockey" .
+    <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1932Winter/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1932Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Lake Placid";
+    oly:heldInYear "1932"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/IceHockey/OsborneTyAnderson> oly:wonMedal <https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1932Winter/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1932Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/IceHockey> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/USA/IceHockey/OsborneTyAnderson> oly:hasHeight "175.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/USA/IceHockey/OsborneTyAnderson> oly:hasWeight "77.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/IceHockeyMensIceHockey/1932Winter/Silver>  oly:hasMedal "Silver" .

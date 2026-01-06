@@ -1,0 +1,94 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Wang Liping"  .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasEvent <https://w3id.org/olympics-data/Event/FootballWomensFootball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FootballWomensFootball> oly:hasEventName "Football Women's Football" .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasSportName "Football" .
+    <https://w3id.org/olympics-data/Medal/FootballWomensFootball/1996Summer/Silver> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:wonMedal <https://w3id.org/olympics-data/Medal/FootballWomensFootball/1996Summer/Silver>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Football> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/olympics-data/Medal/FootballWomensFootball/1996Summer/Silver>  oly:hasMedal "Silver" .
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Wang Liping"  .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasEvent <https://w3id.org/olympics-data/Event/FootballWomensFootball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FootballWomensFootball> oly:hasEventName "Football Women's Football" .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasSportName "Football" .
+    <https://w3id.org/olympics-data/Medal/FootballWomensFootball/2000Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2000Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Sydney";
+    oly:heldInYear "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:wonMedal <https://w3id.org/olympics-data/Medal/FootballWomensFootball/2000Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2000Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Football> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> dbo:birthYear "1974.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/China> oly:countryName "China" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/China> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "CHN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasNationality <https://w3id.org/olympics-data/Country/China>;
+    oly:hasName "Wang Liping"  .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasEvent <https://w3id.org/olympics-data/Event/FootballWomensFootball>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/FootballWomensFootball> oly:hasEventName "Football Women's Football" .
+    <https://w3id.org/olympics-data/Sport/Football> oly:hasSportName "Football" .
+    <https://w3id.org/olympics-data/Medal/FootballWomensFootball/2004Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/2004Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Athina";
+    oly:heldInYear "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:wonMedal <https://w3id.org/olympics-data/Medal/FootballWomensFootball/2004Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/2004Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Football> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasHeight "162.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CHN/Football/WangLiping> oly:hasWeight "52.0"^^<http://www.w3.org/2001/XMLSchema#int> .

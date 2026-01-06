@@ -1,0 +1,338 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensIndividual> oly:hasEventName "Archery Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTeam> oly:hasEventName "Archery Men's Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryWomensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryWomensIndividual> oly:hasEventName "Archery Women's Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/MensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensIndividual> oly:hasEventName "Men's Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/MixedTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MixedTeam> oly:hasEventName "Mixed Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensIndividual> oly:hasEventName "Women's Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensTeam> oly:hasEventName "Women's Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryWomensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryWomensTeam> oly:hasEventName "Archery Women's Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/MensTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensTeam> oly:hasEventName "Men's Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensContinentalStyle>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensContinentalStyle> oly:hasEventName "Archery Men's Continental Style" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensAuCordonDore50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensAuCordonDore50metres> oly:hasEventName "Archery Men's Au Cordon Dore, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensDoubleYorkRound>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensDoubleYorkRound> oly:hasEventName "Archery Men's Double York Round" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery33metresIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery33metresIndividual> oly:hasEventName "Archery Men's Target Archery, 33 metres, Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery50metresIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery50metresIndividual> oly:hasEventName "Archery Men's Target Archery, 50 metres, Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery28metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery28metresTeam> oly:hasEventName "Archery Men's Target Archery, 28 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery33metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery33metresTeam> oly:hasEventName "Archery Men's Target Archery, 33 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery50metresTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery50metresTeam> oly:hasEventName "Archery Men's Target Archery, 50 metres, Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensSurLaPercheaLaPyramide>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensSurLaPercheaLaPyramide> oly:hasEventName "Archery Men's Sur La Perche a La Pyramide" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensAuChapelet50metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensAuChapelet50metres> oly:hasEventName "Archery Men's Au Chapelet, 50 metres" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensChampionnatDuMonde>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensChampionnatDuMonde> oly:hasEventName "Archery Men's Championnat Du Monde" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensAuChapelet33metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensAuChapelet33metres> oly:hasEventName "Archery Men's Au Chapelet, 33 metres" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensAuCordonDore33metres>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensAuCordonDore33metres> oly:hasEventName "Archery Men's Au Cordon Dore, 33 metres" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery28metresIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTargetArchery28metresIndividual> oly:hasEventName "Archery Men's Target Archery, 28 metres, Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensSurLaPercheaLaHerse>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensSurLaPercheaLaHerse> oly:hasEventName "Archery Men's Sur La Perche a La Herse" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensDoubleAmericanRound>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensDoubleAmericanRound> oly:hasEventName "Archery Men's Double American Round" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensTeamRound>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensTeamRound> oly:hasEventName "Archery Men's Team Round" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryWomensDoubleColumbiaRound>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryWomensDoubleColumbiaRound> oly:hasEventName "Archery Women's Double Columbia Round" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryWomensDoubleNationalRound>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryWomensDoubleNationalRound> oly:hasEventName "Archery Women's Double National Round" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryWomensTeamRound>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryWomensTeamRound> oly:hasEventName "Archery Women's Team Round" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcherySmallBirdsIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcherySmallBirdsIndividual> oly:hasEventName "Archery Men's Pole Archery, Small Birds, Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcheryLargeBirdsIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcheryLargeBirdsIndividual> oly:hasEventName "Archery Men's Pole Archery, Large Birds, Individual" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcherySmallBirdsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcherySmallBirdsTeam> oly:hasEventName "Archery Men's Pole Archery, Small Birds, Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasEvent <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcheryLargeBirdsTeam>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArcheryMensPoleArcheryLargeBirdsTeam> oly:hasEventName "Archery Men's Pole Archery, Large Birds, Team" .
+    <https://w3id.org/olympics-data/Sport/Archery> oly:hasSportName "Archery" .
+    
+   
+
+    

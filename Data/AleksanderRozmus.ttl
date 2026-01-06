@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/SkiJumping/AleksanderRozmus> dbo:birthYear "1901.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/SkiJumping/AleksanderRozmus> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Poland> oly:countryName "Poland" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Poland> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "POL" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/SkiJumping/AleksanderRozmus> oly:hasNationality <https://w3id.org/olympics-data/Country/Poland>;
+    oly:hasName "Aleksander Rozmus"  .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasEvent <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/SkiJumpingMensNormalHillIndividual> oly:hasEventName "Ski Jumping Men's Normal Hill, Individual" .
+    <https://w3id.org/olympics-data/Sport/SkiJumping> oly:hasSportName "Ski Jumping" .
+    <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/1928Winter/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1928Winter> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Winter";
+    oly:heldIn "Sankt Moritz";
+    oly:heldInYear "1928"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/SkiJumping/AleksanderRozmus> oly:wonMedal <https://w3id.org/olympics-data/Medal/SkiJumpingMensNormalHillIndividual/1928Winter/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1928Winter>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/SkiJumping> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/POL/SkiJumping/AleksanderRozmus> oly:hasHeight "169.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/POL/SkiJumping/AleksanderRozmus> oly:hasWeight "72.0"^^<http://www.w3.org/2001/XMLSchema#int> .

@@ -1,0 +1,35 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtCompetitions/RyujiFujita> dbo:birthYear "1907.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtCompetitions/RyujiFujita> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Japan> oly:countryName "Japan" .
+    <https://w3id.org/olympics-data/Continent/Asia> rdfs:label "Asia" .
+    <https://w3id.org/olympics-data/Country/Japan> oly:hasContinent <https://w3id.org/olympics-data/Continent/Asia>;
+    oly:memberOf "JPN" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtCompetitions/RyujiFujita> oly:hasNationality <https://w3id.org/olympics-data/Country/Japan>;
+    oly:hasName "Ryuji Fujita"  .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasEvent <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedPaintingPaintings>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/ArtCompetitionsMixedPaintingPaintings> oly:hasEventName "Art Competitions Mixed Painting, Paintings" .
+    <https://w3id.org/olympics-data/Sport/ArtCompetitions> oly:hasSportName "Art Competitions" .
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedPaintingPaintings/1936Summer/Bronze> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1936Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Berlin";
+    oly:heldInYear "1936"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/JPN/ArtCompetitions/RyujiFujita> oly:wonMedal <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedPaintingPaintings/1936Summer/Bronze>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1936Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/ArtCompetitions> .
+
+    <https://w3id.org/olympics-data/Medal/ArtCompetitionsMixedPaintingPaintings/1936Summer/Bronze>  oly:hasMedal "Bronze" .

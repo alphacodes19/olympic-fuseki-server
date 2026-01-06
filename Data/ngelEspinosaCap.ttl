@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Boxing/ngelEspinosaCap> dbo:birthYear "1967.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/M> rdfs:label "male" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Boxing/ngelEspinosaCap> oly:hasGender <https://w3id.org/olympics-data/gender/M> .
+    <https://w3id.org/olympics-data/Country/Cuba> oly:countryName "Cuba" .
+    <https://w3id.org/olympics-data/Continent/Americas> rdfs:label "Americas" .
+    <https://w3id.org/olympics-data/Country/Cuba> oly:hasContinent <https://w3id.org/olympics-data/Continent/Americas>;
+    oly:memberOf "CUB" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Boxing/ngelEspinosaCap> oly:hasNationality <https://w3id.org/olympics-data/Country/Cuba>;
+    oly:hasName "ngel Espinosa Cap"  .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasEvent <https://w3id.org/olympics-data/Event/BoxingMensLightHeavyweight>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/BoxingMensLightHeavyweight> oly:hasEventName "Boxing Men's Light-Heavyweight" .
+    <https://w3id.org/olympics-data/Sport/Boxing> oly:hasSportName "Boxing" .
+    <https://w3id.org/olympics-data/Medal/BoxingMensLightHeavyweight/1992Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1992Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Barcelona";
+    oly:heldInYear "1992"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Boxing/ngelEspinosaCap> oly:wonMedal <https://w3id.org/olympics-data/Medal/BoxingMensLightHeavyweight/1992Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1992Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Boxing> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/CUB/Boxing/ngelEspinosaCap> oly:hasHeight "160.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/CUB/Boxing/ngelEspinosaCap> oly:hasWeight "81.0"^^<http://www.w3.org/2001/XMLSchema#int> .

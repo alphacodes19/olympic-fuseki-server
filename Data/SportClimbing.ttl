@@ -1,0 +1,28 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/SportClimbing> oly:hasEvent <https://w3id.org/olympics-data/Event/MensCombined>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/MensCombined> oly:hasEventName "Men's Combined" .
+    <https://w3id.org/olympics-data/Sport/SportClimbing> oly:hasSportName "Sport Climbing" .
+    
+   
+
+    
+
+   
+    <https://w3id.org/olympics-data/Sport/SportClimbing> oly:hasEvent <https://w3id.org/olympics-data/Event/WomensCombined>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/WomensCombined> oly:hasEventName "Women's Combined" .
+    <https://w3id.org/olympics-data/Sport/SportClimbing> oly:hasSportName "Sport Climbing" .
+    
+   
+
+    

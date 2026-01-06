@@ -1,0 +1,36 @@
+
+    @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+    @prefix owl: <http://www.w3.org/2002/07/owl#> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix oly: <https://w3id.org/def/OlympicsOntology#> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+    
+    
+
+   
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Athletics/YelenaNikolayevnaGruzinovaBronyukova> dbo:birthYear "1968.0"^^<http://www.w3.org/2001/XMLSchema#int>;
+    a oly:Athelete .
+    <https://w3id.org/olympics-data/gender/F> rdfs:label "female" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Athletics/YelenaNikolayevnaGruzinovaBronyukova> oly:hasGender <https://w3id.org/olympics-data/gender/F> .
+    <https://w3id.org/olympics-data/Country/Russia> oly:countryName "Russia" .
+    <https://w3id.org/olympics-data/Continent/Europe> rdfs:label "Europe" .
+    <https://w3id.org/olympics-data/Country/Russia> oly:hasContinent <https://w3id.org/olympics-data/Continent/Europe>;
+    oly:memberOf "RUS" .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Athletics/YelenaNikolayevnaGruzinovaBronyukova> oly:hasNationality <https://w3id.org/olympics-data/Country/Russia>;
+    oly:hasName "Yelena Nikolayevna Gruzinova Bronyukova"  .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasEvent <https://w3id.org/olympics-data/Event/AthleticsWomens10kilometresWalk>;
+    a oly:Sport .
+    <https://w3id.org/olympics-data/Event/AthleticsWomens10kilometresWalk> oly:hasEventName "Athletics Women's 10 kilometres Walk" .
+    <https://w3id.org/olympics-data/Sport/Athletics> oly:hasSportName "Athletics" .
+    <https://w3id.org/olympics-data/Medal/AthleticsWomens10kilometresWalk/1996Summer/nan> a oly:Medal .
+    <https://w3id.org/olympics-data/Games/Olympics/1996Summer> a oly:Games;
+    oly:hasGameName "Olympics";
+    oly:hasSeason "Summer";
+    oly:heldIn "Atlanta";
+    oly:heldInYear "1996"^^<http://www.w3.org/2001/XMLSchema#int> .
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Athletics/YelenaNikolayevnaGruzinovaBronyukova> oly:wonMedal <https://w3id.org/olympics-data/Medal/AthleticsWomens10kilometresWalk/1996Summer/nan>;
+    oly:participatedIn <https://w3id.org/olympics-data/Games/Olympics/1996Summer>;
+    oly:participatedInSports <https://w3id.org/olympics-data/Sport/Athletics> .
+
+    <https://w3id.org/olympics-data/Athlete/Olympics/RUS/Athletics/YelenaNikolayevnaGruzinovaBronyukova> oly:hasHeight "165.0"^^<http://www.w3.org/2001/XMLSchema#int>.
+<https://w3id.org/olympics-data/Athlete/Olympics/RUS/Athletics/YelenaNikolayevnaGruzinovaBronyukova> oly:hasWeight "53.0"^^<http://www.w3.org/2001/XMLSchema#int> .
